@@ -1,0 +1,14 @@
+li.info div {
+  background-color: #0dcaf0;
+}
+
+li.teama div {
+  background-color: #198754;
+}
+li.teamb div {
+  background-color: #ffc107;
+}
+
+li.light div {
+  background-color: transparent;
+}
