@@ -41,11 +41,7 @@ const PlayerItem = (props) => {
         padding="sm"
       >
         <Group noWrap style={{ height: "25px" }}>
-          <Avatar
-            src="https://img.icons8.com/clouds/256/000000/futurama-bender.png"
-            radius="xl"
-            size="lg"
-          />
+          <Avatar src={props.imgSrc} radius="xl" size="lg" />
           <div style={{ flex: 1 }}>
             <Text size="sm" weight={500}>
               {props.name}

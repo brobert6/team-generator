@@ -1,6 +1,8 @@
-import { useRef, useState } from "react";
+import { Button, TextInput } from "@mantine/core";
+import { Fragment, useRef, useState } from "react";
 import Card from "../ui/Card";
 import classes from "./NewPlayerForm.module.css";
+import { AiOutlineUserAdd } from "react-icons/ai";
 
 const NewPlayerForm = (props) => {
   const [addingPlayer, setAddingPlayer] = useState(false);
@@ -23,33 +25,47 @@ const NewPlayerForm = (props) => {
 
     props.onAddPlayer(enteredName);
 
-    console.log(enteredName);
     setAddingPlayer(false);
   };
 
   return (
-    <Card>
+    <Fragment>
       {!addingPlayer && (
-        <button onClick={addNewPlayerHandler}>Add New Player</button>
+        <Button
+          leftIcon={<AiOutlineUserAdd />}
+          onClick={addNewPlayerHandler}
+          style={{ margin: "20px" }}
+        >
+          Add New Player
+        </Button>
       )}
 
       {addingPlayer && (
-        <section>
-          <h3>Add New Player</h3>
-
+        <Card>
           <form className={classes.form} onSubmit={submitHandler}>
-            <div className={classes.control}>
+            <TextInput
+              required
+              label="Name"
+              placeholder="Player name"
+              ref={nameInputRef}
+            />
+
+            {/* <div className={classes.control}>
               <label htmlFor="name">Name</label>
               <input type="text" required id="name" ref={nameInputRef} />
-            </div>
+            </div> */}
             <div className={classes.actions}>
-              <button onClick={cancelHandler}>Cancel</button>
-              <button>Save</button>
+              <Button type="button" color="gray" onClick={cancelHandler}>
+                Cancel
+              </Button>
+              <Button type="submit" color="indigo" ml={10}>
+                Save
+              </Button>
             </div>
           </form>
-        </section>
+        </Card>
       )}
-    </Card>
+    </Fragment>
   );
 };
 

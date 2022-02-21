@@ -30,6 +30,7 @@ const PlayerList = (props) => {
             key={player.id}
             id={player.id}
             name={player.name}
+            imgSrc={player.imgSrc}
             activeClass="info"
           />
         ))}
@@ -51,6 +52,7 @@ const PlayerList = (props) => {
                     key={player.id}
                     id={player.id}
                     name={player.name}
+                    imgSrc={player.imgSrc}
                     hideCheckbox={true}
                     activeClass="teama"
                   />
@@ -74,6 +76,7 @@ const PlayerList = (props) => {
                     key={player.id}
                     id={player.id}
                     name={player.name}
+                    imgSrc={player.imgSrc}
                     hideCheckbox={true}
                     activeClass="teamb"
                   />

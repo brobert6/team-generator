@@ -1,3614 +1,3639 @@
-[ {
-  "id" : "xxx",
-  "name" : "Robert",
-  "playerScores" : [ {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
+{
+  "xxx" : {
+    "id" : "xxx",
+    "name" : "Robert",
+    "playerScores" : [ {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 9,
+      "technique" : 7
+    }, {
+      "attack" : 10,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 9,
+      "technique" : "9"
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : "8",
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : "8",
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : "7",
+      "technique" : "8"
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : "7",
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 5,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 5,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 5,
+      "technique" : 5
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : "8",
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : "7",
+      "defense" : 10,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : "7",
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 5,
+      "construction" : 7,
+      "defense" : 5,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 3,
+      "technique" : 4
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 5,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 6,
+      "technique" : 7
+    } ]
+  },
+  "ZBXA0Z" : {
+    "id" : "ZBXA0Z",
     "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
+    "playerScores" : [ {
+      "attack" : "8",
+      "construction" : "8",
+      "defense" : "8",
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 10,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 10,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : "8",
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 8,
+      "technique" : 10
+    }, {
+      "attack" : 10,
+      "construction" : 10,
+      "defense" : "8",
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 10,
+      "construction" : 10,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 10,
+      "construction" : 10,
+      "defense" : 9,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 10,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 10,
+      "defense" : 10,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 10,
+      "technique" : 9
+    }, {
+      "attack" : "8",
+      "construction" : 10,
+      "defense" : "8",
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 10,
+      "technique" : 10
+    }, {
+      "attack" : 10,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : "6",
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "1ahaaE" : {
+    "id" : "1ahaaE",
     "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 9,
-    "technique" : 7
-  }, {
-    "attack" : 10,
-    "construction" : 9,
-    "defense" : 9,
+    "playerScores" : [ {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 8,
+      "technique" : 7
+    } ]
+  },
+  "zUsSle" : {
+    "id" : "zUsSle",
     "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 9,
-    "technique" : "9"
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
+    "playerScores" : [ {
+      "attack" : 6,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : "8",
+      "construction" : "8",
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : "8",
+      "technique" : "8"
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : "8",
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 7,
+      "technique" : "8"
+    }, {
+      "attack" : "9",
+      "construction" : 8,
+      "defense" : "9",
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : "9",
+      "technique" : "9"
+    }, {
+      "attack" : 6,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 6,
+      "technique" : 5
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 6,
+      "technique" : "8"
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : "6",
+      "defense" : "6",
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : "6"
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 5,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 5,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 5,
+      "defense" : 9,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 7,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 6,
+      "technique" : 7
+    } ]
+  },
+  "kHYxH0" : {
+    "id" : "kHYxH0",
     "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : "8",
-    "construction" : 8,
-    "defense" : 7,
+    "playerScores" : [ {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 10,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 10,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 10,
+      "defense" : 9,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 8,
+      "technique" : 10
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 10,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 10,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "jGMZqB" : {
+    "id" : "jGMZqB",
     "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : "8",
-    "construction" : 8,
-    "defense" : 8,
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 5,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 5,
+      "defense" : 5,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 6,
+      "technique" : 5
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "qJ3Mk7" : {
+    "id" : "qJ3Mk7",
     "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : "7",
-    "technique" : "8"
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
+    "playerScores" : [ {
+      "attack" : 5,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 6,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 5,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 10,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "goUKcG" : {
+    "id" : "goUKcG",
     "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : "7",
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : "7",
+      "construction" : "7",
+      "defense" : "7",
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : "7",
+      "technique" : "7"
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "zaHdWD" : {
+    "id" : "zaHdWD",
     "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 6,
+    "playerScores" : [ {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 10,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 5,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 5,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 10,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 9,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 6,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 10,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 8,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 5,
+      "defense" : 6,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 5,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 5,
+      "defense" : 6,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 5
+    } ]
+  },
+  "nO5piU" : {
+    "id" : "nO5piU",
     "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 5,
-    "construction" : 6,
-    "defense" : 7,
+    "playerScores" : [ {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 6,
+      "technique" : 6
+    } ]
+  },
+  "j1J65v" : {
+    "id" : "j1J65v",
     "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 5,
-    "construction" : 6,
-    "defense" : 6,
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 10,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 10,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 10,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 8,
+      "technique" : 10
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 10,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "Dz03Jk" : {
+    "id" : "Dz03Jk",
     "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 5,
-    "technique" : 5
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : "8",
+    "playerScores" : [ {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 7
+    } ]
+  },
+  "uTjeXo" : {
+    "id" : "uTjeXo",
     "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 6,
+      "technique" : 5
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 5,
+      "defense" : 6,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 4,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 4,
+      "construction" : 5,
+      "defense" : 6,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 5,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 5
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "xa6NHa" : {
+    "id" : "xa6NHa",
     "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : "7",
-    "defense" : 10,
+    "playerScores" : [ {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 9,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 10,
+      "technique" : 7
+    }, {
+      "attack" : 10,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 10,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 8,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 9,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 8,
+      "technique" : 8
+    } ]
+  },
+  "WquB5Z" : {
+    "id" : "WquB5Z",
     "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 6,
+    "playerScores" : [ {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 8,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 6,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 10,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 8,
+      "technique" : 8
+    } ]
+  },
+  "wGakmw" : {
+    "id" : "wGakmw",
     "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
+    "playerScores" : [ {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 9,
+      "construction" : 9,
+      "defense" : 6,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 10,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 10,
+      "technique" : 7
+    }, {
+      "attack" : 10,
+      "construction" : 10,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 9,
+      "technique" : 10
+    }, {
+      "attack" : 10,
+      "construction" : 10,
+      "defense" : 7,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 10
+    }, {
+      "attack" : 9,
+      "construction" : 8,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 10,
+      "technique" : 8
+    }, {
+      "attack" : "9",
+      "construction" : 9,
+      "defense" : 9,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : "9",
+      "technique" : "9"
+    }, {
+      "attack" : "9",
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : "7",
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 6,
+      "technique" : "7"
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 9,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 9,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 8,
+      "technique" : "8"
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 10,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 10,
+      "technique" : "7"
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 5,
+      "defense" : 6,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 5,
+      "defense" : 4,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 6,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 5,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 10,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 9,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 8,
+      "technique" : 7
+    } ]
+  },
+  "pCo9VS" : {
+    "id" : "pCo9VS",
     "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : "7",
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
+    "playerScores" : [ {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 9,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : "8",
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 5,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Raul",
+      "playerId" : "AhWRhu",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 8,
+      "defense" : 10,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "jBGJ1l" : {
+    "id" : "jBGJ1l",
     "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 5,
-    "construction" : 7,
-    "defense" : 5,
+    "playerScores" : [ {
+      "attack" : 4,
+      "construction" : 5,
+      "defense" : 6,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 5,
+      "technique" : 5
+    }, {
+      "attack" : 6,
+      "construction" : 3,
+      "defense" : 4,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 9,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 9,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 5,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 5,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 4,
+      "technique" : 10
+    }, {
+      "attack" : 8,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : "7",
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 9,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 6
+    }, {
+      "attack" : 4,
+      "construction" : 5,
+      "defense" : 5,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 4,
+      "technique" : 4
+    }, {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 8,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 8,
+      "technique" : 5
+    }, {
+      "attack" : 5,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 8,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 4,
+      "construction" : 7,
+      "defense" : 4,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 5,
+      "technique" : 5
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 10,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 8,
+      "technique" : 7
+    }, {
+      "attack" : 5,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 4,
+      "technique" : 8
+    }, {
+      "attack" : 5,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 3,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 2,
+      "technique" : 4
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 8,
+      "technique" : 6
+    } ]
+  },
+  "pjDASd" : {
+    "id" : "pjDASd",
     "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 3,
-    "technique" : 4
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 5,
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : "7",
+      "construction" : "7",
+      "defense" : "7",
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : "7",
+      "technique" : "7"
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "WnmFdK" : {
+    "id" : "WnmFdK",
     "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "AhWRhu" : {
+    "id" : "AhWRhu",
     "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 6,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "ZBXA0Z",
-  "name" : "Csáki Isti",
-  "playerScores" : [ {
-    "attack" : "8",
-    "construction" : "8",
-    "defense" : "8",
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 10,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 10,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : "8",
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 8,
-    "technique" : 10
-  }, {
-    "attack" : 10,
-    "construction" : 10,
-    "defense" : "8",
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 10,
-    "construction" : 10,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 10,
-    "construction" : 10,
-    "defense" : 9,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 10,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 10,
-    "defense" : 10,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 10,
-    "technique" : 9
-  }, {
-    "attack" : "8",
-    "construction" : 10,
-    "defense" : "8",
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 10,
-    "technique" : 10
-  }, {
-    "attack" : 10,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : "6",
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "1ahaaE",
-  "name" : "Misu",
-  "playerScores" : [ {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 8,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "zUsSle",
-  "name" : "Lorant",
-  "playerScores" : [ {
-    "attack" : 6,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : "8",
-    "construction" : "8",
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : "8",
-    "technique" : "8"
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : "8",
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 7,
-    "technique" : "8"
-  }, {
-    "attack" : "9",
-    "construction" : 8,
-    "defense" : "9",
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : "9",
-    "technique" : "9"
-  }, {
-    "attack" : 6,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 6,
-    "technique" : 5
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 6,
-    "technique" : "8"
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : "6",
-    "defense" : "6",
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : "6"
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 5,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 5,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 5,
-    "defense" : 9,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 7,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 6,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "kHYxH0",
-  "name" : "Tibi",
-  "playerScores" : [ {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 10,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 10,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 10,
-    "defense" : 9,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 8,
-    "technique" : 10
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 10,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 10,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "jGMZqB",
-  "name" : "Sándor Trifan",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 5,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 5,
-    "defense" : 5,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 6,
-    "technique" : 5
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "qJ3Mk7",
-  "name" : "Florin",
-  "playerScores" : [ {
-    "attack" : 5,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 6,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 5,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 10,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "goUKcG",
-  "name" : "Boze",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : "7",
-    "construction" : "7",
-    "defense" : "7",
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : "7",
-    "technique" : "7"
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "zaHdWD",
-  "name" : "Isti K",
-  "playerScores" : [ {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 10,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 5,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 5,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 10,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 9,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 6,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 10,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 8,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 5,
-    "defense" : 6,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 5,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 5,
-    "defense" : 6,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 5
-  } ]
-}, {
-  "id" : "nO5piU",
-  "name" : "Adi",
-  "playerScores" : [ {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 6,
-    "technique" : 6
-  } ]
-}, {
-  "id" : "j1J65v",
-  "name" : "Szilike",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 10,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 10,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 10,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 8,
-    "technique" : 10
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 10,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "Dz03Jk",
-  "name" : "Alfi",
-  "playerScores" : [ {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "uTjeXo",
-  "name" : "Horea",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 6,
-    "technique" : 5
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 5,
-    "defense" : 6,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 4,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 4,
-    "construction" : 5,
-    "defense" : 6,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 5,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 5
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "xa6NHa",
-  "name" : "Levi",
-  "playerScores" : [ {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 9,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 10,
-    "technique" : 7
-  }, {
-    "attack" : 10,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 10,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 8,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 9,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 8,
-    "technique" : 8
-  } ]
-}, {
-  "id" : "WquB5Z",
-  "name" : "Csabi",
-  "playerScores" : [ {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 8,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 6,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 10,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 8,
-    "technique" : 8
-  } ]
-}, {
-  "id" : "wGakmw",
-  "name" : "Robi Albert",
-  "playerScores" : [ {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 9,
-    "construction" : 9,
-    "defense" : 6,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 10,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 10,
-    "technique" : 7
-  }, {
-    "attack" : 10,
-    "construction" : 10,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 9,
-    "technique" : 10
-  }, {
-    "attack" : 10,
-    "construction" : 10,
-    "defense" : 7,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 10
-  }, {
-    "attack" : 9,
-    "construction" : 8,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 10,
-    "technique" : 8
-  }, {
-    "attack" : "9",
-    "construction" : 9,
-    "defense" : 9,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : "9",
-    "technique" : "9"
-  }, {
-    "attack" : "9",
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : "7",
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 6,
-    "technique" : "7"
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 9,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 9,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 8,
-    "technique" : "8"
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 10,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 10,
-    "technique" : "7"
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 5,
-    "defense" : 6,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 5,
-    "defense" : 4,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 6,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 5,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 10,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 9,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 8,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "pCo9VS",
-  "name" : "Marian",
-  "playerScores" : [ {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 9,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : "8",
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 5,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Raul",
-    "playerId" : "AhWRhu",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 8,
-    "defense" : 10,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "jBGJ1l",
-  "name" : "Cipri",
-  "playerScores" : [ {
-    "attack" : 4,
-    "construction" : 5,
-    "defense" : 6,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 5,
-    "technique" : 5
-  }, {
-    "attack" : 6,
-    "construction" : 3,
-    "defense" : 4,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 9,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 9,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 5,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 5,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 4,
-    "technique" : 10
-  }, {
-    "attack" : 8,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : "7",
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 9,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 6
-  }, {
-    "attack" : 4,
-    "construction" : 5,
-    "defense" : 5,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 4,
-    "technique" : 4
-  }, {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 8,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 8,
-    "technique" : 5
-  }, {
-    "attack" : 5,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 8,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 4,
-    "construction" : 7,
-    "defense" : 4,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 5,
-    "technique" : 5
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 10,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 8,
-    "technique" : 7
-  }, {
-    "attack" : 5,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 4,
-    "technique" : 8
-  }, {
-    "attack" : 5,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 3,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 2,
-    "technique" : 4
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 8,
-    "technique" : 6
-  } ]
-}, {
-  "id" : "pjDASd",
-  "name" : "Calin",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : "7",
-    "construction" : "7",
-    "defense" : "7",
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : "7",
-    "technique" : "7"
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "WnmFdK",
-  "name" : "Miska",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "AhWRhu",
-  "name" : "Raul",
-  "playerScores" : [ {
-    "attack" : 7,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Robert",
-    "playerId" : "xxx",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Csáki Isti",
-    "playerId" : "ZBXA0Z",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Misu",
-    "playerId" : "1ahaaE",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Lorant",
-    "playerId" : "zUsSle",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 6,
-    "name" : "Tibi",
-    "playerId" : "kHYxH0",
-    "resistence" : 6,
-    "technique" : 9
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Sándor Trifan",
-    "playerId" : "jGMZqB",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Florin",
-    "playerId" : "qJ3Mk7",
-    "resistence" : 8,
-    "technique" : 8
-  }, {
-    "attack" : 6,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Boze",
-    "playerId" : "goUKcG",
-    "resistence" : 6,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti K",
-    "playerId" : "zaHdWD",
-    "resistence" : 5,
-    "technique" : 6
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Adi",
-    "playerId" : "nO5piU",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 6,
-    "name" : "Szilike",
-    "playerId" : "j1J65v",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Alfi",
-    "playerId" : "Dz03Jk",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Horea",
-    "playerId" : "uTjeXo",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Levi",
-    "playerId" : "xa6NHa",
-    "resistence" : 7,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Csabi",
-    "playerId" : "WquB5Z",
-    "resistence" : 9,
-    "technique" : 8
-  }, {
-    "attack" : 8,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Robi Albert",
-    "playerId" : "wGakmw",
-    "resistence" : 7,
-    "technique" : 9
-  }, {
-    "attack" : 7,
-    "construction" : 8,
-    "defense" : 8,
-    "name" : "Marian",
-    "playerId" : "pCo9VS",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 6,
-    "construction" : 6,
-    "defense" : 7,
-    "name" : "Cipri",
-    "playerId" : "jBGJ1l",
-    "resistence" : 6,
-    "technique" : 6
-  }, {
-    "attack" : 5,
-    "construction" : 4,
-    "defense" : 5,
-    "name" : "Calin",
-    "playerId" : "pjDASd",
-    "resistence" : 5,
-    "technique" : 4
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Miska",
-    "playerId" : "WnmFdK",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Attila",
-    "playerId" : "ocIw1g",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 8,
-    "name" : "Gyuri",
-    "playerId" : "4grNix",
-    "resistence" : 7,
-    "technique" : 7
-  }, {
-    "attack" : 7,
-    "construction" : 7,
-    "defense" : 7,
-    "name" : "Isti",
-    "playerId" : "P6LmJp",
-    "resistence" : 7,
-    "technique" : 7
-  } ]
-}, {
-  "id" : "ocIw1g",
-  "name" : "Attila"
-}, {
-  "id" : "4grNix",
-  "name" : "Gyuri"
-}, {
-  "id" : "P6LmJp",
-  "name" : "Isti"
-} ]
+    "playerScores" : [ {
+      "attack" : 7,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Robert",
+      "playerId" : "xxx",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Csáki Isti",
+      "playerId" : "ZBXA0Z",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Misu",
+      "playerId" : "1ahaaE",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Lorant",
+      "playerId" : "zUsSle",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 6,
+      "name" : "Tibi",
+      "playerId" : "kHYxH0",
+      "resistence" : 6,
+      "technique" : 9
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Sándor Trifan",
+      "playerId" : "jGMZqB",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Florin",
+      "playerId" : "qJ3Mk7",
+      "resistence" : 8,
+      "technique" : 8
+    }, {
+      "attack" : 6,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Boze",
+      "playerId" : "goUKcG",
+      "resistence" : 6,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti K",
+      "playerId" : "zaHdWD",
+      "resistence" : 5,
+      "technique" : 6
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Adi",
+      "playerId" : "nO5piU",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 6,
+      "name" : "Szilike",
+      "playerId" : "j1J65v",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Alfi",
+      "playerId" : "Dz03Jk",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Horea",
+      "playerId" : "uTjeXo",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Levi",
+      "playerId" : "xa6NHa",
+      "resistence" : 7,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Csabi",
+      "playerId" : "WquB5Z",
+      "resistence" : 9,
+      "technique" : 8
+    }, {
+      "attack" : 8,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Robi Albert",
+      "playerId" : "wGakmw",
+      "resistence" : 7,
+      "technique" : 9
+    }, {
+      "attack" : 7,
+      "construction" : 8,
+      "defense" : 8,
+      "name" : "Marian",
+      "playerId" : "pCo9VS",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 6,
+      "construction" : 6,
+      "defense" : 7,
+      "name" : "Cipri",
+      "playerId" : "jBGJ1l",
+      "resistence" : 6,
+      "technique" : 6
+    }, {
+      "attack" : 5,
+      "construction" : 4,
+      "defense" : 5,
+      "name" : "Calin",
+      "playerId" : "pjDASd",
+      "resistence" : 5,
+      "technique" : 4
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Miska",
+      "playerId" : "WnmFdK",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Attila",
+      "playerId" : "ocIw1g",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 8,
+      "name" : "Gyuri",
+      "playerId" : "4grNix",
+      "resistence" : 7,
+      "technique" : 7
+    }, {
+      "attack" : 7,
+      "construction" : 7,
+      "defense" : 7,
+      "name" : "Isti",
+      "playerId" : "P6LmJp",
+      "resistence" : 7,
+      "technique" : 7
+    } ]
+  },
+  "ocIw1g" : {
+    "id" : "ocIw1g",
+    "name" : "Attila"
+  },
+  "4grNix" : {
+    "id" : "4grNix",
+    "name" : "Gyuri"
+  },
+  "P6LmJp" : {
+    "id" : "P6LmJp",
+    "name" : "Isti"
+  }
+}
