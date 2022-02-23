@@ -1,7 +1,19 @@
-import { Group, Avatar, Text, Accordion, Slider } from "@mantine/core";
-import { useState } from "react";
+import {
+  Group,
+  Avatar,
+  Text,
+  Accordion,
+  Slider,
+  CheckboxIcon,
+  Button,
+} from "@mantine/core";
+import { useNotifications } from "@mantine/notifications";
+import { Fragment, useContext } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { useState } from "react/cjs/react.development";
+import { API_URL } from "../../config";
+import PlayersContext from "../../store/player-context";
 
 import classes from "./PlayerList.module.css";
 
@@ -49,15 +61,77 @@ const AccordionLabel = ({ label, image, attack, defense, stamina }) => {
   );
 };
 
-const PlayerList = (props) => {
+const PlayerList = () => {
+  const playersCtx = useContext(PlayersContext);
+  const notifications = useNotifications();
+
+  const profileId = playersCtx.profileId;
+  const players = playersCtx.players;
+  const profilePlayerScores = playersCtx.profilePlayerScores;
+  const initialItemIndex = playersCtx.initialItemIndex;
+
+  const [accItemScoresUpdated, setAccItemScoresUpdated] = useState(false);
+
+  //this shuld not run
+  if (
+    (playersCtx.profilePlayerScores === undefined ||
+      playersCtx.profilePlayerScores.length === 0) &&
+    playersCtx.players.find((p) => p.id === profileId).playerScores != null
+  ) {
+    playersCtx.loadProfilePlayerScores(
+      playersCtx.players.find((p) => p.id === profileId).playerScores
+    );
+  }
+
+  const saveClickHandler = () => {
+    saveScore();
+  };
+
+  const onAccordionChanged = (state) => {
+    for (let i = 0; i < players.length; i++) {
+      if (state[i] === true) {
+        playersCtx.updateInitialItemIndex(i);
+        break;
+      }
+    }
+
+    //save to database
+    if (accItemScoresUpdated) {
+      saveScore();
+    }
+  };
+
+  const saveScore = () => {
+    fetch(
+      API_URL.replace(".json", "") + "/" + profileId + "/playerScores.json",
+      {
+        method: "PUT",
+        body: JSON.stringify(profilePlayerScores),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    ).then(() => {
+      notifications.showNotification({
+        title: "Scores update",
+        message: "Data was saved",
+        color: "teal",
+        icon: <CheckboxIcon />,
+        autoClose: 2000,
+      });
+      setAccItemScoresUpdated(false);
+    });
+  };
+
+  const updateScoreItem = (playerId, type, value) => {
+    setAccItemScoresUpdated(true);
+    playersCtx.updateProfilePlayerScore(playerId, type, value);
+  };
+
   const getAttackScore = (scoredPlayerId, type) => {
-    const currentPlayerData = props.players.find((p) => p.id == props.playerId);
-    if (
-      currentPlayerData !== undefined &&
-      currentPlayerData.playerScores !== undefined
-    ) {
-      const playerScoreObj = currentPlayerData.playerScores.find(
-        (score) => score.playerId === scoredPlayerId
+    if (profilePlayerScores != null) {
+      const playerScoreObj = profilePlayerScores.find(
+        (s) => s.playerId === scoredPlayerId
       );
       if (playerScoreObj !== undefined) {
         switch (type) {
@@ -80,64 +154,80 @@ const PlayerList = (props) => {
                   10) /
                   3
               );
+            break;
+          default:
+            break;
         }
       }
     }
     return 0;
   };
 
-  const [initialItemIndex, setInitialItemIndex] = useState(0);
-
-  const onAccordionChanged = (state) => {
-    for (let i = 0; i < props.players.length; i++) {
-      if (state[i] === true) {
-        setInitialItemIndex(i);
-        break;
-      }
-    }
-  };
-
   return (
-    <Accordion
-      initialItem={initialItemIndex}
-      iconPosition="right"
-      onChange={onAccordionChanged}
-    >
-      {props.players
-        .filter((p) => p.id !== props.playerId)
-        .map((player) => (
-          <Accordion.Item
-            key={player.id}
-            label={
-              <AccordionLabel
-                image={player.imgSrc}
-                attack={getAttackScore(player.id, "attack")}
-                defense={getAttackScore(player.id, "defense")}
-                stamina={getAttackScore(player.id, "stamina")}
-                label={player.name}
+    <Fragment>
+      <Accordion
+        initialItem={initialItemIndex}
+        iconPosition="right"
+        onChange={onAccordionChanged}
+      >
+        {players
+          .filter((p) => p.id !== profileId)
+          .map((player) => (
+            <Accordion.Item
+              key={player.id}
+              label={
+                <AccordionLabel
+                  image={player.imgSrc}
+                  attack={getAttackScore(player.id, "attack")}
+                  defense={getAttackScore(player.id, "defense")}
+                  stamina={getAttackScore(player.id, "stamina")}
+                  label={player.name}
+                />
+              }
+              onToggle
+            >
+              <Text>Atac</Text>
+              <Slider
+                color="red"
+                min={11}
+                defaultValue={getAttackScore(player.id, "attack")}
+                onChange={(value) =>
+                  updateScoreItem(player.id, "attack", value)
+                }
               />
-            }
+              <Text>Defense</Text>
+              <Slider
+                color="green"
+                min={11}
+                defaultValue={getAttackScore(player.id, "defense")}
+                onChange={(value) =>
+                  updateScoreItem(player.id, "defense", value)
+                }
+              />
+              <Text>Stamina</Text>
+              <Slider
+                min={11}
+                defaultValue={getAttackScore(player.id, "stamina")}
+                onChange={(value) =>
+                  updateScoreItem(player.id, "stamina", value)
+                }
+              />
+            </Accordion.Item>
+          ))}
+      </Accordion>
+      {accItemScoresUpdated && (
+        <div className={classes.actions}>
+          <Button
+            type="button"
+            color="indigo"
+            ml={10}
+            onClick={saveClickHandler}
           >
-            <Text>Atac</Text>
-            <Slider
-              color="red"
-              min={11}
-              defaultValue={getAttackScore(player.id, "attack")}
-            />
-            <Text>Defense</Text>
-            <Slider
-              color="green"
-              min={11}
-              defaultValue={getAttackScore(player.id, "defense")}
-            />
-            <Text>Stamina</Text>
-            <Slider
-              min={10}
-              defaultValue={getAttackScore(player.id, "stamina")}
-            />
-          </Accordion.Item>
-        ))}
-    </Accordion>
+            Save
+          </Button>
+        </div>
+      )}
+    </Fragment>
   );
 };
 

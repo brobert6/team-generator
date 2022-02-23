@@ -3,17 +3,23 @@ import MainNavigation from "./MainNavigation";
 import classes from "./Layout.module.css";
 import {
   AppShell,
+  Avatar,
   Burger,
+  Group,
   Header,
   MediaQuery,
   Navbar,
+  Text,
   Title,
   useMantineTheme,
 } from "@mantine/core";
 
-import { useState } from "react";
+import { useContext, useState } from "react";
+import PlayersContext from "../../store/player-context";
 
 const Layout = (props) => {
+  const profileName = useContext(PlayersContext).profileName;
+  const profileImgSrc = useContext(PlayersContext).profileImgSrc;
   const [opened, setOpened] = useState(false);
   const theme = useMantineTheme();
 
@@ -43,6 +49,16 @@ const Layout = (props) => {
             <Title order={3} style={{ color: "#777" }}>
               Balanced Team Generator
             </Title>
+            {profileName != null && (
+              <Group noWrap style={{ height: "25px", float: "right" }}>
+                <Avatar src={profileImgSrc} radius="xl" size="lg" />
+                <div style={{ flex: 1 }}>
+                  <Text size="sm" weight={500}>
+                    {profileName}
+                  </Text>
+                </div>
+              </Group>
+            )}
           </div>
         </Header>
       }

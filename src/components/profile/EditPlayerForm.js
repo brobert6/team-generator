@@ -1,5 +1,5 @@
 import { Button, TextInput } from "@mantine/core";
-import { Fragment, useContext, useState } from "react";
+import { Fragment, useContext, useEffect, useState } from "react";
 import PlayersContext from "../../store/player-context";
 import Card from "../ui/Card";
 import classes from "./EditPlayerForm.module.css";
@@ -35,14 +35,14 @@ const ICONS_LIST = [
 const EditPlayerForm = (props) => {
   const playersCxt = useContext(PlayersContext);
 
-  const currentPlayer = playersCxt.players.find((p) => p.id === props.id);
+  useEffect(() => {
+    const currentPlayer = playersCxt.players.find((p) => p.id === props.id);
+    setName(currentPlayer === undefined ? "" : currentPlayer.name);
+    setImgSrc(currentPlayer === undefined ? "" : currentPlayer.imgSrc);
+  }, [props.id]);
 
-  const [name, setName] = useState(
-    currentPlayer === undefined ? "" : currentPlayer.name
-  );
-  const [imgSrc, setImgSrc] = useState(
-    currentPlayer === undefined ? "" : currentPlayer.imgSrc
-  );
+  const [name, setName] = useState("");
+  const [imgSrc, setImgSrc] = useState("");
 
   const onAvatarClickedHandler = (value) => {
     setImgSrc(value);

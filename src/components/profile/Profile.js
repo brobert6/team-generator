@@ -1,20 +1,22 @@
-import { Group, Avatar, Text, Select } from "@mantine/core";
-import { forwardRef, Fragment, useContext, useState } from "react";
+import { Group, Avatar, Text, Select, CheckboxIcon } from "@mantine/core";
+import { useNotifications } from "@mantine/notifications";
+import { forwardRef, Fragment, useContext } from "react";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import PlayersContext from "../../store/player-context";
 import EditPlayerForm from "./EditPlayerForm";
 import { API_URL } from "../../config";
 
 const Profile = () => {
-  const playersCxt = useContext(PlayersContext);
+  const playersCtx = useContext(PlayersContext);
+  const notifications = useNotifications();
 
-  const [playerId, setPlayerId] = useState(localStorage.getItem("PlayerId"));
+  const playerId = playersCtx.profileId;
 
   const history = useHistory();
-  if (playersCxt.players === null || playersCxt.players.length === 0)
+  if (playersCtx.players === null || playersCtx.players.length === 0)
     history.replace("/");
 
-  const selectData = playersCxt.players.map((player) => {
+  const selectData = playersCtx.players.map((player) => {
     return {
       id: player.id,
       image: player.imgSrc,
@@ -36,13 +38,38 @@ const Profile = () => {
   ));
 
   const onProfileIdChanged = (value) => {
-    setPlayerId(value);
-    localStorage.setItem("PlayerId", value);
+    if (value !== null) {
+      playersCtx.updateProfileId(value);
+      localStorage.setItem("PlayerId", value);
+
+      const currentPlayer = playersCtx.players.find((x) => x.id === value);
+      playersCtx.updateProfileName(currentPlayer.name);
+      playersCtx.updateProfileImgSrc(currentPlayer.imgSrc);
+
+      //save prev scores to context:players
+      const updatedPlayer = {
+        ...currentPlayer,
+        playerScores: playersCtx.playerScores,
+      };
+      const allPlayersUpdated = [
+        ...playersCtx.players.filter((p) => p.id !== value),
+        updatedPlayer,
+      ];
+      playersCtx.loadPlayers(allPlayersUpdated);
+
+      //load new scores
+      playersCtx.loadProfilePlayerScores(
+        playersCtx.players.find((p) => p.id === value).playerScores
+      );
+    }
   };
 
   const onProfileChanged = (newName, imgSrc) => {
-    const currentPlayer = playersCxt.players.find((x) => x.id === playerId);
+    const currentPlayer = playersCtx.players.find((x) => x.id === playerId);
     const updatedPlayer = { ...currentPlayer, name: newName, imgSrc: imgSrc };
+
+    playersCtx.updateProfileName(updatedPlayer.name);
+    playersCtx.updateProfileImgSrc(updatedPlayer.imgSrc);
 
     fetch(API_URL.replace(".json", "") + "/" + updatedPlayer.id + ".json", {
       method: "PUT",
@@ -51,15 +78,20 @@ const Profile = () => {
         "Content-Type": "application/json",
       },
     }).then(() => {
-      console.log("submitted...");
-
       const allPlayersUpdated = [
-        ...playersCxt.players.filter((p) => p.id !== playerId),
+        ...playersCtx.players.filter((p) => p.id !== playerId),
         updatedPlayer,
       ];
 
-      playersCxt.loadPlayers(allPlayersUpdated);
-      //setIsLoading(true);
+      playersCtx.loadPlayers(allPlayersUpdated);
+
+      notifications.showNotification({
+        title: "Profile update",
+        message: "Data was saved",
+        color: "teal",
+        icon: <CheckboxIcon />,
+        autoClose: 2000,
+      });
     });
   };
 
@@ -71,14 +103,14 @@ const Profile = () => {
         itemComponent={SelectItem}
         data={selectData}
         value={playerId}
-        searchable
+        //searchable
         maxDropdownHeight={400}
         nothingFound="Nobody here"
-        filter={(value, item) =>
-          item.label.toLowerCase().includes(value.toLowerCase().trim())
-        }
+        // filter={(value, item) =>
+        //   item.label.toLowerCase().includes(value.toLowerCase().trim())
+        // }
         onChange={onProfileIdChanged}
-        clearable
+        //clearable
       />
 
       {playerId !== null && (

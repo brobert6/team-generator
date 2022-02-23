@@ -7,30 +7,33 @@ import { API_URL } from "../config";
 import PlayersContext from "../store/player-context";
 
 function PlayersManagePage() {
-  const playersCxt = useContext(PlayersContext);
+  const playersCtx = useContext(PlayersContext);
 
-  const playerId = localStorage.getItem("PlayerId");
+  const profileId = playersCtx.profileId;
 
   const history = useHistory();
-  if (playersCxt.players === null || playersCxt.players.length === 0)
+  if (playersCtx.players === null || playersCtx.players.length === 0) {
     history.replace("/");
-  else if (playerId === null) history.replace("/profile");
+  }
+  if (profileId === 0 || profileId === null) {
+    history.replace("/profile");
+  }
 
   const addPlayerHandler = (playerName) => {
     const playerData = {
       id: Math.max.apply(
         Math,
-        playersCxt.players.map(function (o) {
+        playersCtx.players.map(function (o) {
           return o.y;
         })
       ),
       name: playerName,
     };
 
-    let playersData = [...playersCxt.players];
+    let playersData = [...playersCtx.players];
     playersData.push(playerData);
 
-    playersCxt.loadPlayers(playersData);
+    playersCtx.loadPlayers(playersData);
 
     fetch(API_URL, {
       method: "POST",
@@ -40,14 +43,13 @@ function PlayersManagePage() {
       },
     }).then(() => {
       console.log("submitted...");
-      //setIsLoading(true);
     });
   };
 
   return (
     <Fragment>
       <h2>Manage players</h2>
-      <PlayerList players={playersCxt.players} playerId={playerId} />
+      {profileId !== null && <PlayerList />}
       <NewPlayerForm onAddPlayer={addPlayerHandler} />
     </Fragment>
   );
