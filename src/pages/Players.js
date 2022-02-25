@@ -1,7 +1,7 @@
 import { useCallback, useContext, useEffect, useState } from "react";
 import PlayerList from "../components/players/PlayerList";
 import PlayersContext from "../store/player-context";
-import { API_URL } from "../config";
+import { getPlayerScore } from "../general/helpers";
 
 //const players = require("../components/players.json");
 
@@ -16,7 +16,7 @@ function PlayersPage() {
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch(API_URL);
+      const response = await fetch(playersCtx.getApiUrl());
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
@@ -32,7 +32,39 @@ function PlayersPage() {
         playersData.push(playedData);
       }
 
-      playersCtx.loadPlayers(playersData);
+      //calculate player scores
+      for (const player of playersData) {
+        for (const type of ["attack", "defense", "stamina"]) {
+          let initialValue = 0;
+          let sum = playersData.reduce(function (previousValue, currentValue) {
+            return (
+              previousValue +
+              getPlayerScore(currentValue.playerScores, player.id, type)
+            );
+          }, initialValue);
+          let count = playersData.reduce(function (
+            previousValue,
+            currentValue
+          ) {
+            return (
+              previousValue +
+              (getPlayerScore(currentValue.playerScores, player.id, type) > 0
+                ? 1
+                : 0)
+            );
+          },
+          initialValue);
+          player[type] = Math.floor(sum / count);
+        }
+      }
+
+      //sort by score and load
+      playersCtx.loadPlayers(
+        playersData.sort(
+          (b, a) =>
+            a.attack + a.defense + a.stamina - b.attack - b.defense - b.stamina
+        )
+      );
 
       if (localStorage.getItem("PlayerId") !== null) {
         const currentPlayer = playersData.find(
