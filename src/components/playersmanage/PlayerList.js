@@ -13,6 +13,7 @@ import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { useState } from "react/cjs/react.development";
 import { API_URL } from "../../config";
+import { getPlayerScore } from "../../general/helpers";
 import PlayersContext from "../../store/player-context";
 
 import classes from "./PlayerList.module.css";
@@ -128,41 +129,6 @@ const PlayerList = () => {
     playersCtx.updateProfilePlayerScore(playerId, type, value);
   };
 
-  const getAttackScore = (scoredPlayerId, type) => {
-    if (profilePlayerScores != null) {
-      const playerScoreObj = profilePlayerScores.find(
-        (s) => s.playerId === scoredPlayerId
-      );
-      if (playerScoreObj !== undefined) {
-        switch (type) {
-          case "attack":
-            return playerScoreObj.attack <= 10
-              ? playerScoreObj.attack * 10
-              : playerScoreObj.attack;
-          case "defense":
-            return playerScoreObj.defense <= 10
-              ? playerScoreObj.defense * 10
-              : playerScoreObj.defense;
-          case "stamina":
-            if (playerScoreObj.stamina !== undefined)
-              return playerScoreObj.stamina;
-            else if (playerScoreObj.construction !== undefined)
-              return Math.ceil(
-                ((playerScoreObj.construction +
-                  playerScoreObj.resistence +
-                  playerScoreObj.technique) *
-                  10) /
-                  3
-              );
-            break;
-          default:
-            break;
-        }
-      }
-    }
-    return 0;
-  };
-
   return (
     <Fragment>
       <Accordion
@@ -178,9 +144,21 @@ const PlayerList = () => {
               label={
                 <AccordionLabel
                   image={player.imgSrc}
-                  attack={getAttackScore(player.id, "attack")}
-                  defense={getAttackScore(player.id, "defense")}
-                  stamina={getAttackScore(player.id, "stamina")}
+                  attack={getPlayerScore(
+                    profilePlayerScores,
+                    player.id,
+                    "attack"
+                  )}
+                  defense={getPlayerScore(
+                    profilePlayerScores,
+                    player.id,
+                    "defense"
+                  )}
+                  stamina={getPlayerScore(
+                    profilePlayerScores,
+                    player.id,
+                    "stamina"
+                  )}
                   label={player.name}
                 />
               }
@@ -190,7 +168,11 @@ const PlayerList = () => {
               <Slider
                 color="red"
                 min={11}
-                defaultValue={getAttackScore(player.id, "attack")}
+                defaultValue={getPlayerScore(
+                  profilePlayerScores,
+                  player.id,
+                  "attack"
+                )}
                 onChange={(value) =>
                   updateScoreItem(player.id, "attack", value)
                 }
@@ -199,7 +181,11 @@ const PlayerList = () => {
               <Slider
                 color="green"
                 min={11}
-                defaultValue={getAttackScore(player.id, "defense")}
+                defaultValue={getPlayerScore(
+                  profilePlayerScores,
+                  player.id,
+                  "defense"
+                )}
                 onChange={(value) =>
                   updateScoreItem(player.id, "defense", value)
                 }
@@ -207,7 +193,11 @@ const PlayerList = () => {
               <Text>Stamina</Text>
               <Slider
                 min={11}
-                defaultValue={getAttackScore(player.id, "stamina")}
+                defaultValue={getPlayerScore(
+                  profilePlayerScores,
+                  player.id,
+                  "stamina"
+                )}
                 onChange={(value) =>
                   updateScoreItem(player.id, "stamina", value)
                 }

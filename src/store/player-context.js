@@ -1,7 +1,9 @@
 import { createContext } from "react";
 import { useState } from "react/cjs/react.development";
+import { API_URL } from "../config";
 
 const PlayersContext = createContext({
+  groupName: "",
   players: [],
   selectedPlayers: [],
   profilePlayerScores: [],
@@ -23,6 +25,7 @@ const PlayersContext = createContext({
 });
 
 export function PlayersContextProvider(props) {
+  const [groupName, setGroupName] = useState(null);
   const [players, setPlayers] = useState([]);
   const [userSelectedPlayers, setUserSelectedPlayers] = useState([]);
   const [profilePlayerScores, setProfilePlayerScores] = useState([]);
@@ -30,6 +33,16 @@ export function PlayersContextProvider(props) {
   const [profileName, setProfileName] = useState(null);
   const [profileImgSrc, setProfileImgSrc] = useState(null);
   const [initialItemIndex, setInitialItemIndex] = useState(0);
+
+  function loadGroupNameHandler(newGroupName) {
+    setGroupName((prevGroupName) => {
+      return newGroupName;
+    });
+  }
+
+  function getApiURL() {
+    return API_URL; // + "/" + groupName;
+  }
 
   function loadPlayersHandler(players) {
     if (profileId === null && localStorage.getItem("PlayerId") !== null) {
@@ -135,6 +148,7 @@ export function PlayersContextProvider(props) {
   }
 
   const context = {
+    groupName: groupName,
     players: players,
     profileId: profileId,
     profileName: profileName,
@@ -143,6 +157,7 @@ export function PlayersContextProvider(props) {
     selectedPlayers: userSelectedPlayers,
     profilePlayerScores: profilePlayerScores,
     totalSelectedPlayers: userSelectedPlayers.length,
+    loadGroupName: loadGroupNameHandler,
     loadPlayers: loadPlayersHandler,
     updatePlayer: updatePlayerHandler,
     addSelectedPlayer: addSelectedPlayerHandler,

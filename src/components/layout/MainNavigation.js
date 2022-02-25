@@ -4,7 +4,7 @@ import { RiTeamLine } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
 import { Link } from "react-router-dom";
 
-const MainNavigation = () => {
+const MainNavigation = (props) => {
   return (
     <List
       spacing="xs"
@@ -17,7 +17,7 @@ const MainNavigation = () => {
       }
     >
       <List.Item>
-        <Anchor component={Link} to="/">
+        <Anchor component={Link} to="/" onClick={props.pageChanged}>
           Generate teams
         </Anchor>
       </List.Item>
@@ -28,7 +28,7 @@ const MainNavigation = () => {
           </ThemeIcon>
         }
       >
-        <Anchor component={Link} to="/manage">
+        <Anchor component={Link} to="/manage" onClick={props.pageChanged}>
           Score teammates
         </Anchor>
       </List.Item>
@@ -39,7 +39,7 @@ const MainNavigation = () => {
           </ThemeIcon>
         }
       >
-        <Anchor component={Link} to="/profile">
+        <Anchor component={Link} to="/profile" onClick={props.pageChanged}>
           My Profile
         </Anchor>
       </List.Item>

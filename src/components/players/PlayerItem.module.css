@@ -1,14 +1,21 @@
 li.info div {
-  background-color: #0dcaf0;
+  background-color: #ceeff5;
 }
 
 li.teama div {
-  background-color: #198754;
+  background-color: #bfefe1;
 }
 li.teamb div {
-  background-color: #ffc107;
+  background-color: #f7e5b0;
 }
 
 li.light div {
   background-color: transparent;
+}
+
+.divcircle {
+  width: 25px;
+  height: 25px;
+  margin-left: 10px;
+  float: right;
 }

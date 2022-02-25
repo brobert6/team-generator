@@ -10,7 +10,7 @@ import {
   MediaQuery,
   Navbar,
   Text,
-  Title,
+  //Title,
   useMantineTheme,
 } from "@mantine/core";
 
@@ -22,6 +22,10 @@ const Layout = (props) => {
   const profileImgSrc = useContext(PlayersContext).profileImgSrc;
   const [opened, setOpened] = useState(false);
   const theme = useMantineTheme();
+
+  const onMenuChangedHandler = () => {
+    setOpened(false);
+  };
 
   return (
     <AppShell
@@ -46,9 +50,6 @@ const Layout = (props) => {
               />
             </MediaQuery>
 
-            <Title order={3} style={{ color: "#777" }}>
-              Balanced Team Generator
-            </Title>
             {profileName != null && (
               <Group noWrap style={{ height: "25px", float: "right" }}>
                 <Avatar src={profileImgSrc} radius="xl" size="lg" />
@@ -59,6 +60,10 @@ const Layout = (props) => {
                 </div>
               </Group>
             )}
+
+            {/* <Title order={3} style={{ color: "#777" }}>
+              Balanced Team Generator
+            </Title> */}
           </div>
         </Header>
       }
@@ -74,7 +79,7 @@ const Layout = (props) => {
           // viewport size > theme.breakpoints.lg – width is 400px
           width={{ sm: 300, lg: 400 }}
         >
-          <MainNavigation />
+          <MainNavigation pageChanged={onMenuChangedHandler} />
         </Navbar>
       }
       styles={(theme) => ({
