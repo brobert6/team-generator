@@ -2,7 +2,7 @@
   "name": "react-course",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://brobert6.github.io",
+  "homepage": "https://brobert6.github.io/team-generator/",
   "dependencies": {
     "-": "0.0.1",
     "@mantine/core": "^3.6.8",
