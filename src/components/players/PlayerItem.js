@@ -8,9 +8,10 @@ const PlayerItem = (props) => {
   const playersCxt = useContext(PlayersContext);
 
   const playerIsSelected = playersCxt.itemIsSelectedPlayer(props.id);
-  const attack = props.attack;
-  const defense = props.defense;
-  const stamina = props.stamina;
+
+  const attack = Number.isNaN(props.attack) ? 0 : props.attack;
+  const defense = Number.isNaN(props.defense) ? 0 : props.defense;
+  const stamina = Number.isNaN(props.stamina) ? 0 : props.stamina;
 
   function toggleSelectedPlayerHandler() {
     if (playerIsSelected) {

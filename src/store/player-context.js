@@ -1,6 +1,5 @@
 import { createContext } from "react";
 import { useState } from "react/cjs/react.development";
-import { API_URL } from "../config";
 
 const PlayersContext = createContext({
   groupName: "",
@@ -38,10 +37,6 @@ export function PlayersContextProvider(props) {
     setGroupName((prevGroupName) => {
       return newGroupName;
     });
-  }
-
-  function getApiURL() {
-    return API_URL; // + "/" + groupName;
   }
 
   function loadPlayersHandler(players) {

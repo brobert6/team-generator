@@ -1,3 +1,9 @@
+import { API_URL } from "../config";
+
+export const getApiUrl = (groupName) => {
+  return API_URL.replace(".json", "/" + groupName + ".json");
+};
+
 export const getPlayerScore = (playerScores, scoredPlayerId, type) => {
   if (playerScores != null) {
     const playerScoreObj = playerScores.find(

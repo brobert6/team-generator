@@ -4,17 +4,19 @@ import { forwardRef, Fragment, useContext } from "react";
 import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import PlayersContext from "../../store/player-context";
 import EditPlayerForm from "./EditPlayerForm";
-import { API_URL } from "../../config";
+import { useParams } from "react-router-dom";
+import { getApiUrl } from "../../general/helpers";
 
 const Profile = () => {
   const playersCtx = useContext(PlayersContext);
   const notifications = useNotifications();
+  const params = useParams();
 
   const playerId = playersCtx.profileId;
 
   const history = useHistory();
   if (playersCtx.players === null || playersCtx.players.length === 0)
-    history.replace("/");
+    history.replace(`/${params.team}/`);
 
   const selectData = playersCtx.players.map((player) => {
     return {
@@ -71,13 +73,19 @@ const Profile = () => {
     playersCtx.updateProfileName(updatedPlayer.name);
     playersCtx.updateProfileImgSrc(updatedPlayer.imgSrc);
 
-    fetch(API_URL.replace(".json", "") + "/" + updatedPlayer.id + ".json", {
-      method: "PUT",
-      body: JSON.stringify(updatedPlayer),
-      headers: {
-        "Content-Type": "application/json",
-      },
-    }).then(() => {
+    fetch(
+      getApiUrl(params.team).replace(".json", "") +
+        "/" +
+        updatedPlayer.id +
+        ".json",
+      {
+        method: "PUT",
+        body: JSON.stringify(updatedPlayer),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    ).then(() => {
       const allPlayersUpdated = [
         ...playersCtx.players.filter((p) => p.id !== playerId),
         updatedPlayer,

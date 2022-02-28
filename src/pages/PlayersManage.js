@@ -1,22 +1,31 @@
+import { useNotifications } from "@mantine/notifications";
 import { useContext } from "react";
-import { useHistory } from "react-router-dom";
+import { useHistory, useParams } from "react-router-dom";
 import { Fragment } from "react/cjs/react.development";
 import NewPlayerForm from "../components/playersmanage/NewPlayerForm";
 import PlayerList from "../components/playersmanage/PlayerList";
-import { API_URL } from "../config";
+import { getApiUrl } from "../general/helpers";
 import PlayersContext from "../store/player-context";
 
 function PlayersManagePage() {
   const playersCtx = useContext(PlayersContext);
+  const params = useParams();
+  const notifications = useNotifications();
 
   const profileId = playersCtx.profileId;
 
   const history = useHistory();
   if (playersCtx.players === null || playersCtx.players.length === 0) {
-    history.replace("/");
+    history.replace(`/${params.team}/`);
   }
   if (profileId === 0 || profileId === null) {
-    history.replace("/profile");
+    notifications.showNotification({
+      title: "Choose profile",
+      message: "You must choose your profile to score other players...",
+      color: "teal",
+      autoClose: 4000,
+    });
+    history.replace(`/${params.team}/profile`);
   }
 
   const addPlayerHandler = (playerName) => {
@@ -35,7 +44,7 @@ function PlayersManagePage() {
 
     playersCtx.loadPlayers(playersData);
 
-    fetch(API_URL, {
+    fetch(getApiUrl(params.team), {
       method: "POST",
       body: JSON.stringify(playerData),
       headers: {
@@ -49,8 +58,13 @@ function PlayersManagePage() {
   return (
     <Fragment>
       <h2>Manage players</h2>
-      {profileId !== null && <PlayerList />}
+      {playersCtx.players !== undefined && playersCtx.players.length < 15 && (
+        <p>
+          <i>Make sure all playes are added to list</i>
+        </p>
+      )}
       <NewPlayerForm onAddPlayer={addPlayerHandler} />
+      {profileId !== null && <PlayerList />}
     </Fragment>
   );
 }

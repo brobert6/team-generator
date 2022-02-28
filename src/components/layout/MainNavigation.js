@@ -2,9 +2,11 @@ import { Anchor, List, ThemeIcon } from "@mantine/core";
 import { SiMicrosoftteams } from "react-icons/si";
 import { RiTeamLine } from "react-icons/ri";
 import { CgProfile } from "react-icons/cg";
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 
 const MainNavigation = (props) => {
+  const params = useParams();
+
   return (
     <List
       spacing="xs"
@@ -17,7 +19,11 @@ const MainNavigation = (props) => {
       }
     >
       <List.Item>
-        <Anchor component={Link} to="/" onClick={props.pageChanged}>
+        <Anchor
+          component={Link}
+          to={`/${params.team}/`}
+          onClick={props.pageChanged}
+        >
           Generate teams
         </Anchor>
       </List.Item>
@@ -28,7 +34,11 @@ const MainNavigation = (props) => {
           </ThemeIcon>
         }
       >
-        <Anchor component={Link} to="/manage" onClick={props.pageChanged}>
+        <Anchor
+          component={Link}
+          to={`/${params.team}/manage`}
+          onClick={props.pageChanged}
+        >
           Score teammates
         </Anchor>
       </List.Item>
@@ -39,7 +49,11 @@ const MainNavigation = (props) => {
           </ThemeIcon>
         }
       >
-        <Anchor component={Link} to="/profile" onClick={props.pageChanged}>
+        <Anchor
+          component={Link}
+          to={`/${params.team}/profile`}
+          onClick={props.pageChanged}
+        >
           My Profile
         </Anchor>
       </List.Item>

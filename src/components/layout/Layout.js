@@ -2,6 +2,7 @@ import MainNavigation from "./MainNavigation";
 
 import classes from "./Layout.module.css";
 import {
+  Anchor,
   AppShell,
   Avatar,
   Burger,
@@ -16,10 +17,12 @@ import {
 
 import { useContext, useState } from "react";
 import PlayersContext from "../../store/player-context";
+import { Link } from "react-router-dom";
 
 const Layout = (props) => {
   const profileName = useContext(PlayersContext).profileName;
   const profileImgSrc = useContext(PlayersContext).profileImgSrc;
+  const team = useContext(PlayersContext).groupName;
   const [opened, setOpened] = useState(false);
   const theme = useMantineTheme();
 
@@ -51,14 +54,16 @@ const Layout = (props) => {
             </MediaQuery>
 
             {profileName != null && (
-              <Group noWrap style={{ height: "25px", float: "right" }}>
-                <Avatar src={profileImgSrc} radius="xl" size="lg" />
-                <div style={{ flex: 1 }}>
-                  <Text size="sm" weight={500}>
-                    {profileName}
-                  </Text>
-                </div>
-              </Group>
+              <Anchor component={Link} to={`/${team}/profile`}>
+                <Group noWrap style={{ height: "25px", float: "right" }}>
+                  <Avatar src={profileImgSrc} radius="xl" size="lg" />
+                  <div style={{ flex: 1 }}>
+                    <Text size="sm" weight={500}>
+                      {profileName}
+                    </Text>
+                  </div>
+                </Group>
+              </Anchor>
             )}
 
             {/* <Title order={3} style={{ color: "#777" }}>

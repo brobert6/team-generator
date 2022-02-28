@@ -1,22 +1,26 @@
 import { useCallback, useContext, useEffect, useState } from "react";
+import { useParams } from "react-router-dom";
 import PlayerList from "../components/players/PlayerList";
 import PlayersContext from "../store/player-context";
-import { getPlayerScore } from "../general/helpers";
+import { getApiUrl, getPlayerScore } from "../general/helpers";
 
 //const players = require("../components/players.json");
 
 function PlayersPage() {
   const playersCtx = useContext(PlayersContext);
 
+  const params = useParams();
+
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
   const fetchPlayersHandler = useCallback(async () => {
-    console.log("fetching data...");
+    console.log(`fetching data for ${params.team} ...`);
     setIsLoading(true);
     setError(null);
     try {
-      const response = await fetch(playersCtx.getApiUrl());
+      playersCtx.loadGroupName(params.team);
+      const response = await fetch(getApiUrl(params.team));
       if (!response.ok) {
         throw new Error("Something went wrong!");
       }
@@ -70,15 +74,17 @@ function PlayersPage() {
         const currentPlayer = playersData.find(
           (p) => p.id === localStorage.getItem("PlayerId")
         );
-        playersCtx.loadProfilePlayerScores(currentPlayer.playerScores);
-        playersCtx.updateProfileName(currentPlayer.name);
-        playersCtx.updateProfileImgSrc(currentPlayer.imgSrc);
+        if (currentPlayer !== undefined) {
+          playersCtx.loadProfilePlayerScores(currentPlayer.playerScores);
+          playersCtx.updateProfileName(currentPlayer.name);
+          playersCtx.updateProfileImgSrc(currentPlayer.imgSrc);
+        }
       }
     } catch (error) {
       setError(error.message);
     }
     setIsLoading(false);
-  }, []);
+  }, [params.team]);
 
   useEffect(() => {
     if (playersCtx.players.length === 0) {

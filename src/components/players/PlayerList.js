@@ -51,6 +51,7 @@ const PlayerList = (props) => {
 
     setBestMatchups(sortedTeamCombinations);
     setMatchNumber(1);
+    console.log("reset combinations...");
   }, [props.selectedPlayers]);
 
   let matchTeam = bestMatchups[matchNumber - 1];
@@ -61,13 +62,17 @@ const PlayerList = (props) => {
       matchTeam.attackB + matchTeam.defenseB + matchTeam.staminaB;
   }
 
-  const teamA = props.selectedPlayers.filter(
-    (p) => matchTeam.teamAIds.indexOf(p.id) >= 0
-  );
+  let teamA = [];
+  let teamB = [];
 
-  const teamB = props.selectedPlayers.filter(
-    (p) => matchTeam.teamBIds.indexOf(p.id) >= 0
-  );
+  if (matchTeam !== undefined) {
+    teamA = props.selectedPlayers.filter(
+      (p) => matchTeam.teamAIds.indexOf(p.id) >= 0
+    );
+    teamB = props.selectedPlayers.filter(
+      (p) => matchTeam.teamBIds.indexOf(p.id) >= 0
+    );
+  }
 
   if (bestMatchups.length >= matchNumber) {
     teamA.attack = Math.floor(

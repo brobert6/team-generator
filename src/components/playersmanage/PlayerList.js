@@ -11,9 +11,9 @@ import { useNotifications } from "@mantine/notifications";
 import { Fragment, useContext } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
+import { useParams } from "react-router-dom";
 import { useState } from "react/cjs/react.development";
-import { API_URL } from "../../config";
-import { getPlayerScore } from "../../general/helpers";
+import { getApiUrl, getPlayerScore } from "../../general/helpers";
 import PlayersContext from "../../store/player-context";
 
 import classes from "./PlayerList.module.css";
@@ -65,6 +65,7 @@ const AccordionLabel = ({ label, image, attack, defense, stamina }) => {
 const PlayerList = () => {
   const playersCtx = useContext(PlayersContext);
   const notifications = useNotifications();
+  const params = useParams();
 
   const profileId = playersCtx.profileId;
   const players = playersCtx.players;
@@ -104,7 +105,10 @@ const PlayerList = () => {
 
   const saveScore = () => {
     fetch(
-      API_URL.replace(".json", "") + "/" + profileId + "/playerScores.json",
+      getApiUrl(params.team).replace(".json", "") +
+        "/" +
+        profileId +
+        "/playerScores.json",
       {
         method: "PUT",
         body: JSON.stringify(profilePlayerScores),
