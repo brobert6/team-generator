@@ -13,6 +13,9 @@ const HomePage = () => {
         <Anchor component={Link} to="/test">
           .
         </Anchor>
+        <Anchor component={Link} to="/scoala18">
+          .
+        </Anchor>
       </center>
     </div>
   );
