@@ -1,20 +1,21 @@
 import { useCallback, useContext, useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
 import PlayerList from "../components/players/PlayerList";
 import PlayersContext from "../store/player-context";
 import { getApiUrl, getPlayerScore } from "../general/helpers";
+//import { useHistory } from "react-router-dom";
+import { useParams } from "react-router-dom";
 
 //const players = require("../components/players.json");
 
 function PlayersPage() {
   const playersCtx = useContext(PlayersContext);
-
   const params = useParams();
 
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
 
   const fetchPlayersHandler = useCallback(async () => {
+    console.log(params);
     console.log(`fetching data for ${params.team} ...`);
     setIsLoading(true);
     setError(null);

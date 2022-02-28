@@ -51,7 +51,6 @@ const PlayerList = (props) => {
 
     setBestMatchups(sortedTeamCombinations);
     setMatchNumber(1);
-    console.log("reset combinations...");
   }, [props.selectedPlayers]);
 
   let matchTeam = bestMatchups[matchNumber - 1];

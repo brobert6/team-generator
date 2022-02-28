@@ -1,12 +1,18 @@
+import { Anchor } from "@mantine/core";
+import { Link } from "react-router-dom";
+
 const HomePage = () => {
   return (
     <div style={{ paddingTop: "100px" }}>
       <center>
-        Contact site admin (
+        Contact site administrator (
         <a href="mailto:brobert6@gmail.com?subject=Teams generator">
           brobert6@gmail.com
         </a>
-        ) to set up your teams.{" "}
+        ) to set up your teams
+        <Anchor component={Link} to="/test">
+          .
+        </Anchor>
       </center>
     </div>
   );

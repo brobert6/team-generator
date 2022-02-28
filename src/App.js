@@ -14,17 +14,23 @@ function App() {
         <Route path="/" exact>
           <HomePage />
         </Route>
-        <Route path="/:team/" exact>
+        <Route path="/test" exact>
+          <Fragment>
+            <HomePage />
+            <HomePage />
+          </Fragment>
+        </Route>
+        <Route path="/:team(waldorf|scoala18)" exact>
           <Layout>
             <PlayersPage />
           </Layout>
         </Route>
-        <Route path="/:team/manage">
+        <Route path="/:team-manage" exact>
           <Layout>
             <PlayersManagePage />
           </Layout>
         </Route>
-        <Route path="/:team/profile">
+        <Route path="/:team-profile" exact>
           <Layout>
             <ProfilePage />
           </Layout>

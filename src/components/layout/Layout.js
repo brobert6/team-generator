@@ -54,7 +54,7 @@ const Layout = (props) => {
             </MediaQuery>
 
             {profileName != null && (
-              <Anchor component={Link} to={`/${team}/profile`}>
+              <Anchor component={Link} to={`/${team}-profile`}>
                 <Group noWrap style={{ height: "25px", float: "right" }}>
                   <Avatar src={profileImgSrc} radius="xl" size="lg" />
                   <div style={{ flex: 1 }}>

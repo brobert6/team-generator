@@ -21,7 +21,7 @@ const MainNavigation = (props) => {
       <List.Item>
         <Anchor
           component={Link}
-          to={`/${params.team}/`}
+          to={`/${params.team}`}
           onClick={props.pageChanged}
         >
           Generate teams
@@ -36,7 +36,7 @@ const MainNavigation = (props) => {
       >
         <Anchor
           component={Link}
-          to={`/${params.team}/manage`}
+          to={`/${params.team}-manage`}
           onClick={props.pageChanged}
         >
           Score teammates
@@ -51,7 +51,7 @@ const MainNavigation = (props) => {
       >
         <Anchor
           component={Link}
-          to={`/${params.team}/profile`}
+          to={`/${params.team}-profile`}
           onClick={props.pageChanged}
         >
           My Profile
