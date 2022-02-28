@@ -1,23 +1,23 @@
 {
   "files": {
     "main.css": "/team-generator/static/css/main.973bc33c.chunk.css",
-    "main.js": "/team-generator/static/js/main.b42d891b.chunk.js",
-    "main.js.map": "/team-generator/static/js/main.b42d891b.chunk.js.map",
+    "main.js": "/team-generator/static/js/main.a33f96ab.chunk.js",
+    "main.js.map": "/team-generator/static/js/main.a33f96ab.chunk.js.map",
     "runtime-main.js": "/team-generator/static/js/runtime-main.9754dbdf.js",
     "runtime-main.js.map": "/team-generator/static/js/runtime-main.9754dbdf.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/team-generator/static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.709adf79.chunk.js": "/team-generator/static/js/2.709adf79.chunk.js",
-    "static/js/2.709adf79.chunk.js.map": "/team-generator/static/js/2.709adf79.chunk.js.map",
+    "static/js/2.4babee87.chunk.js": "/team-generator/static/js/2.4babee87.chunk.js",
+    "static/js/2.4babee87.chunk.js.map": "/team-generator/static/js/2.4babee87.chunk.js.map",
     "index.html": "/team-generator/index.html",
     "static/css/2.6c0f60ba.chunk.css.map": "/team-generator/static/css/2.6c0f60ba.chunk.css.map",
     "static/css/main.973bc33c.chunk.css.map": "/team-generator/static/css/main.973bc33c.chunk.css.map",
-    "static/js/2.709adf79.chunk.js.LICENSE.txt": "/team-generator/static/js/2.709adf79.chunk.js.LICENSE.txt"
+    "static/js/2.4babee87.chunk.js.LICENSE.txt": "/team-generator/static/js/2.4babee87.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.9754dbdf.js",
     "static/css/2.6c0f60ba.chunk.css",
-    "static/js/2.709adf79.chunk.js",
+    "static/js/2.4babee87.chunk.js",
     "static/css/main.973bc33c.chunk.css",
-    "static/js/main.b42d891b.chunk.js"
+    "static/js/main.a33f96ab.chunk.js"
   ]
 }
