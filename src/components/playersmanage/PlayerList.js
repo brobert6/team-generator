@@ -12,7 +12,7 @@ import { Fragment, useContext } from "react";
 import { CircularProgressbar, buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { useParams } from "react-router-dom";
-import { useState } from "react/cjs/react.development";
+import { useState } from "react";
 import { getApiUrl, getPlayerScore } from "../../general/helpers";
 import PlayersContext from "../../store/player-context";
 

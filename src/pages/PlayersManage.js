@@ -1,7 +1,7 @@
 import { useNotifications } from "@mantine/notifications";
 import { useContext } from "react";
 import { useHistory, useParams } from "react-router-dom";
-import { Fragment } from "react/cjs/react.development";
+import { Fragment } from "react";
 import NewPlayerForm from "../components/playersmanage/NewPlayerForm";
 import PlayerList from "../components/playersmanage/PlayerList";
 import { getApiUrl } from "../general/helpers";

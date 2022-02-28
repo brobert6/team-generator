@@ -11,7 +11,7 @@ import {
 } from "@mantine/core";
 import { useEffect } from "react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
-import { Fragment, useState } from "react/cjs/react.development";
+import { Fragment, useState } from "react";
 import { getCombinations } from "../../general/helpers";
 import {
   BsFillArrowLeftCircleFill,
