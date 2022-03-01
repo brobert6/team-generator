@@ -10,7 +10,7 @@ import { NotificationsProvider } from "@mantine/notifications";
 
 ReactDOM.render(
   <PlayersContextProvider>
-    <BrowserRouter>
+    <BrowserRouter basename={"/team-generator"}>
       <MantineProvider theme={{ colorScheme: "light" }}>
         <NotificationsProvider>
           <App />

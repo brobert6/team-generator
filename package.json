@@ -1,7 +1,8 @@
 {
   "name": "react-course",
   "version": "0.1.0",
-  "private": false,  
+  "private": false,
+  "homepage": "/team-generator",
   "dependencies": {
     "-": "0.0.1",
     "@mantine/core": "^3.6.8",
