@@ -14,9 +14,6 @@ function App() {
         <Route path="/" exact>
           <HomePage />
         </Route>
-        <Route path="/team-generator" exact>
-          <HomePage />
-        </Route>
         <Route path="/test" exact>
           <Fragment>
             <HomePage />

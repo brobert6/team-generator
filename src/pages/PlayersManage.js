@@ -25,7 +25,7 @@ function PlayersManagePage() {
       color: "teal",
       autoClose: 4000,
     });
-    history.replace(`/${params.team}/profile`);
+    history.replace(`/${params.team}-profile`);
   }
 
   const addPlayerHandler = (playerName) => {
