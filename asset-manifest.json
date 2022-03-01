@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/team-generator/static/css/main.2878bf9c.chunk.css",
-    "main.js": "/team-generator/static/js/main.86370b9c.chunk.js",
-    "main.js.map": "/team-generator/static/js/main.86370b9c.chunk.js.map",
+    "main.js": "/team-generator/static/js/main.f10799fe.chunk.js",
+    "main.js.map": "/team-generator/static/js/main.f10799fe.chunk.js.map",
     "runtime-main.js": "/team-generator/static/js/runtime-main.9754dbdf.js",
     "runtime-main.js.map": "/team-generator/static/js/runtime-main.9754dbdf.js.map",
     "static/css/2.6c0f60ba.chunk.css": "/team-generator/static/css/2.6c0f60ba.chunk.css",
@@ -18,6 +18,6 @@
     "static/css/2.6c0f60ba.chunk.css",
     "static/js/2.e6df27cf.chunk.js",
     "static/css/main.2878bf9c.chunk.css",
-    "static/js/main.86370b9c.chunk.js"
+    "static/js/main.f10799fe.chunk.js"
   ]
 }
