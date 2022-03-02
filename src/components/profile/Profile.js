@@ -1,31 +1,32 @@
 import { Group, Avatar, Text, Select, CheckboxIcon } from "@mantine/core";
 import { useNotifications } from "@mantine/notifications";
 import { forwardRef, Fragment, useContext } from "react";
-import { useHistory } from "react-router-dom/cjs/react-router-dom.min";
 import PlayersContext from "../../store/player-context";
 import EditPlayerForm from "./EditPlayerForm";
-import { useParams } from "react-router-dom";
+import { useParams, useHistory } from "react-router-dom";
 import { getApiUrl } from "../../general/helpers";
 
 const Profile = () => {
   const playersCtx = useContext(PlayersContext);
   const notifications = useNotifications();
   const params = useParams();
+  const history = useHistory();
 
   const playerId = playersCtx.profileId;
 
-  const history = useHistory();
   if (playersCtx.players === null || playersCtx.players.length === 0)
     history.replace(`/${params.team}/`);
 
-  const selectData = playersCtx.players.map((player) => {
-    return {
-      id: player.id,
-      image: player.imgSrc,
-      label: player.name,
-      value: player.id,
-    };
-  });
+  const selectData = playersCtx.players
+    .map((player) => {
+      return {
+        id: player.id,
+        image: player.imgSrc,
+        label: player.name,
+        value: player.id,
+      };
+    })
+    .sort((a, b) => (a.label > b.label ? 1 : b.label > a.label ? -1 : 0));
 
   const SelectItem = forwardRef(({ id, image, label, ...others }, ref) => (
     <div ref={ref} {...others}>
@@ -100,6 +101,8 @@ const Profile = () => {
         icon: <CheckboxIcon />,
         autoClose: 2000,
       });
+
+      history.push(`/${params.team}-manage`);
     });
   };
 

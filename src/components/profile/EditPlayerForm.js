@@ -30,6 +30,18 @@ const ICONS_LIST = [
   "https://img.icons8.com/clouds/2x/frida-kahlo.png",
   "https://img.icons8.com/clouds/2x/fraud.png",
   "https://img.icons8.com/clouds/2x/comedy.png",
+  "https://img.icons8.com/clouds/2x/cocktail.png",
+  "https://img.icons8.com/clouds/2x/coconut-cocktail.png",
+  "https://img.icons8.com/clouds/2x/moonshine-jug.png",
+  "https://img.icons8.com/clouds/2x/the-toast.png",
+  "https://img.icons8.com/clouds/2x/bar.png",
+  "https://img.icons8.com/clouds/2x/mate.png",
+  "https://img.icons8.com/clouds/2x/beer.png",
+  "https://img.icons8.com/clouds/2x/milk-bottle--v1.png",
+  "https://img.icons8.com/clouds/2x/milkshake.png",
+  "https://img.icons8.com/clouds/2x/tea-cup.png",
+  "https://img.icons8.com/clouds/2x/drink-time.png",
+  "https://img.icons8.com/clouds/2x/energy-drink.png",
 ];
 
 const EditPlayerForm = (props) => {

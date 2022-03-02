@@ -10,7 +10,7 @@ const HomePage = () => {
           brobert6@gmail.com
         </a>
         ) to set up your teams
-        <Anchor component={Link} to="/test">
+        <Anchor component={Link} to="/waldorf">
           .
         </Anchor>
         <Anchor component={Link} to="/scoala18">

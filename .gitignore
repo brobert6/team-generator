@@ -1,2 +1,8 @@
 node_modules
 build
+build/asset-manifest.json
+build/index.html
+build/static/js/2.e6df27cf.chunk.js
+build/static/js/2.e6df27cf.chunk.js.LICENSE.txt
+build/static/js/2.e6df27cf.chunk.js.map
+.firebase/hosting.YnVpbGQ.cache
