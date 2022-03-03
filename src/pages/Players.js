@@ -15,7 +15,6 @@ function PlayersPage() {
   const [error, setError] = useState(null);
 
   const fetchPlayersHandler = useCallback(async () => {
-    console.log(params);
     console.log(`fetching data for ${params.team} ...`);
     setIsLoading(true);
     setError(null);
@@ -28,13 +27,21 @@ function PlayersPage() {
 
       const data = await response.json();
 
+      const playerWins = data.wins === undefined ? [] : data.wins;
+
       const playersData = [];
       for (const key in data) {
-        const playedData = {
+        //add wins
+        const nrWins = Object.values(playerWins).filter(
+          (x) => x.indexOf(key) >= 0
+        ).length;
+
+        const playerData = {
           id: key,
+          wins: nrWins,
           ...data[key],
         };
-        playersData.push(playedData);
+        if (playerData.name !== undefined) playersData.push(playerData);
       }
 
       //calculate player scores
@@ -67,7 +74,14 @@ function PlayersPage() {
       playersCtx.loadPlayers(
         playersData.sort(
           (b, a) =>
-            a.attack + a.defense + a.stamina - b.attack - b.defense - b.stamina
+            a.attack +
+            a.defense +
+            a.stamina +
+            a.wins -
+            b.attack -
+            b.defense -
+            b.stamina -
+            b.wins
         )
       );
 
@@ -108,6 +122,7 @@ function PlayersPage() {
       <PlayerList
         players={playersCtx.players}
         selectedPlayers={playersCtx.selectedPlayers}
+        team={params.team}
       />
     </section>
   );
