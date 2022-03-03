@@ -12,6 +12,7 @@ const PlayerItem = (props) => {
   const attack = Number.isNaN(props.attack) ? 0 : props.attack;
   const defense = Number.isNaN(props.defense) ? 0 : props.defense;
   const stamina = Number.isNaN(props.stamina) ? 0 : props.stamina;
+  const wins = Number.isNaN(props.wins) ? 0 : props.wins;
 
   function toggleSelectedPlayerHandler() {
     if (playerIsSelected) {
@@ -24,6 +25,7 @@ const PlayerItem = (props) => {
         attack: attack,
         defense: defense,
         stamina: stamina,
+        wins: wins,
       });
     }
   }
@@ -53,7 +55,7 @@ const PlayerItem = (props) => {
           noWrap
           style={{ height: "25px", gap: "0px", marginLeft: "-10px" }}
         >
-          <Avatar src={props.imgSrc} radius="xl" size="lg" />
+          <Avatar src={props.imgSrc} radius="xl" size="lg" title={props.wins} />
           <div style={{ flex: 1, width: "100%" }}>
             <Text size="sm" weight={500} style={{ float: "left" }}>
               {props.name}

@@ -57,6 +57,9 @@ function getCombinationItem(allPlayers, combPlayers, r) {
     staminaA: teamA.reduce(function (previousValue, currentValue) {
       return previousValue + currentValue.stamina;
     }, 0),
+    winsA: teamA.reduce(function (previousValue, currentValue) {
+      return previousValue + currentValue.wins;
+    }, 0),
 
     teamBIds: teamB.map((player) => {
       return player.id;
@@ -69,6 +72,9 @@ function getCombinationItem(allPlayers, combPlayers, r) {
     }, 0),
     staminaB: teamB.reduce(function (previousValue, currentValue) {
       return previousValue + currentValue.stamina;
+    }, 0),
+    winsB: teamB.reduce(function (previousValue, currentValue) {
+      return previousValue + currentValue.wins;
     }, 0),
   };
 }

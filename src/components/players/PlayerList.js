@@ -1,18 +1,25 @@
 import {
   ActionIcon,
+  Avatar,
   Badge,
   Box,
+  Button,
   Card,
+  Checkbox,
+  CheckboxIcon,
   Divider,
   Grid,
   Group,
+  Image,
+  Modal,
   Text,
+  Tooltip,
   useMantineTheme,
 } from "@mantine/core";
 import { useEffect } from "react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import { Fragment, useState } from "react";
-import { getCombinations } from "../../general/helpers";
+import { getApiUrl, getCombinations } from "../../general/helpers";
 import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
@@ -20,11 +27,15 @@ import {
 
 import PlayerItem from "./PlayerItem";
 import classes from "./PlayerList.module.css";
+import { useNotifications } from "@mantine/notifications";
 
 const PlayerList = (props) => {
   const theme = useMantineTheme();
   const [matchNumber, setMatchNumber] = useState(1);
   const [bestMatchups, setBestMatchups] = useState([]);
+  const [teamWon, setTeamWon] = useState(null);
+  const [skippedPlayerIds, setSkippedPlayerIds] = useState([]);
+  const notifications = useNotifications();
 
   const allPlayers = props.players;
 
@@ -32,6 +43,7 @@ const PlayerList = (props) => {
     let n = props.selectedPlayers.length;
     let r = Math.floor(n / 2);
     let teamCombinations = [];
+    debugger;
     getCombinations(props.selectedPlayers, n, r, teamCombinations);
 
     let sortedTeamCombinations = teamCombinations.map((team) => ({
@@ -39,10 +51,12 @@ const PlayerList = (props) => {
       difference: Math.abs(
         team.attackA +
           team.defenseA +
-          team.staminaA -
+          team.staminaA +
+          team.winsA -
           team.attackB -
           team.defenseB -
-          team.staminaB
+          team.staminaB -
+          team.winsA
       ),
     }));
     sortedTeamCombinations = sortedTeamCombinations
@@ -56,9 +70,15 @@ const PlayerList = (props) => {
   let matchTeam = bestMatchups[matchNumber - 1];
   if (matchTeam !== undefined) {
     matchTeam.teamAtotalScore =
-      matchTeam.attackA + matchTeam.defenseA + matchTeam.staminaA;
+      matchTeam.attackA +
+      matchTeam.defenseA +
+      matchTeam.staminaA +
+      matchTeam.winsA;
     matchTeam.teamBtotalScore =
-      matchTeam.attackB + matchTeam.defenseB + matchTeam.staminaB;
+      matchTeam.attackB +
+      matchTeam.defenseB +
+      matchTeam.staminaB +
+      matchTeam.winsB;
   }
 
   let teamA = [];
@@ -86,6 +106,10 @@ const PlayerList = (props) => {
       bestMatchups[matchNumber - 1].staminaA /
         bestMatchups[matchNumber - 1].teamAIds.length
     );
+    teamA.wins = Math.floor(
+      bestMatchups[matchNumber - 1].winsA /
+        bestMatchups[matchNumber - 1].teamAIds.length
+    );
 
     teamB.attack = Math.floor(
       bestMatchups[matchNumber - 1].attackB /
@@ -99,6 +123,10 @@ const PlayerList = (props) => {
       bestMatchups[matchNumber - 1].staminaB /
         bestMatchups[matchNumber - 1].teamBIds.length
     );
+    teamB.wins = Math.floor(
+      bestMatchups[matchNumber - 1].winsB /
+        bestMatchups[matchNumber - 1].teamBIds.length
+    );
   }
 
   const onNextHandler = () => {
@@ -107,6 +135,50 @@ const PlayerList = (props) => {
 
   const onPrevHandler = () => {
     setMatchNumber(matchNumber - 1);
+  };
+
+  const wonTeamMemberChanged = (playerId, checked) => {
+    setSkippedPlayerIds((prevIds) => {
+      if (checked) return prevIds.filter((p) => p !== playerId);
+      else return [...prevIds, playerId];
+    });
+  };
+
+  const isPlayerSkipped = (playerId) => {
+    return skippedPlayerIds.indexOf(playerId) >= 0;
+  };
+
+  const teamWonSubmitHandler = (event) => {
+    event.preventDefault();
+    const winnerPlayerIds = (teamWon === "A" ? teamA : teamB)
+      .map((player) => {
+        return player.id;
+      })
+      .filter((p) => skippedPlayerIds.indexOf(p) === -1);
+
+    setTeamWon(null);
+
+    fetch(
+      getApiUrl(props.team).replace(".json", "") +
+        "/wins/" +
+        new Date().toISOString().slice(0, 10) +
+        ".json",
+      {
+        method: "PUT",
+        body: JSON.stringify(winnerPlayerIds),
+        headers: {
+          "Content-Type": "application/json",
+        },
+      }
+    ).then(() => {
+      notifications.showNotification({
+        title: "Game registered",
+        message: "Data was saved/overwritten",
+        color: "teal",
+        icon: <CheckboxIcon />,
+        autoClose: 2000,
+      });
+    });
   };
 
   const getMatchPercentage = () => {
@@ -131,6 +203,7 @@ const PlayerList = (props) => {
             attack={player.attack}
             defense={player.defense}
             stamina={player.stamina}
+            wins={player.wins}
             imgSrc={player.imgSrc}
             activeClass="info"
           />
@@ -183,6 +256,21 @@ const PlayerList = (props) => {
                 style={{ marginBottom: 5, marginTop: theme.spacing.sm }}
               >
                 <div style={{ width: "100%" }}>
+                  <Tooltip label="Team won the match!" withArrow color="green">
+                    <ActionIcon
+                      onClick={() => {
+                        setTeamWon("A");
+                      }}
+                    >
+                      <Avatar
+                        src="https://img.icons8.com/color/72/man-winner.png"
+                        radius="xl"
+                        size="md"
+                        style={{ float: "left" }}
+                      />
+                    </ActionIcon>
+                  </Tooltip>
+
                   <Badge
                     variant="filled"
                     style={{
@@ -248,6 +336,7 @@ const PlayerList = (props) => {
                       attack={player.attack}
                       defense={player.defense}
                       stamina={player.stamina}
+                      wins={player.wins}
                       imgSrc={player.imgSrc}
                       hideCheckbox={true}
                       activeClass="teama"
@@ -263,57 +352,82 @@ const PlayerList = (props) => {
                 position="apart"
                 style={{ marginBottom: 5, marginTop: theme.spacing.sm }}
               >
-                <Badge
-                  color="yellow"
-                  variant="filled"
-                  size="lg"
-                  style={{
-                    backgroundColor: "#f7e5b0",
-                    padding: "18px 6px 18px 7px",
-                  }}
-                >
-                  <Text
-                    size="md"
-                    weight={700}
-                    style={{ float: "left" }}
-                    color="black"
+                <div style={{ width: "100%" }}>
+                  <Badge
+                    color="yellow"
+                    variant="filled"
+                    size="lg"
+                    style={{
+                      backgroundColor: "#f7e5b0",
+                      padding: "18px 6px 18px 7px",
+                      float: "left",
+                    }}
                   >
-                    Team B <small>({matchTeam.teamBtotalScore})</small>
-                  </Text>
-                  <div className={classes.divcircle}>
-                    <CircularProgressbar
-                      value={teamB.stamina}
-                      text={`${teamB.stamina}`}
-                      styles={buildStyles({
-                        pathColor: `rgba(34, 139, 230, ${teamB.stamina / 100})`,
-                        textColor: "#228be6",
-                        textSize: "40px",
-                      })}
-                    />
-                  </div>
-                  <div className={classes.divcircle}>
-                    <CircularProgressbar
-                      value={teamB.defense}
-                      text={`${teamB.defense}`}
-                      styles={buildStyles({
-                        pathColor: `rgba(64, 192, 87, ${teamB.defense / 100})`,
-                        textColor: "#40c057",
-                        textSize: "40px",
-                      })}
-                    />
-                  </div>
-                  <div className={classes.divcircle}>
-                    <CircularProgressbar
-                      value={teamB.attack}
-                      text={`${teamB.attack}`}
-                      styles={buildStyles({
-                        pathColor: `rgba(250, 82, 82, ${teamB.attack / 100})`,
-                        textColor: "#fa5252",
-                        textSize: "40px",
-                      })}
-                    />
-                  </div>
-                </Badge>
+                    <Text
+                      size="md"
+                      weight={700}
+                      style={{ float: "left" }}
+                      color="black"
+                    >
+                      Team B <small>({matchTeam.teamBtotalScore})</small>
+                    </Text>
+                    <div className={classes.divcircle}>
+                      <CircularProgressbar
+                        value={teamB.stamina}
+                        text={`${teamB.stamina}`}
+                        styles={buildStyles({
+                          pathColor: `rgba(34, 139, 230, ${
+                            teamB.stamina / 100
+                          })`,
+                          textColor: "#228be6",
+                          textSize: "40px",
+                        })}
+                      />
+                    </div>
+                    <div className={classes.divcircle}>
+                      <CircularProgressbar
+                        value={teamB.defense}
+                        text={`${teamB.defense}`}
+                        styles={buildStyles({
+                          pathColor: `rgba(64, 192, 87, ${
+                            teamB.defense / 100
+                          })`,
+                          textColor: "#40c057",
+                          textSize: "40px",
+                        })}
+                      />
+                    </div>
+                    <div className={classes.divcircle}>
+                      <CircularProgressbar
+                        value={teamB.attack}
+                        text={`${teamB.attack}`}
+                        styles={buildStyles({
+                          pathColor: `rgba(250, 82, 82, ${teamB.attack / 100})`,
+                          textColor: "#fa5252",
+                          textSize: "40px",
+                        })}
+                      />
+                    </div>
+                  </Badge>
+
+                  <Tooltip
+                    label="Team won the match!"
+                    withArrow
+                    color="green"
+                    style={{ float: "right" }}
+                  >
+                    <ActionIcon
+                      onClick={() => {
+                        setTeamWon("B");
+                      }}
+                    >
+                      <Avatar
+                        src="https://img.icons8.com/color/72/man-winner.png"
+                        size="md"
+                      />
+                    </ActionIcon>
+                  </Tooltip>
+                </div>
 
                 <ul className={classes.list}>
                   {teamB.map((player) => (
@@ -324,6 +438,7 @@ const PlayerList = (props) => {
                       attack={player.attack}
                       defense={player.defense}
                       stamina={player.stamina}
+                      wins={player.wins}
                       imgSrc={player.imgSrc}
                       hideCheckbox={true}
                       activeClass="teamb"
@@ -335,6 +450,64 @@ const PlayerList = (props) => {
           </Grid.Col>
         </Grid>
       )}
+
+      <Modal
+        opened={teamWon !== null}
+        onClose={() => setTeamWon(null)}
+        title="Match ended!"
+      >
+        <form className={classes.form} onSubmit={teamWonSubmitHandler}>
+          <Card shadow="sm" padding="lg">
+            <Card.Section>
+              <Image
+                src="https://ouch-cdn2.icons8.com/qy3WJCdPzSnwErRPWIiz0bIcJxJ3V5OWyCLRKAUazmc/rs:fit:512:512/czM6Ly9pY29uczgu/b3VjaC1wcm9kLmFz/c2V0cy9zdmcvNDM2/L2Y1ZjA1ZGVkLTE4/OWYtNDIyZi1iNjc1/LWJhMjM0YTE3YWYz/NC5zdmc.png"
+                height={200}
+                fit="contain"
+                alt="Winner"
+              />
+            </Card.Section>
+
+            <Group
+              position="apart"
+              style={{ marginBottom: 5, marginTop: theme.spacing.sm }}
+            >
+              <Text weight={500}>Team {teamWon} won the match.</Text>
+            </Group>
+
+            <Text size="sm" style={{ lineHeight: 1.5 }}>
+              By confirming you will register a win for these players that will
+              slightly increase their overall score!
+            </Text>
+
+            <ul className={classes.list}>
+              {(teamWon === "A" ? teamA : teamB).map((player) => (
+                <li key={player.id}>
+                  <Checkbox
+                    key={player.id}
+                    value={player.id}
+                    label={player.name}
+                    checked={!isPlayerSkipped(player.id)}
+                    onChange={(event) => {
+                      wonTeamMemberChanged(
+                        player.id,
+                        event.currentTarget.checked
+                      );
+                    }}
+                    tabIndex={-1}
+                    style={{ padding: "5px 0 0 0" }}
+                  />
+                </li>
+              ))}
+            </ul>
+
+            <div className={classes.actions}>
+              <Button type="submit" color="indigo" ml={10}>
+                Save
+              </Button>
+            </div>
+          </Card>
+        </form>
+      </Modal>
     </Fragment>
   );
 };
