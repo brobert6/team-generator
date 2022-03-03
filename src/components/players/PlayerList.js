@@ -24,6 +24,10 @@ import {
   BsFillArrowLeftCircleFill,
   BsFillArrowRightCircleFill,
 } from "react-icons/bs";
+import {
+  HiOutlineChevronDoubleDown,
+  HiOutlineChevronDoubleUp,
+} from "react-icons/hi";
 
 import PlayerItem from "./PlayerItem";
 import classes from "./PlayerList.module.css";
@@ -155,7 +159,12 @@ const PlayerList = (props) => {
         return player.id;
       })
       .filter((p) => skippedPlayerIds.indexOf(p) === -1);
-
+    const loserPlayerIds = (teamWon !== "A" ? teamA : teamB)
+      .map((player) => {
+        return player.id;
+      })
+      .filter((p) => skippedPlayerIds.indexOf(p) === -1);
+    debugger;
     setTeamWon(null);
 
     fetch(
@@ -171,12 +180,26 @@ const PlayerList = (props) => {
         },
       }
     ).then(() => {
-      notifications.showNotification({
-        title: "Game registered",
-        message: "Data was saved/overwritten",
-        color: "teal",
-        icon: <CheckboxIcon />,
-        autoClose: 2000,
+      fetch(
+        getApiUrl(props.team).replace(".json", "") +
+          "/losses/" +
+          new Date().toISOString().slice(0, 10) +
+          ".json",
+        {
+          method: "PUT",
+          body: JSON.stringify(loserPlayerIds),
+          headers: {
+            "Content-Type": "application/json",
+          },
+        }
+      ).then(() => {
+        notifications.showNotification({
+          title: "Game registered",
+          message: "Data was saved/overwritten",
+          color: "teal",
+          icon: <CheckboxIcon />,
+          autoClose: 4000,
+        });
       });
     });
   };
@@ -475,30 +498,69 @@ const PlayerList = (props) => {
             </Group>
 
             <Text size="sm" style={{ lineHeight: 1.5 }}>
-              By confirming you will register a win for these players that will
-              slightly increase their overall score!
+              By confirming you will register the result for these players that
+              will slightly adjust their overall score!
             </Text>
-
-            <ul className={classes.list}>
-              {(teamWon === "A" ? teamA : teamB).map((player) => (
-                <li key={player.id}>
-                  <Checkbox
-                    key={player.id}
-                    value={player.id}
-                    label={player.name}
-                    checked={!isPlayerSkipped(player.id)}
-                    onChange={(event) => {
-                      wonTeamMemberChanged(
-                        player.id,
-                        event.currentTarget.checked
-                      );
-                    }}
-                    tabIndex={-1}
-                    style={{ padding: "5px 0 0 0" }}
-                  />
-                </li>
-              ))}
-            </ul>
+            <Divider
+              variant="dashed"
+              label="Update scores"
+              labelPosition="center"
+              style={{ padding: "10px 0" }}
+            />
+            <div className={classes.row}>
+              <div className={classes.col6}>
+                <Text weight={500}>
+                  Winners <HiOutlineChevronDoubleUp color="green" />
+                </Text>
+                <ul className={classes.list}>
+                  {(teamWon === "A" ? teamA : teamB).map((player) => (
+                    <li key={player.id}>
+                      <Checkbox
+                        key={player.id}
+                        value={player.id}
+                        label={player.name}
+                        checked={!isPlayerSkipped(player.id)}
+                        onChange={(event) => {
+                          wonTeamMemberChanged(
+                            player.id,
+                            event.currentTarget.checked
+                          );
+                        }}
+                        tabIndex={-1}
+                        color="green"
+                        style={{ padding: "5px 0 0 0" }}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+              <div className={classes.col6}>
+                <Text weight={500}>
+                  Loosers <HiOutlineChevronDoubleDown color="red" />
+                </Text>
+                <ul className={classes.list}>
+                  {(teamWon !== "A" ? teamA : teamB).map((player) => (
+                    <li key={player.id}>
+                      <Checkbox
+                        key={player.id}
+                        value={player.id}
+                        label={player.name}
+                        checked={!isPlayerSkipped(player.id)}
+                        onChange={(event) => {
+                          wonTeamMemberChanged(
+                            player.id,
+                            event.currentTarget.checked
+                          );
+                        }}
+                        tabIndex={-1}
+                        color="red"
+                        style={{ padding: "5px 0 0 0" }}
+                      />
+                    </li>
+                  ))}
+                </ul>
+              </div>
+            </div>
 
             <div className={classes.actions}>
               <Button type="submit" color="indigo" ml={10}>

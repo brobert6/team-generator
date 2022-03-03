@@ -2,8 +2,8 @@ import { useCallback, useContext, useEffect, useState } from "react";
 import PlayerList from "../components/players/PlayerList";
 import PlayersContext from "../store/player-context";
 import { getApiUrl, getPlayerScore } from "../general/helpers";
-//import { useHistory } from "react-router-dom";
 import { useParams } from "react-router-dom";
+import { WINS_MULTIPLIER } from "../config";
 
 //const players = require("../components/players.json");
 
@@ -28,17 +28,21 @@ function PlayersPage() {
       const data = await response.json();
 
       const playerWins = data.wins === undefined ? [] : data.wins;
+      const playerLosses = data.losses === undefined ? [] : data.losses;
 
       const playersData = [];
       for (const key in data) {
-        //add wins
+        //add wins and losses
         const nrWins = Object.values(playerWins).filter(
+          (x) => x.indexOf(key) >= 0
+        ).length;
+        const nrLosses = Object.values(playerLosses).filter(
           (x) => x.indexOf(key) >= 0
         ).length;
 
         const playerData = {
           id: key,
-          wins: nrWins,
+          wins: (nrWins - nrLosses) * WINS_MULTIPLIER,
           ...data[key],
         };
         if (playerData.name !== undefined) playersData.push(playerData);
