@@ -47,7 +47,7 @@ const PlayerList = (props) => {
     let n = props.selectedPlayers.length;
     let r = Math.floor(n / 2);
     let teamCombinations = [];
-    debugger;
+
     getCombinations(props.selectedPlayers, n, r, teamCombinations);
 
     let sortedTeamCombinations = teamCombinations.map((team) => ({
@@ -164,7 +164,7 @@ const PlayerList = (props) => {
         return player.id;
       })
       .filter((p) => skippedPlayerIds.indexOf(p) === -1);
-    debugger;
+
     setTeamWon(null);
 
     fetch(

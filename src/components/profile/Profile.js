@@ -42,6 +42,21 @@ const Profile = () => {
 
   const onProfileIdChanged = (value) => {
     if (value !== null) {
+      debugger;
+      //save prev scores to context:players
+      const prevPlayer = playersCtx.players.find(
+        (x) => x.id === playersCtx.profileId
+      );
+      const updatedPrevPlayer = {
+        ...prevPlayer,
+        playerScores: playersCtx.profilePlayerScores,
+      };
+      const allPlayersUpdated = [
+        ...playersCtx.players.filter((p) => p.id !== playersCtx.profileId),
+        updatedPrevPlayer,
+      ];
+      playersCtx.loadPlayers(allPlayersUpdated);
+
       playersCtx.updateProfileId(value);
       localStorage.setItem("PlayerId", value);
 
@@ -49,18 +64,11 @@ const Profile = () => {
       playersCtx.updateProfileName(currentPlayer.name);
       playersCtx.updateProfileImgSrc(currentPlayer.imgSrc);
 
-      //save prev scores to context:players
-      const updatedPlayer = {
-        ...currentPlayer,
-        playerScores: playersCtx.playerScores,
-      };
-      const allPlayersUpdated = [
-        ...playersCtx.players.filter((p) => p.id !== value),
-        updatedPlayer,
-      ];
-      playersCtx.loadPlayers(allPlayersUpdated);
-
       //load new scores
+      console.log(
+        value,
+        playersCtx.players.find((p) => p.id === value).playerScores
+      );
       playersCtx.loadProfilePlayerScores(
         playersCtx.players.find((p) => p.id === value).playerScores
       );
