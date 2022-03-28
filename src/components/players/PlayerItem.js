@@ -15,6 +15,8 @@ const PlayerItem = (props) => {
   const stamina = Number.isNaN(props.stamina) ? 0 : props.stamina;
   const wins = Number.isNaN(props.wins) ? 0 : props.wins;
 
+  const winsMultiplier = WINS_MULTIPLIER;
+
   function toggleSelectedPlayerHandler() {
     if (playerIsSelected) {
       playersCxt.removeSelectedPlayer(props.id);
@@ -57,7 +59,7 @@ const PlayerItem = (props) => {
           style={{ height: "25px", gap: "0px", marginLeft: "-10px" }}
         >
           <Tooltip
-            label={props.wins / WINS_MULTIPLIER}
+            label={props.wins / winsMultiplier}
             color={props.wins >= 0 ? "green" : "red"}
           >
             <Avatar src={props.imgSrc} radius="xl" size="lg" />

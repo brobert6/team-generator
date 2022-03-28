@@ -13,6 +13,7 @@ function PlayersPage() {
 
   const [isLoading, setIsLoading] = useState(true);
   const [error, setError] = useState(null);
+  const winsMultiplier = WINS_MULTIPLIER;
 
   const fetchPlayersHandler = useCallback(async () => {
     console.log(`fetching data for ${params.team} ...`);
@@ -41,9 +42,8 @@ function PlayersPage() {
         ).length;
 
         const playerData = {
-          id: key,
-          wins: (nrWins - nrLosses) * WINS_MULTIPLIER,
           ...data[key],
+          wins: (nrWins - nrLosses) * winsMultiplier,
         };
         if (playerData.name !== undefined) playersData.push(playerData);
       }
