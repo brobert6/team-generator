@@ -26,3 +26,7 @@
   margin-top: 1rem;
   text-align: right;
 }
+.incorrect{
+  opacity: 0.2;
+  background-color: red;
+}

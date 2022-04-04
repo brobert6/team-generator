@@ -259,7 +259,14 @@ const PlayerList = (props) => {
                   color={matchNumber === 1 ? "#ced4da" : "#228be6"}
                 />
               </ActionIcon>
-              #{matchNumber} Best matchup {getMatchPercentage()}%
+              {teamA.length === teamB.length ? (
+                <span>
+                  #{matchNumber} Best matchup {getMatchPercentage()}%
+                </span>
+              ) : (
+                <span>{`${teamA.length} vs ${teamB.length} team setup!`}</span>
+              )}
+
               <ActionIcon
                 onClick={onNextHandler}
                 disabled={matchNumber >= 5}
@@ -273,7 +280,12 @@ const PlayerList = (props) => {
             </Box>
           </Grid.Col>
           <Grid.Col md={6}>
-            <Card shadow="sm" padding="lg" style={{ paddingTop: 0 }}>
+            <Card
+              shadow="sm"
+              padding="lg"
+              style={{ paddingTop: 0 }}
+              className={teamA.length !== teamB.length ? classes.incorrect : ""}
+            >
               <Group
                 position="apart"
                 style={{ marginBottom: 5, marginTop: theme.spacing.sm }}
@@ -370,7 +382,12 @@ const PlayerList = (props) => {
             </Card>
           </Grid.Col>
           <Grid.Col md={6}>
-            <Card shadow="sm" padding="lg" style={{ paddingTop: 0 }}>
+            <Card
+              shadow="sm"
+              padding="lg"
+              style={{ paddingTop: 0 }}
+              className={teamA.length !== teamB.length ? classes.incorrect : ""}
+            >
               <Group
                 position="apart"
                 style={{ marginBottom: 5, marginTop: theme.spacing.sm }}

@@ -18,6 +18,7 @@ const PlayerItem = (props) => {
   const winsMultiplier = WINS_MULTIPLIER;
 
   function toggleSelectedPlayerHandler() {
+    if (props.hideCheckbox) return;
     if (playerIsSelected) {
       playersCxt.removeSelectedPlayer(props.id);
     } else {
@@ -50,7 +51,11 @@ const PlayerItem = (props) => {
         shadow="sm"
         bg={playerIsSelected ? props.activeClass : "light"}
         text={playerIsSelected ? props.activeClass : "light"}
-        style={{ width: "100%", marginBottom: "10px", cursor: "pointer" }}
+        style={{
+          width: "100%",
+          marginBottom: "10px",
+          cursor: props.hideCheckbox ? "default" : "pointer",
+        }}
         className="mb-1"
         padding="sm"
       >
