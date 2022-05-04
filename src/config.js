@@ -1,4 +1,4 @@
 const API_URL = "https://udemy-ng-http-5d0d5.firebaseio.com/players.json";
-const WINS_MULTIPLIER = 10;
+const WINS_MULTIPLIER = 5;
 
 export { API_URL, WINS_MULTIPLIER };
