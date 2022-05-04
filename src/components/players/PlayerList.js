@@ -178,12 +178,12 @@ const PlayerList = (props) => {
 
   const teamWonSubmitHandler = (event) => {
     event.preventDefault();
-    const winnerPlayerIds = (teamWon === "A" ? teamA : teamB)
+    const winnerPlayerIds = teamWinner
       .map((player) => {
         return player.id;
       })
       .filter((p) => skippedPlayerIds.indexOf(p) === -1);
-    const loserPlayerIds = (teamWon !== "A" ? teamA : teamB)
+    const loserPlayerIds = teamLooser
       .map((player) => {
         return player.id;
       })
