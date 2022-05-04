@@ -40,6 +40,8 @@ const PlayerList = (props) => {
   const [teamWon, setTeamWon] = useState(null);
   const [skippedPlayerIds, setSkippedPlayerIds] = useState([]);
   const notifications = useNotifications();
+  const [teamWinner, setTeamWinner] = useState([]);
+  const [teamLooser, setTeamLooser] = useState([]);
 
   const allPlayers = props.players;
 
@@ -60,7 +62,7 @@ const PlayerList = (props) => {
           team.attackB -
           team.defenseB -
           team.staminaB -
-          team.winsA
+          team.winsB
       ),
     }));
     sortedTeamCombinations = sortedTeamCombinations
@@ -148,6 +150,28 @@ const PlayerList = (props) => {
     });
   };
 
+  const updateTeamWon = (winnerTeam) => {
+    setTeamWinner(winnerTeam === "A" ? teamA : teamB);
+    setTeamLooser(winnerTeam === "B" ? teamA : teamB);
+    setTeamWon(winnerTeam);
+  };
+
+  const moveMatchEndedPlayer = (playerId, won) => {
+    if (won) {
+      const playerToMove = teamWinner.find((p) => p.id === playerId);
+      setTeamWinner(teamWinner.filter((p) => p.id !== playerId));
+      let tmp = teamLooser;
+      tmp.push(playerToMove);
+      setTeamLooser(tmp);
+    } else {
+      const playerToMove = teamLooser.find((p) => p.id === playerId);
+      setTeamLooser(teamLooser.filter((p) => p.id !== playerId));
+      let tmp = teamWinner;
+      tmp.push(playerToMove);
+      setTeamWinner(tmp);
+    }
+  };
+
   const isPlayerSkipped = (playerId) => {
     return skippedPlayerIds.indexOf(playerId) >= 0;
   };
@@ -165,7 +189,7 @@ const PlayerList = (props) => {
       })
       .filter((p) => skippedPlayerIds.indexOf(p) === -1);
 
-    setTeamWon(null);
+    updateTeamWon(null);
 
     fetch(
       getApiUrl(props.team).replace(".json", "") +
@@ -294,7 +318,7 @@ const PlayerList = (props) => {
                   <Tooltip label="Team won the match!" withArrow color="green">
                     <ActionIcon
                       onClick={() => {
-                        setTeamWon("A");
+                        updateTeamWon("A");
                       }}
                     >
                       <Avatar
@@ -458,7 +482,7 @@ const PlayerList = (props) => {
                   >
                     <ActionIcon
                       onClick={() => {
-                        setTeamWon("B");
+                        updateTeamWon("B");
                       }}
                     >
                       <Avatar
@@ -493,7 +517,7 @@ const PlayerList = (props) => {
 
       <Modal
         opened={teamWon !== null}
-        onClose={() => setTeamWon(null)}
+        onClose={() => updateTeamWon(null)}
         title="Match ended!"
       >
         <form className={classes.form} onSubmit={teamWonSubmitHandler}>
@@ -530,8 +554,11 @@ const PlayerList = (props) => {
                   Winners <HiOutlineChevronDoubleUp color="green" />
                 </Text>
                 <ul className={classes.list}>
-                  {(teamWon === "A" ? teamA : teamB).map((player) => (
-                    <li key={player.id}>
+                  {teamWinner.map((player) => (
+                    <li
+                      key={player.id}
+                      style={{ display: "flex", flexDirection: "row" }}
+                    >
                       <Checkbox
                         key={player.id}
                         value={player.id}
@@ -547,6 +574,14 @@ const PlayerList = (props) => {
                         color="green"
                         style={{ padding: "5px 0 0 0" }}
                       />
+                      <ActionIcon
+                        onClick={() => {
+                          moveMatchEndedPlayer(player.id, true);
+                        }}
+                        style={{ marginLeft: "5px" }}
+                      >
+                        <BsFillArrowRightCircleFill size="15" color="#fa5252" />
+                      </ActionIcon>
                     </li>
                   ))}
                 </ul>
@@ -556,8 +591,11 @@ const PlayerList = (props) => {
                   Loosers <HiOutlineChevronDoubleDown color="red" />
                 </Text>
                 <ul className={classes.list}>
-                  {(teamWon !== "A" ? teamA : teamB).map((player) => (
-                    <li key={player.id}>
+                  {teamLooser.map((player) => (
+                    <li
+                      key={player.id}
+                      style={{ display: "flex", flexDirection: "row" }}
+                    >
                       <Checkbox
                         key={player.id}
                         value={player.id}
@@ -573,6 +611,14 @@ const PlayerList = (props) => {
                         color="red"
                         style={{ padding: "5px 0 0 0" }}
                       />
+                      <ActionIcon
+                        onClick={() => {
+                          moveMatchEndedPlayer(player.id, false);
+                        }}
+                        style={{ marginLeft: "5px" }}
+                      >
+                        <BsFillArrowLeftCircleFill size="15" color="#40c057" />
+                      </ActionIcon>
                     </li>
                   ))}
                 </ul>
