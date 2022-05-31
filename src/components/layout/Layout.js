@@ -34,7 +34,7 @@ const Layout = (props) => {
     <AppShell
       padding="md"
       header={
-        <Header height={70} padding="md" style={{ backgroundColor: "#e7e7e7" }}>
+        <Header height={70} p="md" style={{ backgroundColor: "#e7e7e7" }}>
           {/* Handle other responsive styles with MediaQuery component or createStyles function */}
           <div
             style={{
@@ -74,7 +74,7 @@ const Layout = (props) => {
       }
       navbar={
         <Navbar
-          padding="md"
+          p="md"
           // Breakpoint at which navbar will be hidden if hidden prop is true
           hiddenBreakpoint="sm"
           // Hides navbar when viewport size is less than value specified in hiddenBreakpoint

@@ -1,6 +1,6 @@
 import { useContext } from "react";
 import PlayersContext from "../../store/player-context";
-import { Checkbox, Group, Avatar, Text, Card, Tooltip } from "@mantine/core";
+import { Checkbox, Group, Avatar, Text, Card, Indicator } from "@mantine/core";
 import classes from "./PlayerItem.module.css";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import { WINS_MULTIPLIER } from "../../config";
@@ -63,12 +63,20 @@ const PlayerItem = (props) => {
           noWrap
           style={{ height: "25px", gap: "0px", marginLeft: "-10px" }}
         >
-          <Tooltip
+          <Indicator
+            inline
+            offset={7}
+            styles={{
+              root: { color: props.wins >= 0 ? "green" : "red" },
+              indicator: {
+                color: props.wins >= 0 ? "green" : "red",
+                fontWeight: 600,
+              },
+            }}
             label={props.wins / winsMultiplier}
-            color={props.wins >= 0 ? "green" : "red"}
           >
             <Avatar src={props.imgSrc} radius="xl" size="lg" />
-          </Tooltip>
+          </Indicator>
           <div style={{ flex: 1, width: "100%" }}>
             <Text size="sm" weight={500} style={{ float: "left" }}>
               {props.name}
