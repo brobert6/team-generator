@@ -15,6 +15,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { getApiUrl, getPlayerScore } from "../../general/helpers";
 import PlayersContext from "../../store/player-context";
+import LogRocket from 'logrocket';
 
 import classes from "./PlayerList.module.css";
 
@@ -117,6 +118,7 @@ const PlayerList = () => {
         },
       }
     ).then(() => {
+      LogRocket.log(`${playersCtx.profileName} updated some player score(s)`)
       notifications.showNotification({
         title: "Scores update",
         message: "Data was saved",

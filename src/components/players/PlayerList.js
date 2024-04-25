@@ -16,7 +16,7 @@ import {
   Tooltip,
   useMantineTheme,
 } from "@mantine/core";
-import { useEffect } from "react";
+import { useContext, useEffect } from "react";
 import { buildStyles, CircularProgressbar } from "react-circular-progressbar";
 import { Fragment, useState } from "react";
 import { getApiUrl, getCombinations } from "../../general/helpers";
@@ -32,6 +32,8 @@ import {
 import PlayerItem from "./PlayerItem";
 import classes from "./PlayerList.module.css";
 import { useNotifications } from "@mantine/notifications";
+import PlayersContext from "../../store/player-context";
+import LogRocket from 'logrocket';
 
 const PlayerList = (props) => {
   const theme = useMantineTheme();
@@ -42,6 +44,7 @@ const PlayerList = (props) => {
   const notifications = useNotifications();
   const [teamWinner, setTeamWinner] = useState([]);
   const [teamLooser, setTeamLooser] = useState([]);
+  const playersCtx = useContext(PlayersContext);
 
   const allPlayers = props.players;
 
@@ -71,7 +74,10 @@ const PlayerList = (props) => {
 
     setBestMatchups(sortedTeamCombinations);
     setMatchNumber(1);
-  }, [props.selectedPlayers]);
+    if(props.selectedPlayers && props.selectedPlayers.length === 12) {
+      LogRocket.log(`Generating teams... `)
+    }
+  }, [props.selectedPlayers]);  
 
   let matchTeam = bestMatchups[matchNumber - 1];
   if (matchTeam !== undefined) {
@@ -133,6 +139,10 @@ const PlayerList = (props) => {
       bestMatchups[matchNumber - 1].winsB /
         bestMatchups[matchNumber - 1].teamBIds.length
     );
+  }
+
+  if(props.selectedPlayers && props.selectedPlayers.length === 12 && teamA.length === 6 && teamB.length === 6) {
+    LogRocket.log(`${playersCtx.profileName} generated teams [${teamA.map(player => player.name).join(',')}] vs [${teamB.map(player => player.name).join(',')}]`)
   }
 
   const onNextHandler = () => {
