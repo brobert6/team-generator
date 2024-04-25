@@ -20,7 +20,7 @@ function App() {
             <HomePage />
           </Fragment>
         </Route>
-        <Route path="/:team(waldorf|scoala18)" exact>
+        <Route path="/:team(waldorf|scoala18|montran)" exact>
           <Layout>
             <PlayersPage />
           </Layout>

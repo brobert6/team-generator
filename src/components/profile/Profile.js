@@ -42,7 +42,6 @@ const Profile = () => {
 
   const onProfileIdChanged = (value) => {
     if (value !== null) {
-      debugger;
       //save prev scores to context:players
       const prevPlayer = playersCtx.players.find(
         (x) => x.id === playersCtx.profileId

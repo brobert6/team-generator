@@ -33,7 +33,7 @@ import PlayerItem from "./PlayerItem";
 import classes from "./PlayerList.module.css";
 import { useNotifications } from "@mantine/notifications";
 import PlayersContext from "../../store/player-context";
-import LogRocket from 'logrocket';
+import LogRocket from "logrocket";
 
 const PlayerList = (props) => {
   const theme = useMantineTheme();
@@ -69,15 +69,26 @@ const PlayerList = (props) => {
       ),
     }));
     sortedTeamCombinations = sortedTeamCombinations
-      .sort((a, b) => parseFloat(a.difference) - parseFloat(b.difference))
+      .sort((a, b) => {
+        const differenceComparison =
+          parseFloat(a.difference) - parseFloat(b.difference);
+        if (differenceComparison !== 0) {
+          return differenceComparison;
+        } else {
+          // If difference is the same, sort by teamAIds
+          const teamAIdsA = a.teamAIds.join(""); // Convert to string for comparison
+          const teamAIdsB = b.teamAIds.join(""); // Convert to string for comparison
+          return teamAIdsA.localeCompare(teamAIdsB);
+        }
+      })
       .slice(0, 5);
 
     setBestMatchups(sortedTeamCombinations);
     setMatchNumber(1);
-    if(props.selectedPlayers && props.selectedPlayers.length === 12) {
-      LogRocket.log(`Generating teams... `)
+    if (props.selectedPlayers && props.selectedPlayers.length === 12) {
+      LogRocket.log(`Generating teams... `);
     }
-  }, [props.selectedPlayers]);  
+  }, [props.selectedPlayers]);
 
   let matchTeam = bestMatchups[matchNumber - 1];
   if (matchTeam !== undefined) {
@@ -141,8 +152,17 @@ const PlayerList = (props) => {
     );
   }
 
-  if(props.selectedPlayers && props.selectedPlayers.length === 12 && teamA.length === 6 && teamB.length === 6) {
-    LogRocket.log(`${playersCtx.profileName} generated teams [${teamA.map(player => player.name).join(',')}] vs [${teamB.map(player => player.name).join(',')}]`)
+  if (
+    props.selectedPlayers &&
+    props.selectedPlayers.length === 12 &&
+    teamA.length === 6 &&
+    teamB.length === 6
+  ) {
+    LogRocket.log(
+      `${playersCtx.profileName} generated teams [${teamA
+        .map((player) => player.name)
+        .join(",")}] vs [${teamB.map((player) => player.name).join(",")}]`
+    );
   }
 
   const onNextHandler = () => {

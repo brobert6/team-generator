@@ -4,3 +4,17 @@ firebase deploy
 
 
 npm start
+
+node -v
+v16.8.1
+
+v20.. for firebase deploy
+
+if authentication fails firebase logout/login
+
+
+
+
+
+
+npm install --save --legacy-peer-deps react-circular-progressbar

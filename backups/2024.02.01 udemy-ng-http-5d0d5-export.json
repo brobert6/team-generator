@@ -1,0 +1,5415 @@
+{
+  "cart": {
+    "items": [
+      {
+        "id": "p1",
+        "name": "First book",
+        "price": 6,
+        "quantity": 3,
+        "totalPrice": 18
+      }
+    ],
+    "totalQuantity": 3
+  },
+  "chats": {
+    "-MygFxDEgAheYo7mkIN0": {
+      "message": "new message",
+      "userId": "Neh7osUuYCarV2G2HD46JmWyXLr1"
+    },
+    "-MygIR7Uz1Bu0gHr_n5j": {
+      "message": "fdasdasd",
+      "userId": "Neh7osUuYCarV2G2HD46JmWyXLr1"
+    },
+    "-MygIRazEfQTL_f5dXFd": {
+      "message": "asdasdas",
+      "userId": "Neh7osUuYCarV2G2HD46JmWyXLr1"
+    },
+    "id1": {
+      "message": "Hi"
+    },
+    "id2": {
+      "message": "Hello"
+    },
+    "id3": {
+      "message": "Who u are"
+    }
+  },
+  "coaches": {
+    "c3": {
+      "areas": [
+        "frontend",
+        "backend"
+      ],
+      "description": {
+        "isValid": true,
+        "val": "Full stack developer"
+      },
+      "firstName": "Robert",
+      "hourlyRate": 50,
+      "lastName": "Benyi",
+      "requests": {
+        "-N-mVH15OYe2UWCtQIxE": {
+          "coachId": "c3",
+          "date": "2022-04-16T13:12:44.610Z",
+          "message": "contacttt",
+          "userEmail": "timyke88@yahoo.com"
+        },
+        "-N-mVThWE1Tk_4irUFDp": {
+          "coachId": "c3",
+          "date": "2022-04-16T13:13:36.639Z",
+          "message": "invalid test",
+          "userEmail": "r.benyi@bungalow.eu"
+        }
+      }
+    }
+  },
+  "comments": {
+    "-MuQ1A1c8l1VCL486GUn": {
+      "-MuQJx6syyHCtUmlwYyj": {
+        "text": "Test 1 comment"
+      },
+      "-MuQKg5C2IpFGA6wttqi": {
+        "text": "Test 1 comment 2"
+      }
+    }
+  },
+  "data": {
+    "-LA84U6MYPG56Ci8brcs": [
+      {
+        "capacity": 10,
+        "id": 977,
+        "name": "Testserver"
+      },
+      {
+        "capacity": 100,
+        "id": 1124,
+        "name": "Liveserver"
+      },
+      {
+        "capacity": 50,
+        "id": 9424,
+        "name": "My server"
+      }
+    ],
+    "-LA85IheNBVDjHYq6nhS": [
+      {
+        "capacity": 10,
+        "id": 3859,
+        "name": "Testserver"
+      },
+      {
+        "capacity": 100,
+        "id": 1696,
+        "name": "Liveserver"
+      }
+    ]
+  },
+  "meals": {
+    "m1": {
+      "description": "Finest sushi",
+      "name": "Sushi",
+      "price": 22.99
+    },
+    "m2": {
+      "description": "Finest pizza",
+      "name": "Pizza",
+      "price": 19.99
+    }
+  },
+  "movies": {
+    "-Mpknbl4Zu-rlCcJ0kyY": {
+      "openingText": "First movie",
+      "releaseDate": "11.Jan.2021",
+      "title": "First movie"
+    },
+    "-MpkoONZO2X7qc_Ajiod": {
+      "openingText": "...",
+      "releaseDate": "11.Jan.2022",
+      "title": "Second movie"
+    }
+  },
+  "orders": {
+    "-Ms-LjGrX7gMX13Xku1H": {
+      "orderItems": [
+        {
+          "amount": 1,
+          "id": "m2",
+          "name": "Pizza",
+          "price": 19.99
+        },
+        {
+          "amount": 2,
+          "id": "m1",
+          "name": "Sushi",
+          "price": 22.99
+        }
+      ],
+      "user": {
+        "city": "Tirgu Mures",
+        "name": "Demo Doe",
+        "postal": "540470",
+        "street": "Bdul 1 Dec 237/6"
+      }
+    },
+    "-Ms-MWISi7qhOesM105q": {
+      "orderItems": [
+        {
+          "amount": 1,
+          "id": "m2",
+          "name": "Pizza",
+          "price": 19.99
+        },
+        {
+          "amount": 2,
+          "id": "m1",
+          "name": "Sushi",
+          "price": 22.99
+        }
+      ],
+      "user": {
+        "city": "Targu Mures",
+        "name": "Robert Benyi",
+        "postal": "540470",
+        "street": "B-dul 1 dec 1918 Nr 237/6, line22"
+      }
+    }
+  },
+  "players": {
+    "scoala18": {
+      "-MxFQsxImLsuyb_N1hhW": {
+        "attack": 48,
+        "defense": 71,
+        "id": "-MxFQsxImLsuyb_N1hhW",
+        "imgSrc": "https://img.icons8.com/clouds/2x/super-mario.png",
+        "name": "Atti",
+        "stamina": 62,
+        "wins": 1
+      },
+      "-NoQuNasWaBLTcRrobX8": {
+        "name": "Florin Florea"
+      },
+      "1ahaaE": {
+        "attack": 77,
+        "defense": 89,
+        "id": "1ahaaE",
+        "imgSrc": "https://img.icons8.com/clouds/2x/homer-simpson.png",
+        "name": "Misu",
+        "playerScores": [
+          {
+            "attack": 60,
+            "defense": 61,
+            "playerId": "ocIw1g",
+            "stamina": 63
+          },
+          {
+            "attack": 78,
+            "defense": 80,
+            "playerId": "xxx",
+            "stamina": 71
+          },
+          {
+            "attack": 68,
+            "defense": 70,
+            "playerId": "Dz03Jk",
+            "stamina": 64
+          },
+          {
+            "attack": 90,
+            "defense": 87,
+            "playerId": "zUsSle",
+            "stamina": 85
+          },
+          {
+            "attack": 86,
+            "defense": 77,
+            "playerId": "jGMZqB",
+            "stamina": 80
+          },
+          {
+            "attack": 69,
+            "defense": 76,
+            "playerId": "jBGJ1l",
+            "stamina": 78
+          },
+          {
+            "attack": 76,
+            "defense": 93,
+            "playerId": "WquB5Z",
+            "stamina": 89
+          },
+          {
+            "attack": 73,
+            "defense": 78,
+            "playerId": "pCo9VS",
+            "stamina": 70
+          },
+          {
+            "attack": 82,
+            "defense": 81,
+            "playerId": "ZBXA0Z",
+            "stamina": 79
+          },
+          {
+            "attack": 79,
+            "defense": 72,
+            "playerId": "xa6NHa",
+            "stamina": 72
+          },
+          {
+            "attack": 75,
+            "defense": 70,
+            "playerId": "wGakmw",
+            "stamina": 68
+          },
+          {
+            "attack": 70,
+            "defense": 65,
+            "playerId": "WnmFdK",
+            "stamina": 80
+          },
+          {
+            "attack": 72,
+            "defense": 69,
+            "playerId": "P6LmJp",
+            "stamina": 79
+          },
+          {
+            "attack": 74,
+            "defense": 67,
+            "playerId": "goUKcG",
+            "stamina": 63
+          },
+          {
+            "attack": 87,
+            "defense": 87,
+            "playerId": "uTjeXo",
+            "stamina": 86
+          },
+          {
+            "attack": 100,
+            "defense": 82,
+            "playerId": "kHYxH0",
+            "stamina": 73
+          },
+          {
+            "attack": 92,
+            "defense": 81,
+            "playerId": "qJ3Mk7",
+            "stamina": 81
+          },
+          {
+            "attack": 63,
+            "defense": 75,
+            "playerId": "nO5piU",
+            "stamina": 61
+          },
+          {
+            "attack": 84,
+            "defense": 68,
+            "playerId": "xxy",
+            "stamina": 57
+          },
+          {
+            "attack": 77,
+            "defense": 62,
+            "playerId": "AhWRhu",
+            "stamina": 71
+          },
+          {
+            "attack": 66,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 73
+          },
+          {
+            "attack": 87,
+            "defense": 71,
+            "playerId": "zaHdWD",
+            "stamina": 70
+          }
+        ],
+        "stamina": 92,
+        "wins": -3
+      },
+      "4grNix": {
+        "attack": 51,
+        "defense": 83,
+        "id": "4grNix",
+        "imgSrc": "https://img.icons8.com/clouds/2x/mando.png",
+        "name": "Gyuri",
+        "playerScores": [
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "kHYxH0",
+            "stamina": 100
+          },
+          {
+            "attack": 95,
+            "defense": 97,
+            "playerId": "1ahaaE",
+            "stamina": 90
+          },
+          {
+            "attack": 90,
+            "defense": 95,
+            "playerId": "qJ3Mk7",
+            "stamina": 90
+          },
+          {
+            "attack": 90,
+            "defense": 85,
+            "playerId": "pCo9VS",
+            "stamina": 79
+          },
+          {
+            "attack": 81,
+            "defense": 79,
+            "playerId": "P6LmJp",
+            "stamina": 81
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "xa6NHa",
+            "stamina": 100
+          },
+          {
+            "attack": 85,
+            "defense": 80,
+            "playerId": "zaHdWD",
+            "stamina": 90
+          },
+          {
+            "attack": 85,
+            "defense": 84,
+            "playerId": "ocIw1g",
+            "stamina": 87
+          },
+          {
+            "attack": 89,
+            "defense": 90,
+            "playerId": "WnmFdK",
+            "stamina": 83
+          }
+        ],
+        "stamina": 69,
+        "wins": -1
+      },
+      "AhWRhu": {
+        "attack": 68,
+        "defense": 69,
+        "id": "AhWRhu",
+        "imgSrc": "https://img.icons8.com/clouds/2x/stormtrooper.png",
+        "name": "Raul",
+        "playerScores": [
+          {
+            "attack": 50,
+            "defense": 44,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 58
+          },
+          {
+            "attack": 58,
+            "defense": 79,
+            "playerId": "1ahaaE",
+            "stamina": 89
+          },
+          {
+            "attack": 84,
+            "defense": 80,
+            "playerId": "zUsSle",
+            "stamina": 64
+          },
+          {
+            "attack": 75,
+            "defense": 83,
+            "playerId": "ZBXA0Z",
+            "stamina": 74
+          },
+          {
+            "attack": 81,
+            "defense": 82,
+            "playerId": "xxx",
+            "stamina": 75
+          },
+          {
+            "attack": 80,
+            "defense": 82,
+            "playerId": "nO5piU",
+            "stamina": 77
+          },
+          {
+            "attack": 36,
+            "defense": 98,
+            "playerId": "4grNix",
+            "stamina": 40
+          },
+          {
+            "attack": 75,
+            "defense": 80,
+            "playerId": "Dz03Jk",
+            "stamina": 65
+          },
+          {
+            "attack": 74,
+            "defense": 79,
+            "playerId": "xa6NHa",
+            "stamina": 100
+          },
+          {
+            "attack": 80,
+            "defense": 74,
+            "playerId": "qJ3Mk7",
+            "stamina": 72
+          },
+          {
+            "attack": 70,
+            "defense": 80,
+            "playerId": "uTjeXo",
+            "stamina": 72
+          },
+          {
+            "attack": 90,
+            "defense": 100,
+            "playerId": "jGMZqB",
+            "stamina": 92
+          },
+          {
+            "attack": 64,
+            "defense": 89,
+            "playerId": "WquB5Z",
+            "stamina": 80
+          },
+          {
+            "attack": 100,
+            "defense": 56,
+            "playerId": "kHYxH0",
+            "stamina": 50
+          },
+          {
+            "attack": 75,
+            "defense": 73,
+            "playerId": "pCo9VS",
+            "stamina": 100
+          },
+          {
+            "attack": 47,
+            "defense": 47,
+            "playerId": "P6LmJp",
+            "stamina": 47
+          },
+          {
+            "attack": 59,
+            "defense": 59,
+            "playerId": "jBGJ1l",
+            "stamina": 54
+          },
+          {
+            "attack": 58,
+            "defense": 57,
+            "playerId": "zaHdWD",
+            "stamina": 60
+          },
+          {
+            "attack": 54,
+            "defense": 57,
+            "playerId": "xxy",
+            "stamina": 51
+          },
+          {
+            "attack": 54,
+            "defense": 66,
+            "playerId": "wGakmw",
+            "stamina": 70
+          },
+          {
+            "attack": 66,
+            "defense": 67,
+            "playerId": "ocIw1g",
+            "stamina": 100
+          },
+          {
+            "attack": 56,
+            "defense": 60,
+            "playerId": "WnmFdK",
+            "stamina": 50
+          }
+        ],
+        "stamina": 66
+      },
+      "Dz03Jk": {
+        "attack": 60,
+        "defense": 67,
+        "id": "Dz03Jk",
+        "imgSrc": "https://img.icons8.com/clouds/2x/edvard-munch.png",
+        "name": "Alfi",
+        "stamina": 66,
+        "wins": 0
+      },
+      "P6LmJp": {
+        "attack": 70,
+        "defense": 72,
+        "id": "P6LmJp",
+        "imgSrc": "https://img.icons8.com/bubbles/2x/walter-white.png",
+        "name": "Arnie",
+        "playerScores": [
+          {
+            "attack": 90,
+            "defense": 91,
+            "playerId": "jGMZqB",
+            "stamina": 90
+          },
+          {
+            "attack": 83,
+            "defense": 77,
+            "playerId": "xa6NHa",
+            "stamina": 78
+          },
+          {
+            "attack": 74,
+            "defense": 76,
+            "playerId": "nO5piU",
+            "stamina": 69
+          },
+          {
+            "attack": 90,
+            "defense": 92,
+            "playerId": "1ahaaE",
+            "stamina": 100
+          },
+          {
+            "attack": 92,
+            "defense": 85,
+            "playerId": "qJ3Mk7",
+            "stamina": 85
+          },
+          {
+            "attack": 82,
+            "defense": 90,
+            "playerId": "uTjeXo",
+            "stamina": 84
+          },
+          {
+            "attack": 83,
+            "defense": 77,
+            "playerId": "zUsSle",
+            "stamina": 69
+          },
+          {
+            "attack": 80,
+            "defense": 87,
+            "playerId": "WquB5Z",
+            "stamina": 82
+          },
+          {
+            "attack": 71,
+            "defense": 70,
+            "playerId": "goUKcG",
+            "stamina": 74
+          },
+          {
+            "attack": 85,
+            "defense": 74,
+            "playerId": "kHYxH0",
+            "stamina": 84
+          },
+          {
+            "attack": 77,
+            "defense": 77,
+            "playerId": "ZBXA0Z",
+            "stamina": 78
+          },
+          {
+            "attack": 75,
+            "defense": 75,
+            "playerId": "xxx",
+            "stamina": 76
+          },
+          {
+            "attack": 75,
+            "defense": 77,
+            "playerId": "pCo9VS",
+            "stamina": 76
+          },
+          {
+            "attack": 75,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 90
+          },
+          {
+            "attack": 80,
+            "defense": 76,
+            "playerId": "jBGJ1l",
+            "stamina": 82
+          },
+          {
+            "attack": 85,
+            "defense": 77,
+            "playerId": "xxy",
+            "stamina": 84
+          },
+          {
+            "attack": 71,
+            "defense": 71,
+            "playerId": "AhWRhu",
+            "stamina": 90
+          },
+          {
+            "attack": 75,
+            "defense": 72,
+            "playerId": "zaHdWD",
+            "stamina": 75
+          },
+          {
+            "attack": 88,
+            "defense": 77,
+            "playerId": "wGakmw",
+            "stamina": 77
+          },
+          {
+            "attack": 78,
+            "defense": 77,
+            "playerId": "ocIw1g",
+            "stamina": 79
+          },
+          {
+            "attack": 69,
+            "defense": 70,
+            "playerId": "WnmFdK",
+            "stamina": 68
+          },
+          {
+            "attack": 74,
+            "defense": 75,
+            "stamina": 74
+          }
+        ],
+        "stamina": 73,
+        "wins": -1
+      },
+      "WnmFdK": {
+        "attack": 64,
+        "defense": 60,
+        "id": "WnmFdK",
+        "imgSrc": "https://img.icons8.com/clouds/2x/champagne-bottle.png",
+        "name": "Miska",
+        "playerScores": [
+          {
+            "attack": 80,
+            "defense": 96,
+            "playerId": "uTjeXo",
+            "stamina": 82
+          },
+          {
+            "attack": 85,
+            "defense": 77,
+            "playerId": "qJ3Mk7",
+            "stamina": 80
+          },
+          {
+            "attack": 75,
+            "defense": 80,
+            "playerId": "pCo9VS",
+            "stamina": 74
+          },
+          {
+            "attack": 83,
+            "defense": 80,
+            "playerId": "kHYxH0",
+            "stamina": 70
+          },
+          {
+            "attack": 85,
+            "defense": 70,
+            "playerId": "xa6NHa",
+            "stamina": 71
+          },
+          {
+            "attack": 85,
+            "defense": 71,
+            "playerId": "ZBXA0Z",
+            "stamina": 82
+          },
+          {
+            "attack": 85,
+            "defense": 82,
+            "playerId": "1ahaaE",
+            "stamina": 90
+          },
+          {
+            "attack": 80,
+            "defense": 80,
+            "playerId": "zaHdWD",
+            "stamina": 73
+          },
+          {
+            "attack": 79,
+            "defense": 75,
+            "playerId": "jBGJ1l",
+            "stamina": 83
+          },
+          {
+            "attack": 79,
+            "defense": 82,
+            "playerId": "xxx",
+            "stamina": 80
+          },
+          {
+            "attack": 88,
+            "defense": 79,
+            "playerId": "wGakmw",
+            "stamina": 90
+          },
+          {
+            "attack": 65,
+            "defense": 70,
+            "playerId": "Dz03Jk",
+            "stamina": 87
+          },
+          {
+            "attack": 88,
+            "defense": 73,
+            "playerId": "zUsSle",
+            "stamina": 80
+          },
+          {
+            "attack": 77,
+            "defense": 88,
+            "playerId": "WquB5Z",
+            "stamina": 91
+          },
+          {
+            "attack": 89,
+            "defense": 89,
+            "playerId": "goUKcG",
+            "stamina": 90
+          },
+          {
+            "attack": 89,
+            "defense": 72,
+            "playerId": "jGMZqB",
+            "stamina": 80
+          },
+          {
+            "attack": 79,
+            "defense": 84,
+            "playerId": "AhWRhu",
+            "stamina": 83
+          },
+          {
+            "attack": 80,
+            "defense": 72,
+            "playerId": "nO5piU",
+            "stamina": 80
+          }
+        ],
+        "stamina": 67,
+        "wins": -3
+      },
+      "WquB5Z": {
+        "attack": 69,
+        "defense": 87,
+        "id": "WquB5Z",
+        "imgSrc": "https://img.icons8.com/clouds/2x/mando.png",
+        "name": "Csabi",
+        "playerScores": [
+          {
+            "attack": 70,
+            "defense": 80,
+            "playerId": "uTjeXo",
+            "stamina": 85
+          },
+          {
+            "attack": 70,
+            "defense": 80,
+            "playerId": "1ahaaE",
+            "stamina": 89
+          },
+          {
+            "attack": 79,
+            "defense": 70,
+            "playerId": "jGMZqB",
+            "stamina": 85
+          },
+          {
+            "attack": 62,
+            "defense": 65,
+            "playerId": "xa6NHa",
+            "stamina": 66
+          },
+          {
+            "attack": 85,
+            "defense": 65,
+            "playerId": "kHYxH0",
+            "stamina": 65
+          },
+          {
+            "attack": 70,
+            "defense": 70,
+            "playerId": "wGakmw",
+            "stamina": 60
+          },
+          {
+            "attack": 65,
+            "defense": 70,
+            "playerId": "P6LmJp",
+            "stamina": 75
+          },
+          {
+            "attack": 70,
+            "defense": 70,
+            "playerId": "jBGJ1l",
+            "stamina": 71
+          },
+          {
+            "attack": 65,
+            "defense": 70,
+            "playerId": "zaHdWD",
+            "stamina": 65
+          },
+          {
+            "attack": 55,
+            "defense": 70,
+            "playerId": "pCo9VS",
+            "stamina": 70
+          },
+          {
+            "attack": 70,
+            "defense": 80,
+            "playerId": "xxx",
+            "stamina": 80
+          },
+          {
+            "attack": 80,
+            "defense": 65,
+            "playerId": "goUKcG",
+            "stamina": 75
+          },
+          {
+            "attack": 64,
+            "defense": 67,
+            "playerId": "ocIw1g",
+            "stamina": 65
+          },
+          {
+            "attack": 42,
+            "defense": 57,
+            "playerId": "WnmFdK",
+            "stamina": 55
+          },
+          {
+            "attack": 61,
+            "defense": 90,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 66
+          },
+          {
+            "attack": 58,
+            "defense": 58,
+            "playerId": "AhWRhu",
+            "stamina": 85
+          },
+          {
+            "attack": 80,
+            "defense": 73,
+            "playerId": "ZBXA0Z",
+            "stamina": 100
+          },
+          {
+            "attack": 70,
+            "defense": 60,
+            "playerId": "nO5piU",
+            "stamina": 75
+          },
+          {
+            "attack": 71,
+            "defense": 67,
+            "playerId": "xxy",
+            "stamina": 100
+          },
+          {
+            "attack": 0,
+            "defense": 11,
+            "playerId": "j1J65v",
+            "stamina": 0
+          },
+          {
+            "attack": 79,
+            "defense": 70,
+            "playerId": "qJ3Mk7",
+            "stamina": 70
+          },
+          {
+            "attack": 81,
+            "defense": 70,
+            "playerId": "zUsSle",
+            "stamina": 80
+          },
+          {
+            "attack": 50,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 75
+          }
+        ],
+        "stamina": 83,
+        "wins": -5
+      },
+      "ZBXA0Z": {
+        "attack": 78,
+        "defense": 70,
+        "id": "ZBXA0Z",
+        "imgSrc": "https://img.icons8.com/clouds/2x/champagne-bottle.png",
+        "name": "Csáki",
+        "playerScores": [
+          {
+            "attack": "8",
+            "construction": "8",
+            "defense": "8",
+            "name": "Robert",
+            "playerId": "xxx",
+            "resistence": 7,
+            "technique": 8
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 10,
+            "name": "Misu",
+            "playerId": "1ahaaE",
+            "resistence": 10,
+            "technique": 9
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": "8",
+            "name": "Lorant",
+            "playerId": "zUsSle",
+            "resistence": 8,
+            "technique": 10
+          },
+          {
+            "attack": 10,
+            "construction": 10,
+            "defense": "8",
+            "name": "Tibi",
+            "playerId": "kHYxH0",
+            "resistence": 9,
+            "technique": 10
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 9,
+            "name": "Sándor Trifan",
+            "playerId": "jGMZqB",
+            "resistence": 9,
+            "technique": 9
+          },
+          {
+            "attack": 10,
+            "construction": 10,
+            "defense": 9,
+            "name": "Boze",
+            "playerId": "goUKcG",
+            "resistence": 9,
+            "technique": 10
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 8,
+            "name": "Isti K",
+            "playerId": "zaHdWD",
+            "resistence": 10,
+            "technique": 9
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 9,
+            "name": "Adi",
+            "playerId": "nO5piU",
+            "resistence": 9,
+            "technique": 9
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 9,
+            "name": "Szilike",
+            "playerId": "j1J65v",
+            "resistence": 9,
+            "technique": 10
+          },
+          {
+            "attack": 9,
+            "construction": 8,
+            "defense": 9,
+            "name": "Alfi",
+            "playerId": "Dz03Jk",
+            "resistence": 9,
+            "technique": 9
+          },
+          {
+            "attack": 9,
+            "construction": 10,
+            "defense": 10,
+            "name": "Horea",
+            "playerId": "uTjeXo",
+            "resistence": 10,
+            "technique": 9
+          },
+          {
+            "attack": "8",
+            "construction": 10,
+            "defense": "8",
+            "name": "Levi",
+            "playerId": "xa6NHa",
+            "resistence": 10,
+            "technique": 10
+          },
+          {
+            "attack": 10,
+            "construction": 9,
+            "defense": 8,
+            "name": "Csabi",
+            "playerId": "WquB5Z",
+            "resistence": 9,
+            "technique": 10
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 8,
+            "name": "Robi Albert",
+            "playerId": "wGakmw",
+            "resistence": 9,
+            "technique": 9
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": "6",
+            "name": "Marian",
+            "playerId": "pCo9VS",
+            "resistence": 9,
+            "technique": 9
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Cipri",
+            "playerId": "jBGJ1l",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Calin",
+            "playerId": "pjDASd",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Miska",
+            "playerId": "WnmFdK",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 87,
+            "defense": 85,
+            "playerId": "P6LmJp",
+            "stamina": 86
+          },
+          {
+            "attack": 92,
+            "defense": 87,
+            "playerId": "xxy",
+            "stamina": 95
+          },
+          {
+            "attack": 97,
+            "construction": 10,
+            "defense": 8,
+            "name": "Florin",
+            "playerId": "qJ3Mk7",
+            "resistence": 9,
+            "technique": 10
+          },
+          {
+            "attack": 55,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 56,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 61,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 64,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 65,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 65,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 65,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 66,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 70,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 71,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 71,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 71,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 62
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 62
+          },
+          {
+            "attack": 0,
+            "defense": 42,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 43,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 46,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 48,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 48,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 52,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 64,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 76,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 79,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 79,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 76,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 76,
+            "stamina": 0
+          },
+          {
+            "attack": 72,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 72,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 75,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 77,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 76,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 76,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 77,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 78,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 79,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 79,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 71
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 71
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 71
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 72
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 72
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 72
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 73
+          },
+          {
+            "attack": 64,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 66,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 69,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 70,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 73,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 73,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 74,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 74,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 74,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 74,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 74,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 74,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 74,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 74,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 73
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 73
+          }
+        ],
+        "stamina": 77,
+        "wins": 1
+      },
+      "goUKcG": {
+        "attack": 80,
+        "defense": 72,
+        "id": "goUKcG",
+        "imgSrc": "https://img.icons8.com/clouds/2x/gender-neutral-user.png",
+        "name": "Boze",
+        "stamina": 77,
+        "wins": 1
+      },
+      "j1J65v": {
+        "attack": 64,
+        "defense": 68,
+        "id": "j1J65v",
+        "imgSrc": "https://img.icons8.com/clouds/2x/Bakugou.png",
+        "name": "Szilard",
+        "stamina": 67,
+        "wins": 1
+      },
+      "jBGJ1l": {
+        "attack": 68,
+        "defense": 67,
+        "id": "jBGJ1l",
+        "imgSrc": "https://img.icons8.com/clouds/2x/santa.png",
+        "name": "Cipri",
+        "playerScores": [
+          {
+            "attack": 44,
+            "defense": 75,
+            "playerId": "1ahaaE",
+            "stamina": 100
+          },
+          {
+            "attack": 81,
+            "defense": 62,
+            "playerId": "zUsSle",
+            "stamina": 57
+          },
+          {
+            "attack": 76,
+            "defense": 57,
+            "playerId": "goUKcG",
+            "stamina": 90
+          },
+          {
+            "attack": 86,
+            "defense": 60,
+            "playerId": "jGMZqB",
+            "stamina": 100
+          },
+          {
+            "attack": 57,
+            "defense": 100,
+            "playerId": "uTjeXo",
+            "stamina": 79
+          },
+          {
+            "attack": 32,
+            "defense": 92,
+            "playerId": "WquB5Z",
+            "stamina": 75
+          },
+          {
+            "attack": 44,
+            "defense": 57,
+            "playerId": "pCo9VS",
+            "stamina": 52
+          },
+          {
+            "attack": 46,
+            "defense": 57,
+            "playerId": "xxx",
+            "stamina": 57
+          },
+          {
+            "attack": 60,
+            "defense": 35,
+            "playerId": "ZBXA0Z",
+            "stamina": 100
+          },
+          {
+            "attack": 49,
+            "defense": 41,
+            "playerId": "AhWRhu",
+            "stamina": 100
+          },
+          {
+            "attack": 84,
+            "defense": 28,
+            "playerId": "kHYxH0",
+            "stamina": 55
+          },
+          {
+            "attack": 40,
+            "defense": 57,
+            "playerId": "wGakmw",
+            "stamina": 63
+          },
+          {
+            "attack": 33,
+            "defense": 71,
+            "playerId": "nO5piU",
+            "stamina": 65
+          },
+          {
+            "attack": 25,
+            "defense": 54,
+            "playerId": "xa6NHa",
+            "stamina": 68
+          },
+          {
+            "attack": 30,
+            "defense": 47,
+            "playerId": "4grNix",
+            "stamina": 58
+          },
+          {
+            "attack": 23,
+            "defense": 25,
+            "playerId": "j1J65v",
+            "stamina": 40
+          },
+          {
+            "attack": 42,
+            "defense": 87,
+            "playerId": "zaHdWD",
+            "stamina": 72
+          },
+          {
+            "attack": 39,
+            "defense": 68,
+            "playerId": "Dz03Jk",
+            "stamina": 82
+          },
+          {
+            "attack": 43,
+            "defense": 58,
+            "playerId": "ocIw1g",
+            "stamina": 72
+          },
+          {
+            "attack": 35,
+            "defense": 57,
+            "playerId": "WnmFdK",
+            "stamina": 85
+          },
+          {
+            "attack": 46,
+            "defense": 57,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 61
+          },
+          {
+            "attack": 31,
+            "defense": 40,
+            "playerId": "P6LmJp",
+            "stamina": 29
+          },
+          {
+            "attack": 25,
+            "defense": 25,
+            "playerId": "pjDASd",
+            "stamina": 25
+          },
+          {
+            "attack": 29,
+            "defense": 51,
+            "playerId": "qJ3Mk7",
+            "stamina": 74
+          }
+        ],
+        "stamina": 71,
+        "wins": 0
+      },
+      "jGMZqB": {
+        "attack": 82,
+        "defense": 72,
+        "id": "jGMZqB",
+        "imgSrc": "https://img.icons8.com/clouds/2x/spongebob-squarepants.png",
+        "name": "Sándor",
+        "playerScores": [
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Robert",
+            "playerId": "xxx",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 8,
+            "construction": 8,
+            "defense": 8,
+            "name": "Csáki Isti",
+            "playerId": "ZBXA0Z",
+            "resistence": 8,
+            "technique": 8
+          },
+          {
+            "attack": 8,
+            "construction": 9,
+            "defense": 92,
+            "name": "Misu",
+            "playerId": "1ahaaE",
+            "resistence": 9,
+            "technique": 8
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 8,
+            "name": "Lorant",
+            "playerId": "zUsSle",
+            "resistence": 9,
+            "technique": 9
+          },
+          {
+            "attack": 8,
+            "construction": 8,
+            "defense": 7,
+            "name": "Florin",
+            "playerId": "qJ3Mk7",
+            "resistence": 8,
+            "technique": 8
+          },
+          {
+            "attack": 8,
+            "construction": 8,
+            "defense": 7,
+            "name": "Boze",
+            "playerId": "goUKcG",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 6,
+            "construction": 6,
+            "defense": 6,
+            "name": "Isti K",
+            "playerId": "zaHdWD",
+            "resistence": 6,
+            "technique": 6
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Adi",
+            "playerId": "nO5piU",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 6,
+            "construction": 6,
+            "defense": 6,
+            "name": "Szilike",
+            "playerId": "j1J65v",
+            "resistence": 6,
+            "technique": 6
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 8,
+            "name": "Alfi",
+            "playerId": "Dz03Jk",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 9,
+            "construction": 9,
+            "defense": 9,
+            "name": "Horea",
+            "playerId": "uTjeXo",
+            "resistence": 9,
+            "technique": 8
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Levi",
+            "playerId": "xa6NHa",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 8,
+            "construction": 8,
+            "defense": 9,
+            "name": "Csabi",
+            "playerId": "WquB5Z",
+            "resistence": 9,
+            "technique": 8
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Robi Albert",
+            "playerId": "wGakmw",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 8,
+            "name": "Marian",
+            "playerId": "pCo9VS",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Cipri",
+            "playerId": "jBGJ1l",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 6,
+            "construction": 5,
+            "defense": 7,
+            "name": "Calin",
+            "playerId": "pjDASd",
+            "resistence": 6,
+            "technique": 7
+          },
+          {
+            "attack": 6,
+            "construction": 5,
+            "defense": 5,
+            "name": "Miska",
+            "playerId": "WnmFdK",
+            "resistence": 6,
+            "technique": 5
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Raul",
+            "playerId": "AhWRhu",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Attila",
+            "playerId": "ocIw1g",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 7,
+            "construction": 7,
+            "defense": 7,
+            "name": "Isti",
+            "playerId": "P6LmJp",
+            "resistence": 7,
+            "technique": 7
+          },
+          {
+            "attack": 44,
+            "construction": 8,
+            "defense": 45,
+            "name": "Gyuri",
+            "playerId": "4grNix",
+            "resistence": 8,
+            "stamina": 45,
+            "technique": 8
+          },
+          {
+            "attack": 7,
+            "construction": 6,
+            "defense": 69,
+            "name": "Tibi",
+            "playerId": "kHYxH0",
+            "resistence": 6,
+            "technique": 7
+          }
+        ],
+        "stamina": 84,
+        "wins": -3
+      },
+      "kHYxH0": {
+        "attack": 87,
+        "defense": 72,
+        "id": "kHYxH0",
+        "imgSrc": "https://img.icons8.com/clouds/2x/beer.png",
+        "name": "Tibi",
+        "playerScores": [
+          {
+            "attack": 75,
+            "defense": 85,
+            "playerId": "Dz03Jk",
+            "stamina": 75
+          },
+          {
+            "attack": 70,
+            "defense": 100,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 100
+          },
+          {
+            "attack": 90,
+            "defense": 81,
+            "playerId": "jGMZqB",
+            "stamina": 90
+          },
+          {
+            "attack": 85,
+            "defense": 85,
+            "playerId": "xa6NHa",
+            "stamina": 81
+          },
+          {
+            "attack": 85,
+            "defense": 81,
+            "playerId": "jBGJ1l",
+            "stamina": 82
+          },
+          {
+            "attack": 85,
+            "defense": 85,
+            "playerId": "pCo9VS",
+            "stamina": 85
+          },
+          {
+            "attack": 86,
+            "defense": 80,
+            "playerId": "goUKcG",
+            "stamina": 85
+          },
+          {
+            "attack": 94,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 100
+          },
+          {
+            "attack": 90,
+            "defense": 86,
+            "playerId": "ZBXA0Z",
+            "stamina": 88
+          },
+          {
+            "attack": 80,
+            "defense": 80,
+            "playerId": "wGakmw",
+            "stamina": 79
+          },
+          {
+            "attack": 86,
+            "defense": 80,
+            "playerId": "zUsSle",
+            "stamina": 85
+          },
+          {
+            "attack": 80,
+            "defense": 80,
+            "playerId": "AhWRhu",
+            "stamina": 88
+          },
+          {
+            "attack": 86,
+            "defense": 80,
+            "playerId": "xxy",
+            "stamina": 87
+          },
+          {
+            "attack": 83,
+            "defense": 81,
+            "playerId": "ocIw1g",
+            "stamina": 81
+          },
+          {
+            "attack": 98,
+            "defense": 100,
+            "playerId": "1ahaaE",
+            "stamina": 100
+          },
+          {
+            "attack": 93,
+            "defense": 93,
+            "playerId": "qJ3Mk7",
+            "stamina": 88
+          },
+          {
+            "attack": 90,
+            "defense": 94,
+            "playerId": "uTjeXo",
+            "stamina": 91
+          },
+          {
+            "attack": 86,
+            "defense": 93,
+            "playerId": "WquB5Z",
+            "stamina": 86
+          },
+          {
+            "attack": 89,
+            "defense": 90,
+            "playerId": "xxx",
+            "stamina": 90
+          },
+          {
+            "attack": 84,
+            "defense": 90,
+            "playerId": "P6LmJp",
+            "stamina": 85
+          },
+          {
+            "attack": 95,
+            "defense": 95,
+            "playerId": "zaHdWD",
+            "stamina": 85
+          },
+          {
+            "attack": 80,
+            "defense": 90,
+            "playerId": "nO5piU",
+            "stamina": 85
+          },
+          {
+            "attack": 82,
+            "defense": 84,
+            "playerId": "WnmFdK",
+            "stamina": 86
+          }
+        ],
+        "stamina": 70,
+        "wins": 2
+      },
+      "losses": {
+        "2022-04-07": [
+          "zUsSle",
+          "jGMZqB",
+          "xxx",
+          "xa6NHa",
+          "zaHdWD",
+          "WnmFdK"
+        ],
+        "2022-04-15": [
+          "uTjeXo",
+          "qJ3Mk7",
+          "pCo9VS",
+          "wGakmw",
+          "kHYxH0",
+          "WnmFdK"
+        ],
+        "2022-04-21": [
+          "1ahaaE",
+          "zUsSle",
+          "xa6NHa",
+          "wGakmw",
+          "kHYxH0",
+          "zaHdWD"
+        ],
+        "2022-05-03": [
+          "WquB5Z",
+          "AhWRhu",
+          "zUsSle",
+          "nO5piU",
+          "jBGJ1l",
+          "xa6NHa"
+        ],
+        "2022-05-04": [
+          "nO5piU",
+          "zaHdWD"
+        ],
+        "2022-05-05": [
+          "uTjeXo",
+          "jGMZqB",
+          "WquB5Z",
+          "kHYxH0",
+          "wGakmw",
+          "xa6NHa"
+        ],
+        "2022-05-12": [
+          "jGMZqB",
+          "goUKcG",
+          "pCo9VS",
+          "AhWRhu",
+          "P6LmJp",
+          "xa6NHa"
+        ],
+        "2022-05-30": [
+          "zUsSle",
+          "uTjeXo",
+          "nO5piU",
+          "jBGJ1l",
+          "wGakmw",
+          "ocIw1g"
+        ],
+        "2022-06-02": [
+          "uTjeXo",
+          "pCo9VS",
+          "nO5piU",
+          "kHYxH0",
+          "jBGJ1l",
+          "wGakmw"
+        ],
+        "2022-06-10": [
+          "1ahaaE",
+          "uTjeXo",
+          "qJ3Mk7",
+          "nO5piU",
+          "WnmFdK",
+          "P6LmJp"
+        ],
+        "2022-06-23": [
+          "zUsSle",
+          "uTjeXo",
+          "jBGJ1l",
+          "P6LmJp",
+          "wGakmw"
+        ],
+        "2022-07-07": [
+          "qJ3Mk7",
+          "xxx",
+          "pCo9VS",
+          "kHYxH0",
+          "jBGJ1l",
+          "P6LmJp"
+        ],
+        "2022-07-29": [
+          "1ahaaE",
+          "zUsSle",
+          "jGMZqB",
+          "WquB5Z",
+          "WnmFdK",
+          "P6LmJp"
+        ],
+        "2022-08-25": [
+          "1ahaaE",
+          "zUsSle",
+          "xxx",
+          "nO5piU",
+          "jBGJ1l",
+          "zaHdWD"
+        ],
+        "2022-08-29": [
+          "1ahaaE",
+          "jGMZqB",
+          "kHYxH0",
+          "zaHdWD",
+          "P6LmJp"
+        ],
+        "2022-09-15": [
+          "jGMZqB",
+          "uTjeXo",
+          "WquB5Z",
+          "nO5piU",
+          "wGakmw",
+          "zaHdWD"
+        ],
+        "2022-09-29": [
+          "zUsSle",
+          "uTjeXo",
+          "AhWRhu",
+          "wGakmw",
+          "nO5piU",
+          "WnmFdK"
+        ],
+        "2022-11-07": [
+          "uTjeXo",
+          "AhWRhu",
+          "kHYxH0",
+          "wGakmw",
+          "P6LmJp"
+        ],
+        "2022-12-29": [
+          "P6LmJp",
+          "wGakmw",
+          "kHYxH0",
+          "AhWRhu",
+          "jGMZqB"
+        ],
+        "2023-01-27": [
+          "qJ3Mk7",
+          "WquB5Z",
+          "kHYxH0",
+          "wGakmw",
+          "xa6NHa",
+          "jBGJ1l"
+        ],
+        "2023-04-10": [
+          "1ahaaE",
+          "AhWRhu",
+          "kHYxH0",
+          "wGakmw",
+          "P6LmJp"
+        ],
+        "2023-05-08": [
+          "zUsSle",
+          "AhWRhu",
+          "ocIw1g",
+          "4grNix",
+          "xa6NHa",
+          "nO5piU"
+        ],
+        "2023-06-08": [
+          "uTjeXo",
+          "xxx",
+          "wGakmw",
+          "jBGJ1l",
+          "xa6NHa",
+          "WnmFdK"
+        ],
+        "2023-06-22": [
+          "1ahaaE",
+          "goUKcG",
+          "jBGJ1l",
+          "4grNix",
+          "zaHdWD",
+          "WnmFdK"
+        ],
+        "2023-06-26": [
+          "uTjeXo",
+          "kHYxH0",
+          "nO5piU",
+          "WnmFdK",
+          "zaHdWD"
+        ],
+        "2023-06-29": [
+          "1ahaaE",
+          "jGMZqB",
+          "pCo9VS",
+          "nO5piU",
+          "zaHdWD",
+          "WnmFdK"
+        ],
+        "2023-07-11": [
+          "1ahaaE",
+          "uTjeXo",
+          "wGakmw",
+          "nO5piU",
+          "zaHdWD"
+        ],
+        "2023-07-31": [
+          "1ahaaE",
+          "kHYxH0",
+          "P6LmJp",
+          "wGakmw",
+          "jBGJ1l"
+        ],
+        "2023-08-03": [
+          "1ahaaE",
+          "uTjeXo",
+          "zaHdWD",
+          "xa6NHa",
+          "jBGJ1l",
+          "WnmFdK"
+        ],
+        "2023-08-22": [
+          "uTjeXo",
+          "jGMZqB",
+          "xa6NHa",
+          "wGakmw",
+          "nO5piU"
+        ],
+        "2023-08-29": [
+          "uTjeXo",
+          "xxy",
+          "AhWRhu",
+          "wGakmw",
+          "ocIw1g"
+        ],
+        "2023-08-31": [
+          "WquB5Z",
+          "4grNix",
+          "AhWRhu",
+          "P6LmJp",
+          "nO5piU",
+          "wGakmw"
+        ],
+        "2023-09-04": [
+          "1ahaaE",
+          "AhWRhu",
+          "P6LmJp",
+          "xxy",
+          "nO5piU"
+        ],
+        "2023-09-11": [
+          "WquB5Z",
+          "kHYxH0",
+          "AhWRhu",
+          "P6LmJp",
+          "zaHdWD",
+          "nO5piU"
+        ],
+        "2023-09-12": [
+          "wGakmw",
+          "pjDASd"
+        ],
+        "2023-09-14": [
+          "uTjeXo",
+          "pCo9VS",
+          "xa6NHa",
+          "wGakmw",
+          "jBGJ1l",
+          "zaHdWD"
+        ],
+        "2023-09-21": [
+          "uTjeXo",
+          "4grNix",
+          "pCo9VS",
+          "wGakmw",
+          "nO5piU",
+          "WnmFdK"
+        ],
+        "2023-09-25": [
+          "4grNix",
+          "AhWRhu",
+          "P6LmJp",
+          "jBGJ1l",
+          "wGakmw",
+          "xxy"
+        ],
+        "2023-09-28": [
+          "1ahaaE",
+          "kHYxH0",
+          "xxx",
+          "nO5piU",
+          "wGakmw",
+          "WnmFdK"
+        ],
+        "2023-10-02": [
+          "uTjeXo",
+          "WquB5Z",
+          "kHYxH0",
+          "jBGJ1l",
+          "zaHdWD",
+          "wGakmw"
+        ],
+        "2023-10-05": [
+          "uTjeXo",
+          "xxx",
+          "kHYxH0",
+          "AhWRhu",
+          "xa6NHa",
+          "zaHdWD"
+        ],
+        "2023-10-12": [
+          "4grNix",
+          "uTjeXo",
+          "xxx",
+          "pCo9VS",
+          "AhWRhu",
+          "xa6NHa"
+        ],
+        "2023-10-16": [
+          "WquB5Z",
+          "AhWRhu",
+          "zaHdWD",
+          "xxy",
+          "ocIw1g"
+        ],
+        "2023-10-19": [
+          "1ahaaE",
+          "qJ3Mk7",
+          "AhWRhu",
+          "zaHdWD",
+          "wGakmw",
+          "WnmFdK"
+        ],
+        "2023-10-27": [
+          "1ahaaE",
+          "qJ3Mk7",
+          "4grNix",
+          "xxy",
+          "wGakmw",
+          "P6LmJp"
+        ],
+        "2023-11-03": [
+          "1ahaaE",
+          "qJ3Mk7",
+          "goUKcG",
+          "AhWRhu",
+          "zaHdWD",
+          "nO5piU"
+        ],
+        "2023-11-06": [
+          "1ahaaE",
+          "zUsSle",
+          "zaHdWD",
+          "nO5piU",
+          "P6LmJp",
+          "ocIw1g"
+        ],
+        "2024-01-12": [
+          "WquB5Z",
+          "kHYxH0",
+          "4grNix",
+          "xxx",
+          "pCo9VS",
+          "wGakmw"
+        ]
+      },
+      "nO5piU": {
+        "attack": 66,
+        "defense": 70,
+        "id": "nO5piU",
+        "imgSrc": "https://img.icons8.com/clouds/2x/user-female.png",
+        "name": "Adi",
+        "playerScores": [
+          {
+            "attack": 82,
+            "defense": 88,
+            "playerId": "1ahaaE",
+            "stamina": 94
+          },
+          {
+            "attack": 91,
+            "defense": 79,
+            "playerId": "zUsSle",
+            "stamina": 77
+          },
+          {
+            "attack": 80,
+            "defense": 82,
+            "playerId": "qJ3Mk7",
+            "stamina": 74
+          },
+          {
+            "attack": 73,
+            "defense": 79,
+            "playerId": "4grNix",
+            "stamina": 70
+          },
+          {
+            "attack": 78,
+            "defense": 85,
+            "playerId": "uTjeXo",
+            "stamina": 85
+          },
+          {
+            "attack": 88,
+            "defense": 78,
+            "playerId": "jGMZqB",
+            "stamina": 85
+          },
+          {
+            "attack": 75,
+            "defense": 87,
+            "playerId": "WquB5Z",
+            "stamina": 81
+          },
+          {
+            "attack": 85,
+            "defense": 74,
+            "playerId": "goUKcG",
+            "stamina": 74
+          },
+          {
+            "attack": 80,
+            "defense": 73,
+            "playerId": "ZBXA0Z",
+            "stamina": 75
+          },
+          {
+            "attack": 77,
+            "defense": 81,
+            "playerId": "pCo9VS",
+            "stamina": 77
+          },
+          {
+            "attack": 89,
+            "defense": 77,
+            "playerId": "kHYxH0",
+            "stamina": 72
+          },
+          {
+            "attack": 83,
+            "defense": 78,
+            "playerId": "xxx",
+            "stamina": 73
+          },
+          {
+            "attack": 77,
+            "defense": 73,
+            "playerId": "AhWRhu",
+            "stamina": 84
+          },
+          {
+            "attack": 73,
+            "defense": 77,
+            "playerId": "xa6NHa",
+            "stamina": 74
+          },
+          {
+            "attack": 69,
+            "defense": 71,
+            "playerId": "P6LmJp",
+            "stamina": 69
+          },
+          {
+            "attack": 83,
+            "defense": 83,
+            "playerId": "wGakmw",
+            "stamina": 78
+          },
+          {
+            "attack": 80,
+            "defense": 79,
+            "playerId": "jBGJ1l",
+            "stamina": 80
+          },
+          {
+            "attack": 75,
+            "defense": 73,
+            "playerId": "zaHdWD",
+            "stamina": 72
+          },
+          {
+            "attack": 71,
+            "defense": 68,
+            "playerId": "ocIw1g",
+            "stamina": 69
+          },
+          {
+            "attack": 70,
+            "defense": 70,
+            "playerId": "WnmFdK",
+            "stamina": 68
+          },
+          {
+            "attack": 69,
+            "defense": 69,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 70
+          },
+          {
+            "attack": 88,
+            "defense": 80,
+            "stamina": 88
+          }
+        ],
+        "stamina": 72,
+        "wins": -5
+      },
+      "ocIw1g": {
+        "attack": 58,
+        "defense": 67,
+        "id": "ocIw1g",
+        "imgSrc": "https://img.icons8.com/clouds/2x/jake.png",
+        "name": "Attila",
+        "playerScores": [
+          {
+            "attack": 100,
+            "defense": 100,
+            "stamina": 100
+          }
+        ],
+        "stamina": 67,
+        "wins": 0
+      },
+      "pCo9VS": {
+        "attack": 72,
+        "defense": 76,
+        "id": "pCo9VS",
+        "imgSrc": "https://img.icons8.com/clouds/2x/beer.png",
+        "name": "Marian",
+        "playerScores": [
+          {
+            "attack": 67,
+            "defense": 86,
+            "playerId": "WquB5Z",
+            "stamina": 85
+          },
+          {
+            "attack": 79,
+            "defense": 79,
+            "playerId": "uTjeXo",
+            "stamina": 79
+          },
+          {
+            "attack": 81,
+            "defense": 91,
+            "playerId": "1ahaaE",
+            "stamina": 100
+          },
+          {
+            "attack": 82,
+            "defense": 78,
+            "playerId": "goUKcG",
+            "stamina": 85
+          },
+          {
+            "attack": 71,
+            "defense": 63,
+            "playerId": "AhWRhu",
+            "stamina": 67
+          },
+          {
+            "attack": 91,
+            "defense": 84,
+            "playerId": "zUsSle",
+            "stamina": 88
+          },
+          {
+            "attack": 76,
+            "defense": 72,
+            "playerId": "jBGJ1l",
+            "stamina": 75
+          },
+          {
+            "attack": 46,
+            "defense": 45,
+            "playerId": "Dz03Jk",
+            "stamina": 50
+          },
+          {
+            "attack": 54,
+            "defense": 59,
+            "playerId": "zaHdWD",
+            "stamina": 53
+          },
+          {
+            "attack": 68,
+            "defense": 67,
+            "playerId": "ZBXA0Z",
+            "stamina": 69
+          },
+          {
+            "attack": 52,
+            "defense": 52,
+            "playerId": "nO5piU",
+            "stamina": 58
+          },
+          {
+            "attack": 67,
+            "defense": 68,
+            "playerId": "xxx",
+            "stamina": 64
+          },
+          {
+            "attack": 71,
+            "defense": 72,
+            "playerId": "jGMZqB",
+            "stamina": 84
+          },
+          {
+            "attack": 69,
+            "defense": 66,
+            "playerId": "xa6NHa",
+            "stamina": 68
+          },
+          {
+            "attack": 62,
+            "defense": 72,
+            "playerId": "wGakmw",
+            "stamina": 59
+          },
+          {
+            "attack": 61,
+            "defense": 57,
+            "playerId": "WnmFdK",
+            "stamina": 65
+          },
+          {
+            "attack": 83,
+            "defense": 75,
+            "playerId": "qJ3Mk7",
+            "stamina": 83
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 100
+          },
+          {
+            "attack": 80,
+            "defense": 67,
+            "playerId": "kHYxH0",
+            "stamina": 62
+          },
+          {
+            "attack": 57,
+            "defense": 49,
+            "playerId": "xxy",
+            "stamina": 56
+          }
+        ],
+        "stamina": 73,
+        "wins": 0
+      },
+      "pjDASd": {
+        "attack": 48,
+        "defense": 46,
+        "id": "pjDASd",
+        "imgSrc": "https://img.icons8.com/clouds/2x/nurse-female.png",
+        "name": "Calin",
+        "playerScores": [
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "P6LmJp",
+            "stamina": 100
+          }
+        ],
+        "stamina": 49,
+        "wins": -1
+      },
+      "qJ3Mk7": {
+        "attack": 79,
+        "defense": 76,
+        "id": "qJ3Mk7",
+        "imgSrc": "https://img.icons8.com/clouds/2x/anonymous-mask.png",
+        "name": "Florin",
+        "playerScores": [
+          {
+            "attack": 60,
+            "defense": 70,
+            "playerId": "j1J65v",
+            "stamina": 40
+          },
+          {
+            "attack": 69,
+            "defense": 55,
+            "playerId": "pjDASd",
+            "stamina": 60
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 100
+          },
+          {
+            "attack": 65,
+            "defense": 61,
+            "playerId": "jBGJ1l",
+            "stamina": 66
+          },
+          {
+            "attack": 63,
+            "defense": 65,
+            "playerId": "zaHdWD",
+            "stamina": 57
+          },
+          {
+            "attack": 60,
+            "defense": 57,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 56
+          },
+          {
+            "attack": 75,
+            "defense": 58,
+            "playerId": "AhWRhu",
+            "stamina": 68
+          },
+          {
+            "attack": 68,
+            "defense": 75,
+            "playerId": "zUsSle",
+            "stamina": 75
+          },
+          {
+            "attack": 70,
+            "defense": 68,
+            "playerId": "ZBXA0Z",
+            "stamina": 58
+          },
+          {
+            "attack": 60,
+            "defense": 64,
+            "playerId": "nO5piU",
+            "stamina": 61
+          },
+          {
+            "attack": 65,
+            "defense": 62,
+            "playerId": "ocIw1g",
+            "stamina": 63
+          },
+          {
+            "attack": 59,
+            "defense": 68,
+            "playerId": "Dz03Jk",
+            "stamina": 60
+          },
+          {
+            "attack": 73,
+            "defense": 65,
+            "playerId": "jGMZqB",
+            "stamina": 69
+          },
+          {
+            "attack": 60,
+            "defense": 62,
+            "playerId": "wGakmw",
+            "stamina": 60
+          },
+          {
+            "attack": 62,
+            "defense": 70,
+            "playerId": "xxx",
+            "stamina": 63
+          },
+          {
+            "attack": 74,
+            "defense": 77,
+            "playerId": "goUKcG",
+            "stamina": 73
+          },
+          {
+            "attack": 70,
+            "defense": 80,
+            "playerId": "kHYxH0",
+            "stamina": 67
+          },
+          {
+            "attack": 70,
+            "defense": 80,
+            "playerId": "uTjeXo",
+            "stamina": 78
+          },
+          {
+            "attack": 62,
+            "defense": 84,
+            "playerId": "WquB5Z",
+            "stamina": 77
+          },
+          {
+            "attack": 69,
+            "defense": 83,
+            "playerId": "P6LmJp",
+            "stamina": 81
+          },
+          {
+            "attack": 70,
+            "defense": 62,
+            "playerId": "xxy",
+            "stamina": 66
+          },
+          {
+            "attack": 70,
+            "defense": 81,
+            "playerId": "1ahaaE",
+            "stamina": 87
+          },
+          {
+            "attack": 70,
+            "defense": 74,
+            "playerId": "xa6NHa",
+            "stamina": 95
+          },
+          {
+            "attack": 65,
+            "defense": 75,
+            "playerId": "pCo9VS",
+            "stamina": 97
+          },
+          {
+            "attack": 67,
+            "defense": 69,
+            "playerId": "WnmFdK",
+            "stamina": 74
+          }
+        ],
+        "stamina": 79,
+        "wins": 9
+      },
+      "uTjeXo": {
+        "attack": 72,
+        "defense": 82,
+        "id": "uTjeXo",
+        "imgSrc": "https://img.icons8.com/clouds/2x/anonymous-mask.png",
+        "name": "Horea",
+        "playerScores": [
+          {
+            "attack": 75,
+            "defense": 69,
+            "playerId": "xa6NHa",
+            "stamina": 70
+          },
+          {
+            "attack": 66,
+            "defense": 71,
+            "playerId": "Dz03Jk",
+            "stamina": 75
+          },
+          {
+            "attack": 69,
+            "defense": 74,
+            "playerId": "ocIw1g",
+            "stamina": 80
+          },
+          {
+            "attack": 75,
+            "defense": 70,
+            "playerId": "zaHdWD",
+            "stamina": 77
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "goUKcG",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "xxx",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "pCo9VS",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "nO5piU",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "jBGJ1l",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "wGakmw",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "qJ3Mk7",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "1ahaaE",
+            "stamina": 100
+          },
+          {
+            "attack": 93,
+            "defense": 85,
+            "playerId": "zUsSle",
+            "stamina": 81
+          },
+          {
+            "attack": 89,
+            "defense": 77,
+            "playerId": "jGMZqB",
+            "stamina": 83
+          },
+          {
+            "attack": 83,
+            "defense": 85,
+            "playerId": "WquB5Z",
+            "stamina": 90
+          },
+          {
+            "attack": 92,
+            "defense": 92,
+            "playerId": "ZBXA0Z",
+            "stamina": 80
+          },
+          {
+            "attack": 84,
+            "defense": 84,
+            "playerId": "AhWRhu",
+            "stamina": 88
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "kHYxH0",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "P6LmJp",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "WnmFdK",
+            "stamina": 100
+          }
+        ],
+        "stamina": 79,
+        "wins": -2
+      },
+      "undefined": {
+        "attack": 57,
+        "defense": 55,
+        "imgSrc": "https://img.icons8.com/clouds/2x/energy-drink.png",
+        "name": "Florin Florea",
+        "stamina": 56,
+        "wins": 0
+      },
+      "wGakmw": {
+        "attack": 71,
+        "defense": 71,
+        "id": "wGakmw",
+        "imgSrc": "https://img.icons8.com/clouds/2x/anonymous-mask.png",
+        "name": "robi albert",
+        "playerScores": [
+          {
+            "attack": 78,
+            "defense": 70,
+            "playerId": "ZBXA0Z",
+            "stamina": 87
+          },
+          {
+            "attack": 56,
+            "defense": 50,
+            "playerId": "Dz03Jk",
+            "stamina": 69
+          },
+          {
+            "attack": 32,
+            "defense": 100,
+            "playerId": "ocIw1g",
+            "stamina": 56
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "j1J65v",
+            "stamina": 100
+          },
+          {
+            "attack": 90,
+            "defense": 99,
+            "playerId": "1ahaaE",
+            "stamina": 99
+          },
+          {
+            "attack": 96,
+            "defense": 87,
+            "playerId": "qJ3Mk7",
+            "stamina": 90
+          },
+          {
+            "attack": 96,
+            "defense": 87,
+            "playerId": "zUsSle",
+            "stamina": 81
+          },
+          {
+            "attack": 93,
+            "defense": 93,
+            "playerId": "uTjeXo",
+            "stamina": 96
+          },
+          {
+            "attack": 96,
+            "defense": 81,
+            "playerId": "jGMZqB",
+            "stamina": 87
+          },
+          {
+            "attack": 93,
+            "defense": 78,
+            "playerId": "goUKcG",
+            "stamina": 78
+          },
+          {
+            "attack": 75,
+            "defense": 99,
+            "playerId": "WquB5Z",
+            "stamina": 93
+          },
+          {
+            "attack": 63,
+            "defense": 99,
+            "playerId": "4grNix",
+            "stamina": 75
+          },
+          {
+            "attack": 93,
+            "defense": 84,
+            "playerId": "kHYxH0",
+            "stamina": 72
+          },
+          {
+            "attack": 75,
+            "defense": 93,
+            "playerId": "xxx",
+            "stamina": 84
+          },
+          {
+            "attack": 75,
+            "defense": 84,
+            "playerId": "pCo9VS",
+            "stamina": 72
+          },
+          {
+            "attack": 84,
+            "defense": 78,
+            "playerId": "xa6NHa",
+            "stamina": 72
+          },
+          {
+            "attack": 72,
+            "defense": 66,
+            "playerId": "AhWRhu",
+            "stamina": 66
+          },
+          {
+            "attack": 69,
+            "defense": 78,
+            "playerId": "nO5piU",
+            "stamina": 63
+          },
+          {
+            "attack": 66,
+            "defense": 69,
+            "playerId": "jBGJ1l",
+            "stamina": 63
+          },
+          {
+            "attack": 78,
+            "defense": 84,
+            "playerId": "zaHdWD",
+            "stamina": 69
+          },
+          {
+            "attack": 66,
+            "defense": 75,
+            "playerId": "P6LmJp",
+            "stamina": 69
+          },
+          {
+            "attack": 81,
+            "defense": 69,
+            "playerId": "xxy",
+            "stamina": 66
+          },
+          {
+            "attack": 63,
+            "defense": 69,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 63
+          },
+          {
+            "attack": 66,
+            "defense": 72,
+            "playerId": "WnmFdK",
+            "stamina": 72
+          }
+        ],
+        "stamina": 70,
+        "wins": -9
+      },
+      "wins": {
+        "2022-04-07": [
+          "uTjeXo",
+          "qJ3Mk7",
+          "pCo9VS",
+          "nO5piU",
+          "wGakmw",
+          "jBGJ1l"
+        ],
+        "2022-04-15": [
+          "zUsSle",
+          "AhWRhu",
+          "xxx",
+          "jBGJ1l",
+          "xa6NHa",
+          "zaHdWD"
+        ],
+        "2022-04-21": [
+          "uTjeXo",
+          "AhWRhu",
+          "jGMZqB",
+          "xxx",
+          "nO5piU",
+          "WnmFdK"
+        ],
+        "2022-05-03": [
+          "uTjeXo",
+          "jGMZqB",
+          "xxx",
+          "wGakmw",
+          "kHYxH0",
+          "zaHdWD"
+        ],
+        "2022-05-04": [
+          "xxx",
+          "jBGJ1l"
+        ],
+        "2022-05-05": [
+          "1ahaaE",
+          "zUsSle",
+          "xxx",
+          "jBGJ1l",
+          "nO5piU",
+          "zaHdWD"
+        ],
+        "2022-05-12": [
+          "uTjeXo",
+          "zUsSle",
+          "xxx",
+          "kHYxH0",
+          "wGakmw",
+          "WnmFdK"
+        ],
+        "2022-05-30": [
+          "1ahaaE",
+          "jGMZqB",
+          "AhWRhu",
+          "kHYxH0",
+          "xa6NHa",
+          "P6LmJp"
+        ],
+        "2022-06-02": [
+          "zUsSle",
+          "qJ3Mk7",
+          "xxx",
+          "AhWRhu",
+          "xa6NHa",
+          "WnmFdK"
+        ],
+        "2022-06-10": [
+          "zUsSle",
+          "AhWRhu",
+          "pCo9VS",
+          "kHYxH0",
+          "jBGJ1l",
+          "wGakmw"
+        ],
+        "2022-06-23": [
+          "xxx",
+          "AhWRhu",
+          "xa6NHa",
+          "WnmFdK",
+          "qJ3Mk7"
+        ],
+        "2022-07-07": [
+          "1ahaaE",
+          "WquB5Z",
+          "nO5piU",
+          "wGakmw",
+          "xa6NHa",
+          "WnmFdK"
+        ],
+        "2022-07-29": [
+          "goUKcG",
+          "qJ3Mk7",
+          "uTjeXo",
+          "nO5piU",
+          "pCo9VS",
+          "jBGJ1l"
+        ],
+        "2022-08-25": [
+          "jGMZqB",
+          "uTjeXo",
+          "qJ3Mk7",
+          "pCo9VS",
+          "wGakmw",
+          "xa6NHa"
+        ],
+        "2022-08-29": [
+          "uTjeXo",
+          "wGakmw",
+          "xa6NHa",
+          "nO5piU"
+        ],
+        "2022-09-15": [
+          "1ahaaE",
+          "zUsSle",
+          "qJ3Mk7",
+          "pCo9VS",
+          "kHYxH0",
+          "P6LmJp"
+        ],
+        "2022-09-29": [
+          "1ahaaE",
+          "goUKcG",
+          "ZBXA0Z",
+          "pCo9VS",
+          "kHYxH0",
+          "P6LmJp"
+        ],
+        "2022-11-07": [
+          "WquB5Z",
+          "nO5piU",
+          "xa6NHa",
+          "jBGJ1l",
+          "zaHdWD"
+        ],
+        "2022-12-29": [
+          "WnmFdK",
+          "zaHdWD",
+          "xa6NHa",
+          "pCo9VS",
+          "qJ3Mk7"
+        ],
+        "2023-01-27": [
+          "1ahaaE",
+          "zUsSle",
+          "uTjeXo",
+          "AhWRhu",
+          "zaHdWD",
+          "P6LmJp"
+        ],
+        "2023-04-10": [
+          "uTjeXo",
+          "nO5piU",
+          "xa6NHa",
+          "jBGJ1l",
+          "zaHdWD"
+        ],
+        "2023-05-08": [
+          "kHYxH0",
+          "uTjeXo",
+          "zaHdWD",
+          "1ahaaE",
+          "jBGJ1l",
+          "P6LmJp"
+        ],
+        "2023-06-08": [
+          "1ahaaE",
+          "pCo9VS",
+          "nO5piU",
+          "kHYxH0",
+          "zaHdWD",
+          "P6LmJp"
+        ],
+        "2023-06-22": [
+          "uTjeXo",
+          "qJ3Mk7",
+          "nO5piU",
+          "wGakmw",
+          "xa6NHa",
+          "ocIw1g"
+        ],
+        "2023-06-26": [
+          "jGMZqB",
+          "AhWRhu",
+          "wGakmw",
+          "4grNix",
+          "xa6NHa"
+        ],
+        "2023-06-29": [
+          "uTjeXo",
+          "qJ3Mk7",
+          "kHYxH0",
+          "wGakmw",
+          "4grNix",
+          "jBGJ1l"
+        ],
+        "2023-07-11": [
+          "jGMZqB",
+          "qJ3Mk7",
+          "AhWRhu",
+          "P6LmJp",
+          "xa6NHa"
+        ],
+        "2023-07-31": [
+          "uTjeXo",
+          "4grNix",
+          "AhWRhu",
+          "zaHdWD",
+          "ocIw1g"
+        ],
+        "2023-08-03": [
+          "goUKcG",
+          "pCo9VS",
+          "xxx",
+          "kHYxH0",
+          "P6LmJp",
+          "wGakmw"
+        ],
+        "2023-08-22": [
+          "1ahaaE",
+          "WquB5Z",
+          "xxy",
+          "P6LmJp",
+          "zaHdWD"
+        ],
+        "2023-08-29": [
+          "qJ3Mk7",
+          "kHYxH0",
+          "P6LmJp",
+          "WnmFdK",
+          "jBGJ1l"
+        ],
+        "2023-08-31": [
+          "qJ3Mk7",
+          "uTjeXo",
+          "kHYxH0",
+          "xa6NHa",
+          "jBGJ1l",
+          "WnmFdK"
+        ],
+        "2023-09-04": [
+          "uTjeXo",
+          "kHYxH0",
+          "xa6NHa",
+          "zaHdWD",
+          "wGakmw"
+        ],
+        "2023-09-11": [
+          "uTjeXo",
+          "4grNix",
+          "xa6NHa",
+          "wGakmw",
+          "xxy",
+          "ocIw1g"
+        ],
+        "2023-09-12": [
+          "j1J65v",
+          "-MxFQsxImLsuyb_N1hhW"
+        ],
+        "2023-09-14": [
+          "1ahaaE",
+          "kHYxH0",
+          "xxx",
+          "P6LmJp",
+          "nO5piU",
+          "WnmFdK"
+        ],
+        "2023-09-21": [
+          "qJ3Mk7",
+          "xxx",
+          "xa6NHa",
+          "P6LmJp",
+          "jBGJ1l",
+          "zaHdWD"
+        ],
+        "2023-09-25": [
+          "uTjeXo",
+          "kHYxH0",
+          "xa6NHa",
+          "zaHdWD",
+          "nO5piU",
+          "ocIw1g"
+        ],
+        "2023-09-28": [
+          "uTjeXo",
+          "pCo9VS",
+          "xa6NHa",
+          "P6LmJp",
+          "jBGJ1l",
+          "zaHdWD"
+        ],
+        "2023-10-02": [
+          "1ahaaE",
+          "4grNix",
+          "xa6NHa",
+          "P6LmJp",
+          "xxy",
+          "nO5piU"
+        ],
+        "2023-10-05": [
+          "1ahaaE",
+          "qJ3Mk7",
+          "pCo9VS",
+          "jBGJ1l",
+          "nO5piU",
+          "wGakmw"
+        ],
+        "2023-10-12": [
+          "1ahaaE",
+          "qJ3Mk7",
+          "WquB5Z",
+          "kHYxH0",
+          "nO5piU",
+          "wGakmw"
+        ],
+        "2023-10-16": [
+          "zUsSle",
+          "4grNix",
+          "wGakmw",
+          "WnmFdK",
+          "nO5piU"
+        ],
+        "2023-10-19": [
+          "4grNix",
+          "goUKcG",
+          "xxx",
+          "kHYxH0",
+          "nO5piU",
+          "xxy"
+        ],
+        "2023-10-27": [
+          "uTjeXo",
+          "goUKcG",
+          "kHYxH0",
+          "xxx",
+          "pCo9VS",
+          "zaHdWD"
+        ],
+        "2023-11-03": [
+          "uTjeXo",
+          "zUsSle",
+          "4grNix",
+          "WquB5Z",
+          "xxx",
+          "WnmFdK"
+        ],
+        "2023-11-06": [
+          "kHYxH0",
+          "4grNix",
+          "ZBXA0Z",
+          "AhWRhu",
+          "wGakmw"
+        ],
+        "2024-01-12": [
+          "1ahaaE",
+          "qJ3Mk7",
+          "uTjeXo",
+          "xxy",
+          "P6LmJp",
+          "WnmFdK"
+        ]
+      },
+      "xa6NHa": {
+        "attack": 70,
+        "defense": 65,
+        "id": "xa6NHa",
+        "imgSrc": "https://img.icons8.com/clouds/2x/gender-neutral-user.png",
+        "name": "Levi",
+        "playerScores": [
+          {
+            "attack": 73,
+            "defense": 73,
+            "playerId": "qJ3Mk7",
+            "stamina": 73
+          },
+          {
+            "attack": 65,
+            "defense": 66,
+            "playerId": "pCo9VS",
+            "stamina": 63
+          },
+          {
+            "attack": 65,
+            "defense": 65,
+            "playerId": "xxx",
+            "stamina": 63
+          },
+          {
+            "attack": 68,
+            "defense": 67,
+            "playerId": "AhWRhu",
+            "stamina": 67
+          },
+          {
+            "attack": 80,
+            "defense": 72,
+            "playerId": "zUsSle",
+            "stamina": 70
+          },
+          {
+            "attack": 70,
+            "defense": 66,
+            "playerId": "jGMZqB",
+            "stamina": 83
+          },
+          {
+            "attack": 67,
+            "defense": 72,
+            "playerId": "WquB5Z",
+            "stamina": 72
+          },
+          {
+            "attack": 70,
+            "defense": 65,
+            "playerId": "P6LmJp",
+            "stamina": 69
+          },
+          {
+            "attack": 56,
+            "defense": 56,
+            "playerId": "WnmFdK",
+            "stamina": 62
+          },
+          {
+            "attack": 63,
+            "defense": 63,
+            "playerId": "ocIw1g",
+            "stamina": 64
+          },
+          {
+            "attack": 72,
+            "defense": 84,
+            "playerId": "1ahaaE",
+            "stamina": 90
+          },
+          {
+            "attack": 62,
+            "defense": 58,
+            "playerId": "nO5piU",
+            "stamina": 48
+          },
+          {
+            "attack": 66,
+            "defense": 55,
+            "playerId": "jBGJ1l",
+            "stamina": 55
+          },
+          {
+            "attack": 71,
+            "defense": 71,
+            "playerId": "goUKcG",
+            "stamina": 61
+          },
+          {
+            "attack": 100,
+            "defense": 100,
+            "playerId": "4grNix",
+            "stamina": 100
+          },
+          {
+            "attack": 72,
+            "defense": 62,
+            "playerId": "xxy",
+            "stamina": 58
+          },
+          {
+            "attack": 64,
+            "defense": 69,
+            "playerId": "wGakmw",
+            "stamina": 68
+          },
+          {
+            "attack": 79,
+            "defense": 69,
+            "playerId": "kHYxH0",
+            "stamina": 71
+          },
+          {
+            "attack": 72,
+            "defense": 65,
+            "playerId": "zaHdWD",
+            "stamina": 72
+          },
+          {
+            "attack": 71,
+            "defense": 73,
+            "playerId": "uTjeXo",
+            "stamina": 74
+          }
+        ],
+        "stamina": 72,
+        "wins": 8
+      },
+      "xxx": {
+        "attack": 72,
+        "defense": 76,
+        "id": "xxx",
+        "imgSrc": "https://img.icons8.com/clouds/256/000000/futurama-bender.png",
+        "name": "Robert",
+        "playerScores": [
+          {
+            "attack": 79,
+            "defense": 73,
+            "playerId": "qJ3Mk7",
+            "stamina": 83
+          },
+          {
+            "attack": 92,
+            "defense": 68,
+            "playerId": "ZBXA0Z",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 80,
+            "playerId": "zUsSle",
+            "stamina": 93
+          },
+          {
+            "attack": 69,
+            "defense": 69,
+            "playerId": "Dz03Jk",
+            "stamina": 69
+          },
+          {
+            "attack": 100,
+            "defense": 69,
+            "playerId": "kHYxH0",
+            "stamina": 70
+          },
+          {
+            "attack": 72,
+            "defense": 55,
+            "playerId": "wGakmw",
+            "stamina": 73
+          },
+          {
+            "attack": 36,
+            "defense": 65,
+            "playerId": "ocIw1g",
+            "stamina": 77
+          },
+          {
+            "attack": 46,
+            "defense": 46,
+            "playerId": "pjDASd",
+            "stamina": 52
+          },
+          {
+            "attack": 54,
+            "defense": 100,
+            "playerId": "WquB5Z",
+            "stamina": 91
+          },
+          {
+            "attack": 40,
+            "defense": 40,
+            "playerId": "WnmFdK",
+            "stamina": 50
+          },
+          {
+            "attack": 44,
+            "defense": 100,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 68
+          },
+          {
+            "attack": 53,
+            "defense": 59,
+            "playerId": "zaHdWD",
+            "stamina": 53
+          },
+          {
+            "attack": 98,
+            "defense": 78,
+            "playerId": "jGMZqB",
+            "stamina": 96
+          },
+          {
+            "attack": 64,
+            "defense": 73,
+            "playerId": "pCo9VS",
+            "stamina": 66
+          },
+          {
+            "attack": 63,
+            "defense": 67,
+            "playerId": "nO5piU",
+            "stamina": 87
+          },
+          {
+            "attack": 70,
+            "defense": 73,
+            "playerId": "jBGJ1l",
+            "stamina": 87
+          },
+          {
+            "attack": 54,
+            "defense": 100,
+            "playerId": "1ahaaE",
+            "stamina": 80
+          },
+          {
+            "attack": 56,
+            "defense": 58,
+            "playerId": "uTjeXo",
+            "stamina": 61
+          },
+          {
+            "attack": 75,
+            "defense": 73,
+            "playerId": "P6LmJp",
+            "stamina": 100
+          },
+          {
+            "attack": 100,
+            "defense": 75,
+            "playerId": "xxy",
+            "stamina": 91
+          },
+          {
+            "attack": 48,
+            "defense": 72,
+            "playerId": "AhWRhu",
+            "stamina": 74
+          },
+          {
+            "attack": 89,
+            "defense": 47,
+            "playerId": "xa6NHa",
+            "stamina": 78
+          },
+          {
+            "attack": 86,
+            "defense": 86,
+            "playerId": "goUKcG",
+            "stamina": 89
+          },
+          {
+            "attack": 11,
+            "defense": 90,
+            "playerId": "4grNix",
+            "stamina": 20
+          },
+          {
+            "attack": 93,
+            "defense": 81,
+            "stamina": 89
+          }
+        ],
+        "stamina": 73,
+        "wins": 6
+      },
+      "xxy": {
+        "attack": 74,
+        "defense": 61,
+        "id": "xxy",
+        "imgSrc": "https://img.icons8.com/clouds/2x/coconut-cocktail.png",
+        "name": "Rikhárd",
+        "stamina": 68,
+        "wins": 0
+      },
+      "zUsSle": {
+        "attack": 87,
+        "defense": 77,
+        "id": "zUsSle",
+        "imgSrc": "https://img.icons8.com/bubbles/2x/walter-white.png",
+        "name": "Lorant",
+        "playerScores": [
+          {
+            "attack": 71,
+            "defense": 43,
+            "playerId": "qJ3Mk7",
+            "stamina": 51
+          },
+          {
+            "attack": 37,
+            "defense": 37,
+            "playerId": "pjDASd",
+            "stamina": 44
+          },
+          {
+            "attack": 69,
+            "defense": 60,
+            "playerId": "jGMZqB",
+            "stamina": 68
+          },
+          {
+            "attack": 71,
+            "defense": 74,
+            "playerId": "uTjeXo",
+            "stamina": 78
+          },
+          {
+            "attack": 75,
+            "defense": 64,
+            "playerId": "goUKcG",
+            "stamina": 69
+          },
+          {
+            "attack": 57,
+            "defense": 87,
+            "playerId": "WquB5Z",
+            "stamina": 86
+          },
+          {
+            "attack": 85,
+            "defense": 67,
+            "playerId": "kHYxH0",
+            "stamina": 54
+          },
+          {
+            "attack": 78,
+            "defense": 53,
+            "playerId": "ZBXA0Z",
+            "stamina": 67
+          },
+          {
+            "attack": 68,
+            "defense": 78,
+            "playerId": "pCo9VS",
+            "stamina": 68
+          },
+          {
+            "attack": 62,
+            "defense": 72,
+            "playerId": "xxx",
+            "stamina": 72
+          },
+          {
+            "attack": 73,
+            "defense": 64,
+            "playerId": "xa6NHa",
+            "stamina": 70
+          },
+          {
+            "attack": 67,
+            "defense": 59,
+            "playerId": "AhWRhu",
+            "stamina": 78
+          },
+          {
+            "attack": 72,
+            "defense": 64,
+            "playerId": "xxy",
+            "stamina": 73
+          },
+          {
+            "attack": 71,
+            "defense": 71,
+            "playerId": "nO5piU",
+            "stamina": 79
+          },
+          {
+            "attack": 57,
+            "defense": 67,
+            "playerId": "jBGJ1l",
+            "stamina": 68
+          },
+          {
+            "attack": 57,
+            "defense": 66,
+            "playerId": "P6LmJp",
+            "stamina": 70
+          },
+          {
+            "attack": 79,
+            "defense": 63,
+            "playerId": "zaHdWD",
+            "stamina": 62
+          },
+          {
+            "attack": 71,
+            "defense": 67,
+            "playerId": "wGakmw",
+            "stamina": 61
+          },
+          {
+            "attack": 62,
+            "defense": 56,
+            "playerId": "ocIw1g",
+            "stamina": 55
+          },
+          {
+            "attack": 59,
+            "defense": 56,
+            "playerId": "Dz03Jk",
+            "stamina": 56
+          },
+          {
+            "attack": 51,
+            "defense": 68,
+            "playerId": "-MxFQsxImLsuyb_N1hhW",
+            "stamina": 57
+          },
+          {
+            "attack": 56,
+            "defense": 65,
+            "playerId": "j1J65v",
+            "stamina": 71
+          },
+          {
+            "attack": 58,
+            "defense": 76,
+            "playerId": "WnmFdK",
+            "stamina": 73
+          },
+          {
+            "attack": 64,
+            "defense": 84,
+            "playerId": "1ahaaE",
+            "stamina": 80
+          },
+          {
+            "attack": 11,
+            "defense": 77,
+            "playerId": "4grNix",
+            "stamina": 11
+          }
+        ],
+        "stamina": 78,
+        "wins": 0
+      },
+      "zaHdWD": {
+        "attack": 71,
+        "defense": 71,
+        "id": "zaHdWD",
+        "imgSrc": "https://img.icons8.com/clouds/2x/anonymous-mask.png",
+        "name": "Isti K",
+        "playerScores": [
+          {
+            "attack": 46,
+            "defense": 51,
+            "playerId": "ocIw1g",
+            "stamina": 41
+          },
+          {
+            "attack": 31,
+            "defense": 39,
+            "playerId": "Dz03Jk",
+            "stamina": 28
+          },
+          {
+            "attack": 45,
+            "defense": 36,
+            "playerId": "goUKcG",
+            "stamina": 46
+          },
+          {
+            "attack": 67,
+            "defense": 77,
+            "playerId": "qJ3Mk7",
+            "stamina": 68
+          },
+          {
+            "attack": 68,
+            "defense": 56,
+            "playerId": "ZBXA0Z",
+            "stamina": 62
+          },
+          {
+            "attack": 85,
+            "defense": 50,
+            "playerId": "zUsSle",
+            "stamina": 65
+          },
+          {
+            "attack": 32,
+            "defense": 25,
+            "playerId": "WnmFdK",
+            "stamina": 31
+          },
+          {
+            "attack": 45,
+            "defense": 45,
+            "playerId": "wGakmw",
+            "stamina": 33
+          },
+          {
+            "attack": 50,
+            "defense": 27,
+            "playerId": "xa6NHa",
+            "stamina": 41
+          },
+          {
+            "attack": 35,
+            "defense": 20,
+            "playerId": "pjDASd",
+            "stamina": 37
+          },
+          {
+            "attack": 45,
+            "defense": 65,
+            "playerId": "xxx",
+            "stamina": 50
+          },
+          {
+            "attack": 40,
+            "defense": 49,
+            "playerId": "nO5piU",
+            "stamina": 45
+          },
+          {
+            "attack": 65,
+            "defense": 62,
+            "playerId": "jGMZqB",
+            "stamina": 73
+          },
+          {
+            "attack": 73,
+            "defense": 52,
+            "playerId": "kHYxH0",
+            "stamina": 40
+          },
+          {
+            "attack": 79,
+            "defense": 44,
+            "playerId": "xxy",
+            "stamina": 32
+          },
+          {
+            "attack": 54,
+            "defense": 68,
+            "stamina": 63
+          },
+          {
+            "attack": 33,
+            "defense": 44,
+            "playerId": "jBGJ1l",
+            "stamina": 38
+          },
+          {
+            "attack": 48,
+            "defense": 42,
+            "playerId": "P6LmJp",
+            "stamina": 40
+          },
+          {
+            "attack": 65,
+            "defense": 75,
+            "playerId": "4grNix",
+            "stamina": 70
+          },
+          {
+            "attack": 72,
+            "defense": 72,
+            "playerId": "uTjeXo",
+            "stamina": 87
+          },
+          {
+            "attack": 63,
+            "defense": 78,
+            "playerId": "1ahaaE",
+            "stamina": 85
+          },
+          {
+            "attack": 50,
+            "defense": 74,
+            "playerId": "WquB5Z",
+            "stamina": 61
+          },
+          {
+            "attack": 48,
+            "defense": 75,
+            "playerId": "pCo9VS",
+            "stamina": 60
+          },
+          {
+            "attack": 62,
+            "defense": 62,
+            "playerId": "AhWRhu",
+            "stamina": 71
+          }
+        ],
+        "stamina": 69,
+        "wins": -3
+      }
+    },
+    "waldorf": {
+      "-MwzuSKC45EI91EMtUAt": {
+        "attack": 43,
+        "defense": 52,
+        "id": "-MwzuSKC45EI91EMtUAt",
+        "imgSrc": "https://img.icons8.com/clouds/2x/mando.png",
+        "name": "István",
+        "playerScores": [
+          {
+            "attack": 79,
+            "defense": 63,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 87
+          },
+          {
+            "attack": 70,
+            "defense": 71,
+            "playerId": "xxx",
+            "stamina": 80
+          },
+          {
+            "attack": 52,
+            "defense": 72,
+            "playerId": "-Mwzv2IX3x22AVA7vF5E",
+            "stamina": 55
+          },
+          {
+            "attack": 65,
+            "defense": 75,
+            "playerId": "-My7uaJN1k0Vmx3MIQj-",
+            "stamina": 69
+          },
+          {
+            "attack": 55,
+            "defense": 67,
+            "playerId": "-Mwzv4EGGyapzNvboDaK",
+            "stamina": 53
+          },
+          {
+            "attack": 61,
+            "defense": 61,
+            "playerId": "-Mwzv0F2Ep8blfb0A0B1",
+            "stamina": 79
+          },
+          {
+            "attack": 42,
+            "defense": 90,
+            "playerId": "-MwzufaJLWJfDj7eu6Bz",
+            "stamina": 90
+          },
+          {
+            "attack": 78,
+            "defense": 63,
+            "playerId": "-MwzuwdK9RSBtnuZNBUA",
+            "stamina": 62
+          },
+          {
+            "attack": 65,
+            "defense": 70,
+            "playerId": "-Mwzua7O9m-j1064eKf5",
+            "stamina": 85
+          },
+          {
+            "attack": 55,
+            "defense": 55,
+            "playerId": "-Mwzubhh4Mzi_HLV0Str",
+            "stamina": 76
+          },
+          {
+            "attack": 66,
+            "defense": 75,
+            "playerId": "-MyD-kgHwSRh9ipFIMBr",
+            "stamina": 63
+          },
+          {
+            "attack": 62,
+            "defense": 64,
+            "playerId": "-My8Dft_MW6yQJdc9noD",
+            "stamina": 77
+          },
+          {
+            "attack": 74,
+            "defense": 60,
+            "playerId": "-MyD-jDZhmOAMtT5hkgz",
+            "stamina": 69
+          },
+          {
+            "attack": 63,
+            "defense": 72,
+            "stamina": 68
+          },
+          {
+            "attack": 87,
+            "defense": 62,
+            "playerId": "-My6_ITD5-0cOFfUUVcZ",
+            "stamina": 71
+          },
+          {
+            "attack": 74,
+            "defense": 89,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 86
+          },
+          {
+            "attack": 74,
+            "defense": 67,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 81
+          }
+        ],
+        "stamina": 49,
+        "wins": 0
+      },
+      "-MwzuZMQ_pcuKW_OID0u": {
+        "attack": 68,
+        "defense": 55,
+        "id": "-MwzuZMQ_pcuKW_OID0u",
+        "imgSrc": "https://img.icons8.com/clouds/2x/beer.png",
+        "name": "Kicsi",
+        "playerScores": [
+          {
+            "attack": 0,
+            "defense": 11,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 0
+          },
+          {
+            "attack": 80,
+            "defense": 94,
+            "playerId": "-MwzuSKC45EI91EMtUAt",
+            "stamina": 86
+          }
+        ],
+        "stamina": 72,
+        "wins": -10
+      },
+      "-Mwzua7O9m-j1064eKf5": {
+        "attack": 54,
+        "defense": 61,
+        "id": "-Mwzua7O9m-j1064eKf5",
+        "imgSrc": "https://img.icons8.com/clouds/2x/user-male.png",
+        "name": "Farkas Endre",
+        "stamina": 60,
+        "wins": 0
+      },
+      "-Mwzubhh4Mzi_HLV0Str": {
+        "attack": 46,
+        "defense": 65,
+        "id": "-Mwzubhh4Mzi_HLV0Str",
+        "imgSrc": "https://img.icons8.com/clouds/2x/energy-drink.png",
+        "name": "Horváth Géza ",
+        "playerScores": [
+          {
+            "attack": 11,
+            "defense": 0,
+            "playerId": "-MwzuSKC45EI91EMtUAt",
+            "stamina": 0
+          },
+          {
+            "attack": 84,
+            "defense": 56,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 55
+          },
+          {
+            "attack": 80,
+            "defense": 58,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 61
+          },
+          {
+            "attack": 73,
+            "defense": 76,
+            "playerId": "-MwzuwdK9RSBtnuZNBUA",
+            "stamina": 51
+          },
+          {
+            "attack": 54,
+            "defense": 46,
+            "playerId": "-My8Dft_MW6yQJdc9noD",
+            "stamina": 73
+          },
+          {
+            "attack": 77,
+            "defense": 51,
+            "playerId": "-MyD-kgHwSRh9ipFIMBr",
+            "stamina": 77
+          },
+          {
+            "attack": 55,
+            "defense": 100,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 69
+          }
+        ],
+        "stamina": 65,
+        "wins": 10
+      },
+      "-Mwzue5xO3vd3TpthJ8S": {
+        "attack": 59,
+        "defense": 59,
+        "id": "-Mwzue5xO3vd3TpthJ8S",
+        "name": "Kertész Sándor",
+        "stamina": 59,
+        "wins": 0
+      },
+      "-MwzufaJLWJfDj7eu6Bz": {
+        "attack": 32,
+        "defense": 83,
+        "id": "-MwzufaJLWJfDj7eu6Bz",
+        "imgSrc": "https://img.icons8.com/clouds/2x/homer-simpson.png",
+        "name": "Birtha Attila",
+        "playerScores": [
+          {
+            "attack": 75,
+            "defense": 58,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 88
+          },
+          {
+            "attack": 78,
+            "defense": 52,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 67
+          },
+          {
+            "attack": 83,
+            "defense": 91,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 81
+          },
+          {
+            "attack": 80,
+            "defense": 40,
+            "playerId": "-MwzuwdK9RSBtnuZNBUA",
+            "stamina": 48
+          },
+          {
+            "attack": 63,
+            "defense": 72,
+            "playerId": "-Mwzubhh4Mzi_HLV0Str",
+            "stamina": 60
+          },
+          {
+            "attack": 50,
+            "defense": 73,
+            "playerId": "-Mwzua7O9m-j1064eKf5",
+            "stamina": 76
+          },
+          {
+            "attack": 42,
+            "defense": 57,
+            "playerId": "-My8Dft_MW6yQJdc9noD",
+            "stamina": 67
+          },
+          {
+            "attack": 44,
+            "defense": 70,
+            "playerId": "-MyD-jDZhmOAMtT5hkgz",
+            "stamina": 70
+          },
+          {
+            "attack": 91,
+            "defense": 78,
+            "playerId": "-My6_ITD5-0cOFfUUVcZ",
+            "stamina": 93
+          },
+          {
+            "attack": 52,
+            "defense": 54,
+            "playerId": "-My7uaJN1k0Vmx3MIQj-",
+            "stamina": 55
+          }
+        ],
+        "stamina": 63,
+        "wins": -10
+      },
+      "-MwzusyJUs_7tP0CyCPC": {
+        "attack": 70,
+        "defense": 40,
+        "id": "-MwzusyJUs_7tP0CyCPC",
+        "imgSrc": "https://img.icons8.com/clouds/2x/champagne-bottle.png",
+        "name": "Ricsi",
+        "playerScores": [
+          {
+            "attack": 51,
+            "defense": 50,
+            "playerId": "-MyD-jDZhmOAMtT5hkgz",
+            "stamina": 50
+          },
+          {
+            "attack": 66,
+            "defense": 36,
+            "playerId": "-MyD-kgHwSRh9ipFIMBr",
+            "stamina": 30
+          }
+        ],
+        "stamina": 70,
+        "wins": 0
+      },
+      "-MwzuwdK9RSBtnuZNBUA": {
+        "attack": 68,
+        "defense": 56,
+        "id": "-MwzuwdK9RSBtnuZNBUA",
+        "imgSrc": "https://img.icons8.com/clouds/2x/coconut-cocktail.png",
+        "name": "Csong Lee",
+        "playerScores": [
+          {
+            "attack": 22,
+            "defense": 37,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 49
+          },
+          {
+            "attack": 48,
+            "defense": 24,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 45
+          },
+          {
+            "attack": 28,
+            "defense": 35,
+            "playerId": "-MwzufaJLWJfDj7eu6Bz",
+            "stamina": 36
+          },
+          {
+            "attack": 52,
+            "defense": 52,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 32
+          },
+          {
+            "attack": 30,
+            "defense": 29,
+            "playerId": "xxx",
+            "stamina": 40
+          },
+          {
+            "attack": 26,
+            "defense": 58,
+            "playerId": "-Mwzua7O9m-j1064eKf5",
+            "stamina": 28
+          },
+          {
+            "attack": 26,
+            "defense": 59,
+            "playerId": "-Mwzubhh4Mzi_HLV0Str",
+            "stamina": 31
+          },
+          {
+            "attack": 28,
+            "defense": 42,
+            "playerId": "-My7uaJN1k0Vmx3MIQj-",
+            "stamina": 33
+          },
+          {
+            "attack": 29,
+            "defense": 51,
+            "playerId": "-My8Dft_MW6yQJdc9noD",
+            "stamina": 35
+          },
+          {
+            "attack": 32,
+            "defense": 32,
+            "playerId": "-Mwzv0F2Ep8blfb0A0B1",
+            "stamina": 32
+          },
+          {
+            "attack": 35,
+            "defense": 35,
+            "playerId": "-Mwzv2IX3x22AVA7vF5E",
+            "stamina": 35
+          },
+          {
+            "attack": 30,
+            "defense": 29,
+            "playerId": "-MyD-jDZhmOAMtT5hkgz",
+            "stamina": 30
+          },
+          {
+            "attack": 22,
+            "defense": 22,
+            "playerId": "-MwzuzDjZRDEWYn1F_8t",
+            "stamina": 23
+          },
+          {
+            "attack": 32,
+            "defense": 31,
+            "playerId": "-Mwzv4EGGyapzNvboDaK",
+            "stamina": 31
+          },
+          {
+            "attack": 29,
+            "defense": 31,
+            "playerId": "-My6_ITD5-0cOFfUUVcZ",
+            "stamina": 43
+          },
+          {
+            "attack": 34,
+            "defense": 33,
+            "playerId": "-MwzuSKC45EI91EMtUAt",
+            "stamina": 34
+          },
+          {
+            "attack": 32,
+            "defense": 33,
+            "playerId": "-MyD-kgHwSRh9ipFIMBr",
+            "stamina": 32
+          }
+        ],
+        "stamina": 60,
+        "wins": 0
+      },
+      "-MwzuzDjZRDEWYn1F_8t": {
+        "attack": 54,
+        "defense": 54,
+        "id": "-MwzuzDjZRDEWYn1F_8t",
+        "name": "Nemes Pál",
+        "stamina": 54,
+        "wins": 0
+      },
+      "-Mwzv0F2Ep8blfb0A0B1": {
+        "attack": 55,
+        "defense": 55,
+        "id": "-Mwzv0F2Ep8blfb0A0B1",
+        "imgSrc": "https://img.icons8.com/clouds/256/000000/futurama-bender.png",
+        "name": "B. Béla",
+        "playerScores": [
+          {
+            "attack": 53,
+            "defense": 55,
+            "playerId": "-Mwzubhh4Mzi_HLV0Str",
+            "stamina": 83
+          },
+          {
+            "attack": 13,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 13,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 15,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 24,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 38,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 61,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 66,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 69,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 70,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 69,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 69,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 68,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 65,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 63,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 61,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 60,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 59,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 57,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 56,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 55,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 54,
+            "defense": 0,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 12,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 13,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 17,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 25,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 32,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 40,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 46,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 49,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 51,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 51,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 51,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 50,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 51,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 52,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 52,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 53,
+            "stamina": 0
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 12
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 12
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 14
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 22
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 29
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 34
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 39
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 45
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 49
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 52
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 54
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 55
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 55
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 0,
+            "defense": 0,
+            "stamina": 56
+          },
+          {
+            "attack": 23,
+            "defense": 94,
+            "playerId": "-MwzufaJLWJfDj7eu6Bz",
+            "stamina": 34
+          },
+          {
+            "attack": 60,
+            "defense": 70,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 54
+          },
+          {
+            "attack": 38,
+            "defense": 71,
+            "playerId": "xxx",
+            "stamina": 58
+          },
+          {
+            "attack": 53,
+            "defense": 62,
+            "playerId": "-My8Dft_MW6yQJdc9noD",
+            "stamina": 55
+          },
+          {
+            "attack": 61,
+            "defense": 59,
+            "playerId": "-Mwzua7O9m-j1064eKf5",
+            "stamina": 62
+          },
+          {
+            "attack": 65,
+            "defense": 46,
+            "playerId": "-MwzuwdK9RSBtnuZNBUA",
+            "stamina": 51
+          },
+          {
+            "attack": 50,
+            "defense": 63,
+            "playerId": "-Mwzv2IX3x22AVA7vF5E",
+            "stamina": 68
+          },
+          {
+            "attack": 44,
+            "defense": 71,
+            "playerId": "-MwzuzDjZRDEWYn1F_8t",
+            "stamina": 51
+          },
+          {
+            "attack": 50,
+            "defense": 45,
+            "playerId": "-Mwzv4EGGyapzNvboDaK",
+            "stamina": 49
+          },
+          {
+            "attack": 40,
+            "defense": 37,
+            "playerId": "-My6_ITD5-0cOFfUUVcZ",
+            "stamina": 42
+          },
+          {
+            "attack": 46,
+            "defense": 44,
+            "playerId": "-My7uaJN1k0Vmx3MIQj-",
+            "stamina": 46
+          },
+          {
+            "attack": 55,
+            "defense": 49,
+            "playerId": "-MwzuSKC45EI91EMtUAt",
+            "stamina": 48
+          },
+          {
+            "attack": 67,
+            "defense": 61,
+            "playerId": "-MyD-jDZhmOAMtT5hkgz",
+            "stamina": 68
+          },
+          {
+            "attack": 59,
+            "defense": 60,
+            "playerId": "-MyD-kgHwSRh9ipFIMBr",
+            "stamina": 47
+          },
+          {
+            "attack": 70,
+            "defense": 51,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 75
+          },
+          {
+            "attack": 80,
+            "defense": 49,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 74
+          }
+        ],
+        "stamina": 63,
+        "wins": 0
+      },
+      "-Mwzv2IX3x22AVA7vF5E": {
+        "attack": 32,
+        "defense": 32,
+        "id": "-Mwzv2IX3x22AVA7vF5E",
+        "imgSrc": "https://img.icons8.com/clouds/2x/stormtrooper.png",
+        "name": "Molnár Zsolt",
+        "playerScores": [
+          {
+            "attack": 60,
+            "defense": 70,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 75
+          },
+          {
+            "attack": 21,
+            "defense": 56,
+            "playerId": "-Mwzubhh4Mzi_HLV0Str",
+            "stamina": 75
+          },
+          {
+            "attack": 60,
+            "defense": 60,
+            "playerId": "-Mwzua7O9m-j1064eKf5",
+            "stamina": 71
+          },
+          {
+            "attack": 80,
+            "defense": 55,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 50
+          },
+          {
+            "attack": 65,
+            "defense": 51,
+            "playerId": "-MwzuwdK9RSBtnuZNBUA",
+            "stamina": 66
+          },
+          {
+            "attack": 35,
+            "defense": 66,
+            "playerId": "-MwzuzDjZRDEWYn1F_8t",
+            "stamina": 70
+          },
+          {
+            "attack": 50,
+            "defense": 50,
+            "playerId": "-Mwzv4EGGyapzNvboDaK",
+            "stamina": 51
+          },
+          {
+            "attack": 53,
+            "defense": 53,
+            "playerId": "-Mwzv0F2Ep8blfb0A0B1",
+            "stamina": 57
+          },
+          {
+            "attack": 50,
+            "defense": 70,
+            "playerId": "-MwzuSKC45EI91EMtUAt",
+            "stamina": 59
+          },
+          {
+            "attack": 15,
+            "defense": 100,
+            "playerId": "-MwzufaJLWJfDj7eu6Bz",
+            "stamina": 100
+          },
+          {
+            "attack": 51,
+            "defense": 75,
+            "playerId": "-My7uaJN1k0Vmx3MIQj-",
+            "stamina": 75
+          },
+          {
+            "attack": 65,
+            "defense": 65,
+            "playerId": "xxx",
+            "stamina": 65
+          },
+          {
+            "attack": 45,
+            "defense": 66,
+            "playerId": "-My8Dft_MW6yQJdc9noD",
+            "stamina": 75
+          },
+          {
+            "attack": 70,
+            "defense": 55,
+            "playerId": "-MyD-kgHwSRh9ipFIMBr",
+            "stamina": 60
+          },
+          {
+            "attack": 67,
+            "defense": 67,
+            "playerId": "-MyD-jDZhmOAMtT5hkgz",
+            "stamina": 67
+          },
+          {
+            "attack": 66,
+            "defense": 26,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 75
+          },
+          {
+            "attack": 88,
+            "defense": 60,
+            "playerId": "-My6_ITD5-0cOFfUUVcZ",
+            "stamina": 79
+          }
+        ],
+        "stamina": 32,
+        "wins": 0
+      },
+      "-Mwzv4EGGyapzNvboDaK": {
+        "attack": 54,
+        "defense": 53,
+        "id": "-Mwzv4EGGyapzNvboDaK",
+        "name": "Surányi Béla ",
+        "stamina": 54,
+        "wins": 0
+      },
+      "-My6_ITD5-0cOFfUUVcZ": {
+        "attack": 70,
+        "defense": 54,
+        "id": "-My6_ITD5-0cOFfUUVcZ",
+        "imgSrc": "https://img.icons8.com/clouds/2x/beer.png",
+        "name": "Janka Tamás ",
+        "stamina": 69,
+        "wins": 0
+      },
+      "-My7uaJN1k0Vmx3MIQj-": {
+        "id": "-My7uaJN1k0Vmx3MIQj-",
+        "name": "Iszlai István "
+      },
+      "-My8Dft_MW6yQJdc9noD": {
+        "id": "-My8Dft_MW6yQJdc9noD",
+        "name": "Andrei",
+        "wins": 0
+      },
+      "-MyD-jDZhmOAMtT5hkgz": {
+        "id": "-MyD-jDZhmOAMtT5hkgz",
+        "name": "Biró Karcsika"
+      },
+      "-MyD-kgHwSRh9ipFIMBr": {
+        "attack": 52,
+        "defense": 43,
+        "id": "-MyD-kgHwSRh9ipFIMBr",
+        "imgSrc": "https://img.icons8.com/clouds/2x/beer.png",
+        "name": "Kedei",
+        "playerScores": [
+          {
+            "attack": 53,
+            "defense": 52,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 74
+          },
+          {
+            "attack": 50,
+            "defense": 61,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 80
+          }
+        ],
+        "stamina": 36,
+        "wins": 0
+      },
+      "-MzMMVHLkGaqx9x9c_W6": {
+        "id": "-MzMMVHLkGaqx9x9c_W6",
+        "name": "Biro Attila"
+      },
+      "-N-TMqdlLaDyT_Yu60Mx": {
+        "name": "Istike"
+      },
+      "losses": {
+        "2022-03-22": [
+          "-Mwzue5xO3vd3TpthJ8S",
+          "-MwzuZMQ_pcuKW_OID0u",
+          "-MwzufaJLWJfDj7eu6Bz",
+          "-My8Dft_MW6yQJdc9noD",
+          "-Mwzv4EGGyapzNvboDaK",
+          "-MwzuSKC45EI91EMtUAt"
+        ]
+      },
+      "wins": {
+        "2022-03-22": [
+          "-MwzusyJUs_7tP0CyCPC",
+          "-Mwzua7O9m-j1064eKf5",
+          "-Mwzubhh4Mzi_HLV0Str",
+          "-MyD-jDZhmOAMtT5hkgz",
+          "xxx",
+          "-Mwzv2IX3x22AVA7vF5E"
+        ]
+      },
+      "xxx": {
+        "attack": 51,
+        "defense": 68,
+        "id": "xxx",
+        "imgSrc": "https://img.icons8.com/clouds/256/000000/futurama-bender.png",
+        "name": "Robert",
+        "playerScores": [
+          {
+            "attack": 58,
+            "defense": 58,
+            "playerId": "-Mwzua7O9m-j1064eKf5",
+            "stamina": 57
+          },
+          {
+            "attack": 54,
+            "defense": 54,
+            "playerId": "-MwzuzDjZRDEWYn1F_8t",
+            "stamina": 54
+          },
+          {
+            "attack": 53,
+            "defense": 53,
+            "playerId": "-Mwzv0F2Ep8blfb0A0B1",
+            "stamina": 53
+          },
+          {
+            "attack": 54,
+            "defense": 53,
+            "playerId": "-Mwzv2IX3x22AVA7vF5E",
+            "stamina": 54
+          },
+          {
+            "attack": 91,
+            "defense": 65,
+            "playerId": "-MwzuZMQ_pcuKW_OID0u",
+            "stamina": 77
+          },
+          {
+            "attack": 52,
+            "defense": 100,
+            "playerId": "-MwzufaJLWJfDj7eu6Bz",
+            "stamina": 56
+          },
+          {
+            "attack": 64,
+            "defense": 64,
+            "playerId": "-MwzuwdK9RSBtnuZNBUA",
+            "stamina": 64
+          },
+          {
+            "attack": 61,
+            "defense": 61,
+            "playerId": "-Mwzv4EGGyapzNvboDaK",
+            "stamina": 61
+          },
+          {
+            "attack": 76,
+            "defense": 55,
+            "playerId": "-MwzusyJUs_7tP0CyCPC",
+            "stamina": 65
+          },
+          {
+            "attack": 95,
+            "defense": 69,
+            "playerId": "-My6_ITD5-0cOFfUUVcZ",
+            "stamina": 94
+          },
+          {
+            "attack": 72,
+            "defense": 68,
+            "playerId": "-MwzuSKC45EI91EMtUAt",
+            "stamina": 73
+          },
+          {
+            "attack": 59,
+            "defense": 71,
+            "playerId": "-Mwzubhh4Mzi_HLV0Str",
+            "stamina": 68
+          },
+          {
+            "attack": 68,
+            "defense": 100,
+            "playerId": "-Mwzue5xO3vd3TpthJ8S",
+            "stamina": 76
+          },
+          {
+            "attack": 11,
+            "defense": 100,
+            "playerId": "-MzMMVHLkGaqx9x9c_W6",
+            "stamina": 46
+          }
+        ],
+        "stamina": 59,
+        "wins": 0
+      }
+    }
+  },
+  "quotes": {
+    "-MuQ1A1c8l1VCL486GUn": {
+      "author": "Test 1",
+      "text": "Teszt"
+    },
+    "-MuQ4tmiBqw3B5UUadg0": {
+      "author": "Test 2",
+      "text": "Teszt 2"
+    }
+  },
+  "tasks": {
+    "-MqxDYU709YgJrljSFOh": {
+      "text": "Task 1"
+    },
+    "-MqxDZPgZa8ihAYMgN3b": {
+      "text": "Task 2"
+    }
+  }
+}

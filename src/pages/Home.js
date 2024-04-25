@@ -11,10 +11,15 @@ const HomePage = () => {
         </a>
         ) to set up your teams
         <Anchor component={Link} to="/waldorf">
-          .
+          Waldorf
         </Anchor>
+        |
         <Anchor component={Link} to="/scoala18">
-          .
+          The boys
+        </Anchor>
+        |
+        <Anchor component={Link} to="/montran">
+          Montran
         </Anchor>
       </center>
     </div>
