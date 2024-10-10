@@ -75,6 +75,26 @@ const PlayerItem = (props) => {
             }}
             label={props.wins / winsMultiplier}
           >
+            <Indicator
+              inline
+              styles={{
+                root: {
+                  float: "left",
+                  top: 6,
+                  right: -8,
+                },
+                indicator: {
+                  color: "gray",
+                  fontSize: 8,
+                },
+              }}
+              label={
+                props.wins / winsMultiplier +
+                props.attack +
+                props.defense +
+                props.stamina
+              }
+            ></Indicator>
             <Avatar src={props.imgSrc} radius="xl" size="lg" />
           </Indicator>
           <div style={{ flex: 1, width: "100%" }}>

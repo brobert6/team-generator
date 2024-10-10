@@ -15,7 +15,7 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { getApiUrl, getPlayerScore } from "../../general/helpers";
 import PlayersContext from "../../store/player-context";
-import LogRocket from 'logrocket';
+import LogRocket from "logrocket";
 
 import classes from "./PlayerList.module.css";
 
@@ -75,6 +75,11 @@ const PlayerList = () => {
 
   const [accItemScoresUpdated, setAccItemScoresUpdated] = useState(false);
 
+  const today = new Date().getDay();
+  const disableScoring =
+    playersCtx.groupName === "scoala18" && (today === 4 || today === 1);
+  console.log("Disabling", disableScoring, playersCtx.groupName);
+
   //this shuld not run
   if (
     (playersCtx.profilePlayerScores === undefined ||
@@ -118,7 +123,7 @@ const PlayerList = () => {
         },
       }
     ).then(() => {
-      LogRocket.log(`${playersCtx.profileName} updated some player score(s)`)
+      LogRocket.log(`${playersCtx.profileName} updated some player score(s)`);
       notifications.showNotification({
         title: "Scores update",
         message: "Data was saved",
@@ -179,6 +184,7 @@ const PlayerList = () => {
                   player.id,
                   "attack"
                 )}
+                disabled={disableScoring}
                 onChange={(value) =>
                   updateScoreItem(player.id, "attack", value)
                 }
@@ -192,6 +198,7 @@ const PlayerList = () => {
                   player.id,
                   "defense"
                 )}
+                disabled={disableScoring}
                 onChange={(value) =>
                   updateScoreItem(player.id, "defense", value)
                 }
@@ -204,6 +211,7 @@ const PlayerList = () => {
                   player.id,
                   "stamina"
                 )}
+                disabled={disableScoring}
                 onChange={(value) =>
                   updateScoreItem(player.id, "stamina", value)
                 }

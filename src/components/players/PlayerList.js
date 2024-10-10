@@ -274,7 +274,7 @@ const PlayerList = (props) => {
       <ul className={classes.list}>
         {allPlayers.map((player) => (
           <PlayerItem
-            key={player.id}
+            key={`${player.id}${Math.random()}`}
             id={player.id}
             name={player.name}
             attack={player.attack}

@@ -51,7 +51,7 @@ const EditPlayerForm = (props) => {
     const currentPlayer = playersCxt.players.find((p) => p.id === props.id);
     setName(currentPlayer === undefined ? "" : currentPlayer.name);
     setImgSrc(currentPlayer === undefined ? "" : currentPlayer.imgSrc);
-  }, [props.id]);
+  }, [props.id, playersCxt.players]);
 
   const [name, setName] = useState("");
   const [imgSrc, setImgSrc] = useState("");
