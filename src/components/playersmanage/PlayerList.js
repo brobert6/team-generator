@@ -15,11 +15,19 @@ import { useParams } from "react-router-dom";
 import { useState } from "react";
 import { getApiUrl, getPlayerScore } from "../../general/helpers";
 import PlayersContext from "../../store/player-context";
-import LogRocket from "logrocket";
 
 import classes from "./PlayerList.module.css";
 
-const AccordionLabel = ({ label, image, attack, defense, stamina }) => {
+const AccordionLabel = ({
+  label,
+  image,
+  attack,
+  defense,
+  stamina,
+  onDelete,
+  playerId,
+  profileName,
+}) => {
   return (
     <Group noWrap>
       <Avatar src={image} radius="xl" size="lg" />
@@ -58,12 +66,26 @@ const AccordionLabel = ({ label, image, attack, defense, stamina }) => {
             })}
           />
         </div>
+        {profileName === "Robert" && (
+          <Button
+            size="xs"
+            color="red"
+            variant="subtle"
+            onClick={(e) => {
+              e.stopPropagation();
+              onDelete(playerId, label);
+            }}
+            style={{ marginLeft: "auto" }}
+          >
+            Delete
+          </Button>
+        )}
       </div>
     </Group>
   );
 };
 
-const PlayerList = () => {
+const PlayerList = (props) => {
   const playersCtx = useContext(PlayersContext);
   const notifications = useNotifications();
   const params = useParams();
@@ -87,7 +109,7 @@ const PlayerList = () => {
     playersCtx.players.find((p) => p.id === profileId).playerScores != null
   ) {
     playersCtx.loadProfilePlayerScores(
-      playersCtx.players.find((p) => p.id === profileId).playerScores
+      playersCtx.players.find((p) => p.id === profileId).playerScores,
     );
   }
 
@@ -121,9 +143,8 @@ const PlayerList = () => {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     ).then(() => {
-      LogRocket.log(`${playersCtx.profileName} updated some player score(s)`);
       notifications.showNotification({
         title: "Scores update",
         message: "Data was saved",
@@ -158,19 +179,22 @@ const PlayerList = () => {
                   attack={getPlayerScore(
                     profilePlayerScores,
                     player.id,
-                    "attack"
+                    "attack",
                   )}
                   defense={getPlayerScore(
                     profilePlayerScores,
                     player.id,
-                    "defense"
+                    "defense",
                   )}
                   stamina={getPlayerScore(
                     profilePlayerScores,
                     player.id,
-                    "stamina"
+                    "stamina",
                   )}
                   label={player.name}
+                  playerId={player.id}
+                  onDelete={props.onDeletePlayer}
+                  profileName={playersCtx.profileName}
                 />
               }
               onToggle
@@ -182,7 +206,7 @@ const PlayerList = () => {
                 defaultValue={getPlayerScore(
                   profilePlayerScores,
                   player.id,
-                  "attack"
+                  "attack",
                 )}
                 disabled={disableScoring}
                 onChange={(value) =>
@@ -196,7 +220,7 @@ const PlayerList = () => {
                 defaultValue={getPlayerScore(
                   profilePlayerScores,
                   player.id,
-                  "defense"
+                  "defense",
                 )}
                 disabled={disableScoring}
                 onChange={(value) =>
@@ -209,7 +233,7 @@ const PlayerList = () => {
                 defaultValue={getPlayerScore(
                   profilePlayerScores,
                   player.id,
-                  "stamina"
+                  "stamina",
                 )}
                 disabled={disableScoring}
                 onChange={(value) =>

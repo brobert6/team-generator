@@ -35,14 +35,15 @@ function PlayersPage() {
       for (const key in data) {
         //add wins and losses
         const nrWins = Object.values(playerWins).filter(
-          (x) => x.indexOf(key) >= 0
+          (x) => x.indexOf(key) >= 0,
         ).length;
         const nrLosses = Object.values(playerLosses).filter(
-          (x) => x.indexOf(key) >= 0
+          (x) => x.indexOf(key) >= 0,
         ).length;
 
         const playerData = {
           ...data[key],
+          id: data[key].id || key, // Use key as id if not present in object
           wins: (nrWins - nrLosses) * winsMultiplier,
         };
         if (playerData.name !== undefined) playersData.push(playerData);
@@ -60,7 +61,7 @@ function PlayersPage() {
           }, initialValue);
           let count = playersData.reduce(function (
             previousValue,
-            currentValue
+            currentValue,
           ) {
             return (
               previousValue +
@@ -68,8 +69,7 @@ function PlayersPage() {
                 ? 1
                 : 0)
             );
-          },
-          initialValue);
+          }, initialValue);
           player[type] = Math.floor(sum / count);
         }
       }
@@ -85,13 +85,13 @@ function PlayersPage() {
             b.attack -
             b.defense -
             b.stamina -
-            b.wins
-        )
+            b.wins,
+        ),
       );
 
       if (localStorage.getItem("PlayerId") !== null) {
         const currentPlayer = playersData.find(
-          (p) => p.id === localStorage.getItem("PlayerId")
+          (p) => p.id === localStorage.getItem("PlayerId"),
         );
         if (currentPlayer !== undefined) {
           playersCtx.loadProfilePlayerScores(currentPlayer.playerScores);

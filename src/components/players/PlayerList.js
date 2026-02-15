@@ -33,7 +33,6 @@ import PlayerItem from "./PlayerItem";
 import classes from "./PlayerList.module.css";
 import { useNotifications } from "@mantine/notifications";
 import PlayersContext from "../../store/player-context";
-import LogRocket from "logrocket";
 
 const PlayerList = (props) => {
   const theme = useMantineTheme();
@@ -65,7 +64,7 @@ const PlayerList = (props) => {
           team.attackB -
           team.defenseB -
           team.staminaB -
-          team.winsB
+          team.winsB,
       ),
     }));
     sortedTeamCombinations = sortedTeamCombinations
@@ -85,9 +84,6 @@ const PlayerList = (props) => {
 
     setBestMatchups(sortedTeamCombinations);
     setMatchNumber(1);
-    if (props.selectedPlayers && props.selectedPlayers.length === 12) {
-      LogRocket.log(`Generating teams... `);
-    }
   }, [props.selectedPlayers]);
 
   let matchTeam = bestMatchups[matchNumber - 1];
@@ -109,59 +105,46 @@ const PlayerList = (props) => {
 
   if (matchTeam !== undefined) {
     teamA = props.selectedPlayers.filter(
-      (p) => matchTeam.teamAIds.indexOf(p.id) >= 0
+      (p) => matchTeam.teamAIds.indexOf(p.id) >= 0,
     );
     teamB = props.selectedPlayers.filter(
-      (p) => matchTeam.teamBIds.indexOf(p.id) >= 0
+      (p) => matchTeam.teamBIds.indexOf(p.id) >= 0,
     );
   }
 
   if (bestMatchups.length >= matchNumber) {
     teamA.attack = Math.floor(
       bestMatchups[matchNumber - 1].attackA /
-        bestMatchups[matchNumber - 1].teamAIds.length
+        bestMatchups[matchNumber - 1].teamAIds.length,
     );
     teamA.defense = Math.floor(
       bestMatchups[matchNumber - 1].defenseA /
-        bestMatchups[matchNumber - 1].teamAIds.length
+        bestMatchups[matchNumber - 1].teamAIds.length,
     );
     teamA.stamina = Math.floor(
       bestMatchups[matchNumber - 1].staminaA /
-        bestMatchups[matchNumber - 1].teamAIds.length
+        bestMatchups[matchNumber - 1].teamAIds.length,
     );
     teamA.wins = Math.floor(
       bestMatchups[matchNumber - 1].winsA /
-        bestMatchups[matchNumber - 1].teamAIds.length
+        bestMatchups[matchNumber - 1].teamAIds.length,
     );
 
     teamB.attack = Math.floor(
       bestMatchups[matchNumber - 1].attackB /
-        bestMatchups[matchNumber - 1].teamBIds.length
+        bestMatchups[matchNumber - 1].teamBIds.length,
     );
     teamB.defense = Math.floor(
       bestMatchups[matchNumber - 1].defenseB /
-        bestMatchups[matchNumber - 1].teamBIds.length
+        bestMatchups[matchNumber - 1].teamBIds.length,
     );
     teamB.stamina = Math.floor(
       bestMatchups[matchNumber - 1].staminaB /
-        bestMatchups[matchNumber - 1].teamBIds.length
+        bestMatchups[matchNumber - 1].teamBIds.length,
     );
     teamB.wins = Math.floor(
       bestMatchups[matchNumber - 1].winsB /
-        bestMatchups[matchNumber - 1].teamBIds.length
-    );
-  }
-
-  if (
-    props.selectedPlayers &&
-    props.selectedPlayers.length === 12 &&
-    teamA.length === 6 &&
-    teamB.length === 6
-  ) {
-    LogRocket.log(
-      `${playersCtx.profileName} generated teams [${teamA
-        .map((player) => player.name)
-        .join(",")}] vs [${teamB.map((player) => player.name).join(",")}]`
+        bestMatchups[matchNumber - 1].teamBIds.length,
     );
   }
 
@@ -232,7 +215,7 @@ const PlayerList = (props) => {
         headers: {
           "Content-Type": "application/json",
         },
-      }
+      },
     ).then(() => {
       fetch(
         getApiUrl(props.team).replace(".json", "") +
@@ -245,7 +228,7 @@ const PlayerList = (props) => {
           headers: {
             "Content-Type": "application/json",
           },
-        }
+        },
       ).then(() => {
         notifications.showNotification({
           title: "Game registered",
@@ -597,7 +580,7 @@ const PlayerList = (props) => {
                         onChange={(event) => {
                           wonTeamMemberChanged(
                             player.id,
-                            event.currentTarget.checked
+                            event.currentTarget.checked,
                           );
                         }}
                         tabIndex={-1}
@@ -634,7 +617,7 @@ const PlayerList = (props) => {
                         onChange={(event) => {
                           wonTeamMemberChanged(
                             player.id,
-                            event.currentTarget.checked
+                            event.currentTarget.checked,
                           );
                         }}
                         tabIndex={-1}
