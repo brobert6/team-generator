@@ -1,20 +1,7 @@
-npm run build
-firebase deploy
-
-
+for firebase deploy
+npm run build - v16.8.1 (node v)
+firebase deploy - v20+
 
 npm start
 
-node -v
-v16.8.1
-
-v20.. for firebase deploy
-
-if authentication fails firebase logout/login
-
-
-
-
-
-
-npm install --save --legacy-peer-deps react-circular-progressbar
+if authentication/deploy fails firebase logout/login
